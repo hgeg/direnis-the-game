@@ -24,7 +24,8 @@
 		36AB1938176BC3970097D5E9 /* DNShopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB1937176BC3970097D5E9 /* DNShopController.m */; };
 		36AB193B176BC3AE0097D5E9 /* DNHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB193A176BC3AE0097D5E9 /* DNHomeController.m */; };
 		36AB193E176BC5330097D5E9 /* DNMeydanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB193D176BC5330097D5E9 /* DNMeydanController.m */; };
-		36AB1941176BC6FC0097D5E9 /* DNEylemResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB1940176BC6FB0097D5E9 /* DNEylemResultController.m */; };
+		36AB1941176BC6FC0097D5E9 /* DNEylemResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB1940176BC6FB0097D5E9 /* DNEylemResultController.m */; 
+		DC43A381176B8D3A004B6950 /* Database.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC43A380176B8D3A004B6950 /* Database.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		36A934DA176671CD00AFF987 /* DNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNViewController.m; sourceTree = "<group>"; };
 		36A934E51766724500AFF987 /* DNPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNPlayer.h; sourceTree = "<group>"; };
 		36A934E61766724500AFF987 /* DNPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNPlayer.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		36AB1930176BC2900097D5E9 /* DNMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNMenuController.h; sourceTree = "<group>"; };
 		36AB1931176BC2900097D5E9 /* DNMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMenuController.m; sourceTree = "<group>"; };
 		36AB1933176BC38A0097D5E9 /* DNEylemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNEylemController.h; sourceTree = "<group>"; };
@@ -58,6 +60,9 @@
 		36AB193D176BC5330097D5E9 /* DNMeydanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMeydanController.m; sourceTree = "<group>"; };
 		36AB193F176BC6FB0097D5E9 /* DNEylemResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNEylemResultController.h; sourceTree = "<group>"; };
 		36AB1940176BC6FB0097D5E9 /* DNEylemResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNEylemResultController.m; sourceTree = "<group>"; };
+=======
+		DC43A380176B8D3A004B6950 /* Database.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Database.plist; sourceTree = "<group>"; };
+>>>>>>> 918876ea1225526ab568e5978838d7cc35397917
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +131,7 @@
 				36A934D0176671CD00AFF987 /* Default.png */,
 				36A934D2176671CD00AFF987 /* Default@2x.png */,
 				36A934D4176671CD00AFF987 /* Default-568h@2x.png */,
+				DC43A380176B8D3A004B6950 /* Database.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -215,6 +221,7 @@
 				36A934D3176671CD00AFF987 /* Default@2x.png in Resources */,
 				36A934D5176671CD00AFF987 /* Default-568h@2x.png in Resources */,
 				36A934D8176671CD00AFF987 /* MainStoryboard.storyboard in Resources */,
+				DC43A381176B8D3A004B6950 /* Database.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
