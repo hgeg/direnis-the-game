@@ -460,11 +460,10 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nm-mv-4VV">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="288" id="Mb3-Sk-6a9"/>
                                     <constraint firstAttribute="height" constant="43" type="user" id="xop-tv-n80"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="dsadsadsadsadsadsadasdsadsadasd">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -480,7 +479,7 @@
                                     <constraint firstAttribute="height" constant="43" type="user" id="xF0-MH-lul"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="dsadsadasdasdsadsadsadasdsadas">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -496,7 +495,7 @@
                                     <constraint firstAttribute="height" constant="43" type="user" id="eEX-ld-z1m"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="dsadsadsadasdasdasdsadsadsadsad">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -532,7 +531,6 @@
                             <constraint firstItem="OeK-1H-LWz" firstAttribute="leading" secondItem="H23-Oh-pZN" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="BX6-WT-4GJ"/>
                             <constraint firstItem="GeU-NR-z86" firstAttribute="trailing" secondItem="OeK-1H-LWz" secondAttribute="trailing" type="default" id="DpC-JU-GKB"/>
                             <constraint firstItem="OeK-1H-LWz" firstAttribute="top" secondItem="DnL-Fv-Hhm" secondAttribute="bottom" constant="20" type="user" id="NcB-oO-B11"/>
-                            <constraint firstItem="OeK-1H-LWz" firstAttribute="trailing" secondItem="DnL-Fv-Hhm" secondAttribute="trailing" type="default" id="V2x-M8-3O4"/>
                             <constraint firstItem="0nm-mv-4VV" firstAttribute="top" secondItem="H23-Oh-pZN" secondAttribute="top" constant="152" id="aC5-pT-52a"/>
                             <constraint firstItem="DnL-Fv-Hhm" firstAttribute="top" secondItem="0nm-mv-4VV" secondAttribute="bottom" constant="20" type="user" id="bRD-wg-iaa"/>
                             <constraint firstItem="8g9-zu-lZx" firstAttribute="centerX" secondItem="H23-Oh-pZN" secondAttribute="centerX" type="default" id="fto-j7-a63"/>
@@ -562,7 +560,7 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D3r-ff-yXY">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3r-ff-yXY">
                                 <color key="backgroundColor" red="0.87876674109999997" green="0.87876674109999997" blue="0.87876674109999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="151" id="3MI-Gd-dQj"/>
@@ -583,7 +581,7 @@
                                     <constraint firstAttribute="height" constant="43" type="user" id="a5F-hB-7kg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Button dfsfds dsf sdf">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -600,7 +598,7 @@
                                     <constraint firstAttribute="height" constant="43" type="user" id="3Ja-JK-gvu"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Button fds fdsfds  ds">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -680,6 +678,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="fmo-E7-PfR"/>
                     <connections>
+                        <outlet property="c1" destination="4kb-Uf-0ff" id="mDE-wb-U1F"/>
+                        <outlet property="c2" destination="E2N-ME-bWH" id="xWD-jC-dzE"/>
                         <outlet property="level" destination="JBi-fY-PUA" id="cfh-gX-v1p"/>
                         <outlet property="mainText" destination="D3r-ff-yXY" id="Slj-RN-PRj"/>
                         <outlet property="points" destination="hmK-qP-QJJ" id="t8x-4A-CWg"/>
@@ -697,7 +697,7 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VDD-nu-CVN">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDD-nu-CVN">
                                 <color key="backgroundColor" red="0.87876674109999997" green="0.87876674109999997" blue="0.87876674109999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="151" id="Nbe-kk-F8n"/>
@@ -804,6 +804,8 @@
             <relationships>
                 <relationship kind="action" name="goBackToMeydan:"/>
                 <relationship kind="action" name="takeAction:"/>
+                <relationship kind="outlet" name="c1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="c2" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="level" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="mainText" candidateClass="UITextView"/>
                 <relationship kind="outlet" name="points" candidateClass="UILabel"/>
@@ -855,7 +857,7 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="gfH-ic-NAE"/>
-        <segue reference="m6z-YG-dUw"/>
+        <segue reference="ozY-cW-6Z8"/>
         <segue reference="HFg-bP-fLD"/>
     </inferredMetricsTieBreakers>
 </document>

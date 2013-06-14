@@ -7,6 +7,12 @@
 //
 
 #import "DNEylemController.h"
+#import "DNAppDelegate.h"
+#import "DNPlayer.h"
+
+#define player ((DNAppDelegate *)[UIApplication sharedApplication].delegate).player
+#define city ((DNAppDelegate *)[UIApplication sharedApplication].delegate).city
+#define database ((DNAppDelegate *)[UIApplication sharedApplication].delegate).database
 
 @interface DNEylemController ()
 
@@ -27,6 +33,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    NSLog(@"date: %@",[player getDate]);
+    NSArray *sorular = database[city][[player getLocation]][[player getHourInterval]];
+    int sIndex = arc4random_uniform([sorular count]);
+    NSDictionary *soru = sorular[sIndex];
+    self.mainText.text = soru[@"Soru Text"];
+    self.c1.titleLabel.text = soru[@"Cevaplar"][0][@"Cevap Text"];
+    self.c2.titleLabel.text = soru[@"Cevaplar"][1][@"Cevap Text"];
 }
 
 - (void)didReceiveMemoryWarning

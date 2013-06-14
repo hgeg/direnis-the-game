@@ -32,6 +32,7 @@
 - (NSString *) getLocation;
 - (int) getAttrribute:(NSString *)attr;
 - (NSString *) getDate;
+- (NSString *) getHourInterval;
 
 
 

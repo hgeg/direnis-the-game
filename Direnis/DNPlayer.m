@@ -22,6 +22,7 @@
         points = 500;
         items  = [NSMutableDictionary dictionaryWithCapacity:10];
         current = @"ev";
+        time = [NSDate dateWithTimeIntervalSince1970:1371490589];
     }
     return self;
 }
@@ -75,8 +76,22 @@
 
 - (NSString *) getDate {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"dd MMM EEEE"];
+    [formatter setDateFormat:@"dd MMM EEEE, HH:mm"];
     return [formatter stringFromDate:time];
+}
+
+- (NSString *) getHourInterval {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"HH"];
+    int hour = [[formatter stringFromDate:time] integerValue];
+    NSString *interval = @"";
+    if (hour>=14 && hour<18) interval = @"14-18";
+    else if (hour>=18 && hour<22) interval = @"18-22";
+    else if (hour>=22 && hour<02) interval = @"22-02";
+    else if (hour>=02 && hour<06) interval = @"02-06";
+    else interval = @"Zamansız";
+    NSLog(@"interval: %@",interval);
+    return interval;
 }
 
 @end

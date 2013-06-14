@@ -17,14 +17,12 @@
     self.player = [[DNPlayer alloc] init];
     self.city = [[NSUserDefaults standardUserDefaults] stringForKey:@"city"];
     
-    // Override point for customization after application launch.
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     //read plists into a dictionary
-    NSString *plistFile = [[paths objectAtIndex:0] stringByAppendingPathComponent:@"example.plist"];
-    self.shopItems = [[NSMutableDictionary alloc] initWithContentsOfFile:plistFile];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Database" ofType:@"plist"];
+    self.database = [[NSDictionary alloc] initWithContentsOfFile:path];
     
-    plistFile = [[paths objectAtIndex:0] stringByAppendingPathComponent:@"shop.plist"];
-    self.shopItems = [[NSMutableDictionary alloc] initWithContentsOfFile:plistFile];
+    /*plistFile = [[paths objectAtIndex:0] stringByAppendingPathComponent:@"shop.plist"];
+    self.shopItems = [[NSMutableDictionary alloc] initWithContentsOfFile:plistFile];*/
     
     return YES;
 }

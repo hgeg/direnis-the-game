@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <stdlib.h>
 
 @interface DNEylemController : UIViewController
 
@@ -15,6 +16,8 @@
 
 
 @property (weak, nonatomic) IBOutlet UITextView *mainText;
+@property (weak, nonatomic) IBOutlet UIButton *c1;
+@property (weak, nonatomic) IBOutlet UIButton *c2;
 
 - (IBAction) takeAction:(id)sender;
 - (IBAction) goBackToMeydan:(id)sender;

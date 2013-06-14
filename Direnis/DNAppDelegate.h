@@ -13,7 +13,7 @@
 @interface DNAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) NSDictionary *mainDict;
+@property (strong, nonatomic) NSDictionary *database;
 @property (strong, nonatomic) NSDictionary *shopItems;
 @property (strong, nonatomic) DNPlayer *player;
 @property (strong, nonatomic) NSString *city;

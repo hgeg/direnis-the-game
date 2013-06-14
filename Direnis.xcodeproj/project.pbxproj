@@ -7,173 +7,147 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36A934BF176671CD00AFF987 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A934BE176671CD00AFF987 /* UIKit.framework */; };
-		36A934C1176671CD00AFF987 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A934C0176671CD00AFF987 /* Foundation.framework */; };
-		36A934C3176671CD00AFF987 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A934C2176671CD00AFF987 /* CoreGraphics.framework */; };
-		36A934C9176671CD00AFF987 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36A934C7176671CD00AFF987 /* InfoPlist.strings */; };
-		36A934CB176671CD00AFF987 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A934CA176671CD00AFF987 /* main.m */; };
-		36A934CF176671CD00AFF987 /* DNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A934CE176671CD00AFF987 /* DNAppDelegate.m */; };
-		36A934D1176671CD00AFF987 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 36A934D0176671CD00AFF987 /* Default.png */; };
-		36A934D3176671CD00AFF987 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36A934D2176671CD00AFF987 /* Default@2x.png */; };
-		36A934D5176671CD00AFF987 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36A934D4176671CD00AFF987 /* Default-568h@2x.png */; };
-		36A934D8176671CD00AFF987 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A934D6176671CD00AFF987 /* MainStoryboard.storyboard */; };
-		36A934DB176671CD00AFF987 /* DNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A934DA176671CD00AFF987 /* DNViewController.m */; };
-		36A934E71766724500AFF987 /* DNPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A934E61766724500AFF987 /* DNPlayer.m */; };
-		36AB1932176BC2900097D5E9 /* DNMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB1931176BC2900097D5E9 /* DNMenuController.m */; };
-		36AB1935176BC38A0097D5E9 /* DNEylemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB1934176BC38A0097D5E9 /* DNEylemController.m */; };
-		36AB1938176BC3970097D5E9 /* DNShopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB1937176BC3970097D5E9 /* DNShopController.m */; };
-		36AB193B176BC3AE0097D5E9 /* DNHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB193A176BC3AE0097D5E9 /* DNHomeController.m */; };
-		36AB193E176BC5330097D5E9 /* DNMeydanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB193D176BC5330097D5E9 /* DNMeydanController.m */; };
-		36AB1941176BC6FC0097D5E9 /* DNEylemResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB1940176BC6FB0097D5E9 /* DNEylemResultController.m */; 
-		DC43A381176B8D3A004B6950 /* Database.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC43A380176B8D3A004B6950 /* Database.plist */; };
+		3659BD58176BDA7300557D18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD57176BDA7300557D18 /* UIKit.framework */; };
+		3659BD5A176BDA7300557D18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD59176BDA7300557D18 /* Foundation.framework */; };
+		3659BD5C176BDA7300557D18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD5B176BDA7300557D18 /* CoreGraphics.framework */; };
+		3659BD92176BDABC00557D18 /* Database.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3659BD75176BDABC00557D18 /* Database.plist */; };
+		3659BD93176BDABC00557D18 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3659BD76176BDABC00557D18 /* Default-568h@2x.png */; };
+		3659BD94176BDABC00557D18 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3659BD77176BDABC00557D18 /* Default.png */; };
+		3659BD95176BDABC00557D18 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3659BD78176BDABC00557D18 /* Default@2x.png */; };
+		3659BD96176BDABC00557D18 /* Direnis-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3659BD79176BDABC00557D18 /* Direnis-Info.plist */; };
+		3659BD97176BDABC00557D18 /* DNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BD7C176BDABC00557D18 /* DNAppDelegate.m */; };
+		3659BD98176BDABC00557D18 /* DNEylemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BD7E176BDABC00557D18 /* DNEylemController.m */; };
+		3659BD99176BDABC00557D18 /* DNEylemResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BD80176BDABC00557D18 /* DNEylemResultController.m */; };
+		3659BD9A176BDABC00557D18 /* DNHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BD82176BDABC00557D18 /* DNHomeController.m */; };
+		3659BD9B176BDABC00557D18 /* DNMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BD84176BDABC00557D18 /* DNMenuController.m */; };
+		3659BD9C176BDABC00557D18 /* DNMeydanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BD86176BDABC00557D18 /* DNMeydanController.m */; };
+		3659BD9D176BDABC00557D18 /* DNPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BD88176BDABC00557D18 /* DNPlayer.m */; };
+		3659BD9E176BDABC00557D18 /* DNShopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BD8A176BDABC00557D18 /* DNShopController.m */; };
+		3659BD9F176BDABC00557D18 /* DNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BD8C176BDABC00557D18 /* DNViewController.m */; };
+		3659BDA0176BDABC00557D18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3659BD8D176BDABC00557D18 /* InfoPlist.strings */; };
+		3659BDA1176BDABC00557D18 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3659BD8F176BDABC00557D18 /* MainStoryboard.storyboard */; };
+		3659BDA2176BDABC00557D18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BD91176BDABC00557D18 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		36A934BB176671CD00AFF987 /* Direnis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Direnis.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		36A934BE176671CD00AFF987 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		36A934C0176671CD00AFF987 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		36A934C2176671CD00AFF987 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		36A934C6176671CD00AFF987 /* Direnis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Direnis-Info.plist"; sourceTree = "<group>"; };
-		36A934C8176671CD00AFF987 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		36A934CA176671CD00AFF987 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		36A934CC176671CD00AFF987 /* Direnis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Direnis-Prefix.pch"; sourceTree = "<group>"; };
-		36A934CD176671CD00AFF987 /* DNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNAppDelegate.h; sourceTree = "<group>"; };
-		36A934CE176671CD00AFF987 /* DNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNAppDelegate.m; sourceTree = "<group>"; };
-		36A934D0176671CD00AFF987 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		36A934D2176671CD00AFF987 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		36A934D4176671CD00AFF987 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		36A934D7176671CD00AFF987 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		36A934D9176671CD00AFF987 /* DNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNViewController.h; sourceTree = "<group>"; };
-		36A934DA176671CD00AFF987 /* DNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNViewController.m; sourceTree = "<group>"; };
-		36A934E51766724500AFF987 /* DNPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNPlayer.h; sourceTree = "<group>"; };
-		36A934E61766724500AFF987 /* DNPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNPlayer.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		36AB1930176BC2900097D5E9 /* DNMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNMenuController.h; sourceTree = "<group>"; };
-		36AB1931176BC2900097D5E9 /* DNMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMenuController.m; sourceTree = "<group>"; };
-		36AB1933176BC38A0097D5E9 /* DNEylemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNEylemController.h; sourceTree = "<group>"; };
-		36AB1934176BC38A0097D5E9 /* DNEylemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNEylemController.m; sourceTree = "<group>"; };
-		36AB1936176BC3970097D5E9 /* DNShopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNShopController.h; sourceTree = "<group>"; };
-		36AB1937176BC3970097D5E9 /* DNShopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNShopController.m; sourceTree = "<group>"; };
-		36AB1939176BC3AE0097D5E9 /* DNHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNHomeController.h; sourceTree = "<group>"; };
-		36AB193A176BC3AE0097D5E9 /* DNHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNHomeController.m; sourceTree = "<group>"; };
-		36AB193C176BC5320097D5E9 /* DNMeydanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNMeydanController.h; sourceTree = "<group>"; };
-		36AB193D176BC5330097D5E9 /* DNMeydanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMeydanController.m; sourceTree = "<group>"; };
-		36AB193F176BC6FB0097D5E9 /* DNEylemResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNEylemResultController.h; sourceTree = "<group>"; };
-		36AB1940176BC6FB0097D5E9 /* DNEylemResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNEylemResultController.m; sourceTree = "<group>"; };
-=======
-		DC43A380176B8D3A004B6950 /* Database.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Database.plist; sourceTree = "<group>"; };
->>>>>>> 918876ea1225526ab568e5978838d7cc35397917
+		3659BD54176BDA7300557D18 /* Direnis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Direnis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3659BD57176BDA7300557D18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3659BD59176BDA7300557D18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3659BD5B176BDA7300557D18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3659BD75176BDABC00557D18 /* Database.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Database.plist; sourceTree = "<group>"; };
+		3659BD76176BDABC00557D18 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3659BD77176BDABC00557D18 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3659BD78176BDABC00557D18 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3659BD79176BDABC00557D18 /* Direnis-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Direnis-Info.plist"; sourceTree = "<group>"; };
+		3659BD7A176BDABC00557D18 /* Direnis-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Direnis-Prefix.pch"; sourceTree = "<group>"; };
+		3659BD7B176BDABC00557D18 /* DNAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAppDelegate.h; sourceTree = "<group>"; };
+		3659BD7C176BDABC00557D18 /* DNAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAppDelegate.m; sourceTree = "<group>"; };
+		3659BD7D176BDABC00557D18 /* DNEylemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNEylemController.h; sourceTree = "<group>"; };
+		3659BD7E176BDABC00557D18 /* DNEylemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNEylemController.m; sourceTree = "<group>"; };
+		3659BD7F176BDABC00557D18 /* DNEylemResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNEylemResultController.h; sourceTree = "<group>"; };
+		3659BD80176BDABC00557D18 /* DNEylemResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNEylemResultController.m; sourceTree = "<group>"; };
+		3659BD81176BDABC00557D18 /* DNHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNHomeController.h; sourceTree = "<group>"; };
+		3659BD82176BDABC00557D18 /* DNHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNHomeController.m; sourceTree = "<group>"; };
+		3659BD83176BDABC00557D18 /* DNMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNMenuController.h; sourceTree = "<group>"; };
+		3659BD84176BDABC00557D18 /* DNMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMenuController.m; sourceTree = "<group>"; };
+		3659BD85176BDABC00557D18 /* DNMeydanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNMeydanController.h; sourceTree = "<group>"; };
+		3659BD86176BDABC00557D18 /* DNMeydanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMeydanController.m; sourceTree = "<group>"; };
+		3659BD87176BDABC00557D18 /* DNPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNPlayer.h; sourceTree = "<group>"; };
+		3659BD88176BDABC00557D18 /* DNPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNPlayer.m; sourceTree = "<group>"; };
+		3659BD89176BDABC00557D18 /* DNShopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNShopController.h; sourceTree = "<group>"; };
+		3659BD8A176BDABC00557D18 /* DNShopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNShopController.m; sourceTree = "<group>"; };
+		3659BD8B176BDABC00557D18 /* DNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNViewController.h; sourceTree = "<group>"; };
+		3659BD8C176BDABC00557D18 /* DNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNViewController.m; sourceTree = "<group>"; };
+		3659BD8E176BDABC00557D18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3659BD90176BDABC00557D18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3659BD91176BDABC00557D18 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		36A934B8176671CD00AFF987 /* Frameworks */ = {
+		3659BD51176BDA7300557D18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A934BF176671CD00AFF987 /* UIKit.framework in Frameworks */,
-				36A934C1176671CD00AFF987 /* Foundation.framework in Frameworks */,
-				36A934C3176671CD00AFF987 /* CoreGraphics.framework in Frameworks */,
+				3659BD58176BDA7300557D18 /* UIKit.framework in Frameworks */,
+				3659BD5A176BDA7300557D18 /* Foundation.framework in Frameworks */,
+				3659BD5C176BDA7300557D18 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36A934B2176671CD00AFF987 = {
+		3659BD4B176BDA7200557D18 = {
 			isa = PBXGroup;
 			children = (
-				36A934C4176671CD00AFF987 /* Direnis */,
-				36A934BD176671CD00AFF987 /* Frameworks */,
-				36A934BC176671CD00AFF987 /* Products */,
+				3659BD56176BDA7300557D18 /* Frameworks */,
+				3659BD74176BDABC00557D18 /* Direnis */,
+				3659BD55176BDA7300557D18 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		36A934BC176671CD00AFF987 /* Products */ = {
+		3659BD55176BDA7300557D18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36A934BB176671CD00AFF987 /* Direnis.app */,
+				3659BD54176BDA7300557D18 /* Direnis.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		36A934BD176671CD00AFF987 /* Frameworks */ = {
+		3659BD56176BDA7300557D18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				36A934BE176671CD00AFF987 /* UIKit.framework */,
-				36A934C0176671CD00AFF987 /* Foundation.framework */,
-				36A934C2176671CD00AFF987 /* CoreGraphics.framework */,
+				3659BD57176BDA7300557D18 /* UIKit.framework */,
+				3659BD59176BDA7300557D18 /* Foundation.framework */,
+				3659BD5B176BDA7300557D18 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		36A934C4176671CD00AFF987 /* Direnis */ = {
+		3659BD74176BDABC00557D18 /* Direnis */ = {
 			isa = PBXGroup;
 			children = (
-				36A934E1176671FA00AFF987 /* Models */,
-				36AB192F176BC2020097D5E9 /* Controllers */,
-				36A934CD176671CD00AFF987 /* DNAppDelegate.h */,
-				36A934CE176671CD00AFF987 /* DNAppDelegate.m */,
-				36A934D6176671CD00AFF987 /* MainStoryboard.storyboard */,
-				36A934D9176671CD00AFF987 /* DNViewController.h */,
-				36A934DA176671CD00AFF987 /* DNViewController.m */,
-				36A934C5176671CD00AFF987 /* Supporting Files */,
+				3659BD75176BDABC00557D18 /* Database.plist */,
+				3659BD76176BDABC00557D18 /* Default-568h@2x.png */,
+				3659BD77176BDABC00557D18 /* Default.png */,
+				3659BD78176BDABC00557D18 /* Default@2x.png */,
+				3659BD79176BDABC00557D18 /* Direnis-Info.plist */,
+				3659BD7A176BDABC00557D18 /* Direnis-Prefix.pch */,
+				3659BD7B176BDABC00557D18 /* DNAppDelegate.h */,
+				3659BD7C176BDABC00557D18 /* DNAppDelegate.m */,
+				3659BD7D176BDABC00557D18 /* DNEylemController.h */,
+				3659BD7E176BDABC00557D18 /* DNEylemController.m */,
+				3659BD7F176BDABC00557D18 /* DNEylemResultController.h */,
+				3659BD80176BDABC00557D18 /* DNEylemResultController.m */,
+				3659BD81176BDABC00557D18 /* DNHomeController.h */,
+				3659BD82176BDABC00557D18 /* DNHomeController.m */,
+				3659BD83176BDABC00557D18 /* DNMenuController.h */,
+				3659BD84176BDABC00557D18 /* DNMenuController.m */,
+				3659BD85176BDABC00557D18 /* DNMeydanController.h */,
+				3659BD86176BDABC00557D18 /* DNMeydanController.m */,
+				3659BD87176BDABC00557D18 /* DNPlayer.h */,
+				3659BD88176BDABC00557D18 /* DNPlayer.m */,
+				3659BD89176BDABC00557D18 /* DNShopController.h */,
+				3659BD8A176BDABC00557D18 /* DNShopController.m */,
+				3659BD8B176BDABC00557D18 /* DNViewController.h */,
+				3659BD8C176BDABC00557D18 /* DNViewController.m */,
+				3659BD8D176BDABC00557D18 /* InfoPlist.strings */,
+				3659BD8F176BDABC00557D18 /* MainStoryboard.storyboard */,
+				3659BD91176BDABC00557D18 /* main.m */,
 			);
 			path = Direnis;
-			sourceTree = "<group>";
-		};
-		36A934C5176671CD00AFF987 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				36A934C6176671CD00AFF987 /* Direnis-Info.plist */,
-				36A934C7176671CD00AFF987 /* InfoPlist.strings */,
-				36A934CA176671CD00AFF987 /* main.m */,
-				36A934CC176671CD00AFF987 /* Direnis-Prefix.pch */,
-				36A934D0176671CD00AFF987 /* Default.png */,
-				36A934D2176671CD00AFF987 /* Default@2x.png */,
-				36A934D4176671CD00AFF987 /* Default-568h@2x.png */,
-				DC43A380176B8D3A004B6950 /* Database.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		36A934E1176671FA00AFF987 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				36A934E51766724500AFF987 /* DNPlayer.h */,
-				36A934E61766724500AFF987 /* DNPlayer.m */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		36AB192F176BC2020097D5E9 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				36AB1930176BC2900097D5E9 /* DNMenuController.h */,
-				36AB1931176BC2900097D5E9 /* DNMenuController.m */,
-				36AB1933176BC38A0097D5E9 /* DNEylemController.h */,
-				36AB1934176BC38A0097D5E9 /* DNEylemController.m */,
-				36AB1936176BC3970097D5E9 /* DNShopController.h */,
-				36AB1937176BC3970097D5E9 /* DNShopController.m */,
-				36AB1939176BC3AE0097D5E9 /* DNHomeController.h */,
-				36AB193A176BC3AE0097D5E9 /* DNHomeController.m */,
-				36AB193C176BC5320097D5E9 /* DNMeydanController.h */,
-				36AB193D176BC5330097D5E9 /* DNMeydanController.m */,
-				36AB193F176BC6FB0097D5E9 /* DNEylemResultController.h */,
-				36AB1940176BC6FB0097D5E9 /* DNEylemResultController.m */,
-			);
-			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36A934BA176671CD00AFF987 /* Direnis */ = {
+		3659BD53176BDA7300557D18 /* Direnis */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36A934DE176671CD00AFF987 /* Build configuration list for PBXNativeTarget "Direnis" */;
+			buildConfigurationList = 3659BD71176BDA7300557D18 /* Build configuration list for PBXNativeTarget "Direnis" */;
 			buildPhases = (
-				36A934B7176671CD00AFF987 /* Sources */,
-				36A934B8176671CD00AFF987 /* Frameworks */,
-				36A934B9176671CD00AFF987 /* Resources */,
+				3659BD50176BDA7300557D18 /* Sources */,
+				3659BD51176BDA7300557D18 /* Frameworks */,
+				3659BD52176BDA7300557D18 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -181,85 +155,86 @@
 			);
 			name = Direnis;
 			productName = Direnis;
-			productReference = 36A934BB176671CD00AFF987 /* Direnis.app */;
+			productReference = 3659BD54176BDA7300557D18 /* Direnis.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		36A934B3176671CD00AFF987 /* Project object */ = {
+		3659BD4C176BDA7200557D18 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DN;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Can Bülbül";
 			};
-			buildConfigurationList = 36A934B6176671CD00AFF987 /* Build configuration list for PBXProject "Direnis" */;
+			buildConfigurationList = 3659BD4F176BDA7200557D18 /* Build configuration list for PBXProject "Direnis" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 36A934B2176671CD00AFF987;
-			productRefGroup = 36A934BC176671CD00AFF987 /* Products */;
+			mainGroup = 3659BD4B176BDA7200557D18;
+			productRefGroup = 3659BD55176BDA7300557D18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36A934BA176671CD00AFF987 /* Direnis */,
+				3659BD53176BDA7300557D18 /* Direnis */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		36A934B9176671CD00AFF987 /* Resources */ = {
+		3659BD52176BDA7300557D18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A934C9176671CD00AFF987 /* InfoPlist.strings in Resources */,
-				36A934D1176671CD00AFF987 /* Default.png in Resources */,
-				36A934D3176671CD00AFF987 /* Default@2x.png in Resources */,
-				36A934D5176671CD00AFF987 /* Default-568h@2x.png in Resources */,
-				36A934D8176671CD00AFF987 /* MainStoryboard.storyboard in Resources */,
-				DC43A381176B8D3A004B6950 /* Database.plist in Resources */,
+				3659BD92176BDABC00557D18 /* Database.plist in Resources */,
+				3659BD93176BDABC00557D18 /* Default-568h@2x.png in Resources */,
+				3659BD94176BDABC00557D18 /* Default.png in Resources */,
+				3659BD95176BDABC00557D18 /* Default@2x.png in Resources */,
+				3659BD96176BDABC00557D18 /* Direnis-Info.plist in Resources */,
+				3659BDA0176BDABC00557D18 /* InfoPlist.strings in Resources */,
+				3659BDA1176BDABC00557D18 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		36A934B7176671CD00AFF987 /* Sources */ = {
+		3659BD50176BDA7300557D18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A934CB176671CD00AFF987 /* main.m in Sources */,
-				36A934CF176671CD00AFF987 /* DNAppDelegate.m in Sources */,
-				36A934DB176671CD00AFF987 /* DNViewController.m in Sources */,
-				36A934E71766724500AFF987 /* DNPlayer.m in Sources */,
-				36AB1932176BC2900097D5E9 /* DNMenuController.m in Sources */,
-				36AB1935176BC38A0097D5E9 /* DNEylemController.m in Sources */,
-				36AB1938176BC3970097D5E9 /* DNShopController.m in Sources */,
-				36AB193B176BC3AE0097D5E9 /* DNHomeController.m in Sources */,
-				36AB193E176BC5330097D5E9 /* DNMeydanController.m in Sources */,
-				36AB1941176BC6FC0097D5E9 /* DNEylemResultController.m in Sources */,
+				3659BD97176BDABC00557D18 /* DNAppDelegate.m in Sources */,
+				3659BD98176BDABC00557D18 /* DNEylemController.m in Sources */,
+				3659BD99176BDABC00557D18 /* DNEylemResultController.m in Sources */,
+				3659BD9A176BDABC00557D18 /* DNHomeController.m in Sources */,
+				3659BD9B176BDABC00557D18 /* DNMenuController.m in Sources */,
+				3659BD9C176BDABC00557D18 /* DNMeydanController.m in Sources */,
+				3659BD9D176BDABC00557D18 /* DNPlayer.m in Sources */,
+				3659BD9E176BDABC00557D18 /* DNShopController.m in Sources */,
+				3659BD9F176BDABC00557D18 /* DNViewController.m in Sources */,
+				3659BDA2176BDABC00557D18 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		36A934C7176671CD00AFF987 /* InfoPlist.strings */ = {
+		3659BD8D176BDABC00557D18 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				36A934C8176671CD00AFF987 /* en */,
+				3659BD8E176BDABC00557D18 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		36A934D6176671CD00AFF987 /* MainStoryboard.storyboard */ = {
+		3659BD8F176BDABC00557D18 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				36A934D7176671CD00AFF987 /* en */,
+				3659BD90176BDABC00557D18 /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -267,7 +242,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		36A934DC176671CD00AFF987 /* Debug */ = {
+		3659BD6F176BDA7300557D18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -298,7 +273,7 @@
 			};
 			name = Debug;
 		};
-		36A934DD176671CD00AFF987 /* Release */ = {
+		3659BD70176BDA7300557D18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -323,7 +298,7 @@
 			};
 			name = Release;
 		};
-		36A934DF176671CD00AFF987 /* Debug */ = {
+		3659BD72176BDA7300557D18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -334,7 +309,7 @@
 			};
 			name = Debug;
 		};
-		36A934E0176671CD00AFF987 /* Release */ = {
+		3659BD73176BDA7300557D18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -348,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36A934B6176671CD00AFF987 /* Build configuration list for PBXProject "Direnis" */ = {
+		3659BD4F176BDA7200557D18 /* Build configuration list for PBXProject "Direnis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36A934DC176671CD00AFF987 /* Debug */,
-				36A934DD176671CD00AFF987 /* Release */,
+				3659BD6F176BDA7300557D18 /* Debug */,
+				3659BD70176BDA7300557D18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36A934DE176671CD00AFF987 /* Build configuration list for PBXNativeTarget "Direnis" */ = {
+		3659BD71176BDA7300557D18 /* Build configuration list for PBXNativeTarget "Direnis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36A934DF176671CD00AFF987 /* Debug */,
-				36A934E0176671CD00AFF987 /* Release */,
+				3659BD72176BDA7300557D18 /* Debug */,
+				3659BD73176BDA7300557D18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 36A934B3176671CD00AFF987 /* Project object */;
+	rootObject = 3659BD4C176BDA7200557D18 /* Project object */;
 }
