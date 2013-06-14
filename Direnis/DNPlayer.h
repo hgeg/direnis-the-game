@@ -13,13 +13,26 @@
 @interface DNPlayer : NSObject
 {
     NSString *name;
-    int health,level,xp,points;
-    int str,con,iq;
+    int level,xp,points;
     NSMutableDictionary *items;
-    NSDateComponents *time;
+    NSDate *time;
     NSString *current;
 }
 
 - (id) init;
+- (void) endTurn;
+- (void) addPoints:(int)p;
+- (void) addXP:(int)x;
+- (void) setLocation:(NSString *)location;
+- (void) passTime:(int)hours;
+- (void) addItem:(NSString *)item forKey:(NSString *) key;
+- (void) setName:(NSString *)n;
+- (NSMutableDictionary *) getItems;
+- (NSString *) getName;
+- (NSString *) getLocation;
+- (int) getAttrribute:(NSString *)attr;
+- (NSString *) getDate;
+
+
 
 @end

@@ -19,6 +19,12 @@
 		36A934D8176671CD00AFF987 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A934D6176671CD00AFF987 /* MainStoryboard.storyboard */; };
 		36A934DB176671CD00AFF987 /* DNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A934DA176671CD00AFF987 /* DNViewController.m */; };
 		36A934E71766724500AFF987 /* DNPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A934E61766724500AFF987 /* DNPlayer.m */; };
+		36AB1932176BC2900097D5E9 /* DNMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB1931176BC2900097D5E9 /* DNMenuController.m */; };
+		36AB1935176BC38A0097D5E9 /* DNEylemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB1934176BC38A0097D5E9 /* DNEylemController.m */; };
+		36AB1938176BC3970097D5E9 /* DNShopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB1937176BC3970097D5E9 /* DNShopController.m */; };
+		36AB193B176BC3AE0097D5E9 /* DNHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB193A176BC3AE0097D5E9 /* DNHomeController.m */; };
+		36AB193E176BC5330097D5E9 /* DNMeydanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB193D176BC5330097D5E9 /* DNMeydanController.m */; };
+		36AB1941176BC6FC0097D5E9 /* DNEylemResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB1940176BC6FB0097D5E9 /* DNEylemResultController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +46,18 @@
 		36A934DA176671CD00AFF987 /* DNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNViewController.m; sourceTree = "<group>"; };
 		36A934E51766724500AFF987 /* DNPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNPlayer.h; sourceTree = "<group>"; };
 		36A934E61766724500AFF987 /* DNPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNPlayer.m; sourceTree = "<group>"; };
+		36AB1930176BC2900097D5E9 /* DNMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNMenuController.h; sourceTree = "<group>"; };
+		36AB1931176BC2900097D5E9 /* DNMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMenuController.m; sourceTree = "<group>"; };
+		36AB1933176BC38A0097D5E9 /* DNEylemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNEylemController.h; sourceTree = "<group>"; };
+		36AB1934176BC38A0097D5E9 /* DNEylemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNEylemController.m; sourceTree = "<group>"; };
+		36AB1936176BC3970097D5E9 /* DNShopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNShopController.h; sourceTree = "<group>"; };
+		36AB1937176BC3970097D5E9 /* DNShopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNShopController.m; sourceTree = "<group>"; };
+		36AB1939176BC3AE0097D5E9 /* DNHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNHomeController.h; sourceTree = "<group>"; };
+		36AB193A176BC3AE0097D5E9 /* DNHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNHomeController.m; sourceTree = "<group>"; };
+		36AB193C176BC5320097D5E9 /* DNMeydanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNMeydanController.h; sourceTree = "<group>"; };
+		36AB193D176BC5330097D5E9 /* DNMeydanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNMeydanController.m; sourceTree = "<group>"; };
+		36AB193F176BC6FB0097D5E9 /* DNEylemResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNEylemResultController.h; sourceTree = "<group>"; };
+		36AB1940176BC6FB0097D5E9 /* DNEylemResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNEylemResultController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				36A934E1176671FA00AFF987 /* Models */,
+				36AB192F176BC2020097D5E9 /* Controllers */,
 				36A934CD176671CD00AFF987 /* DNAppDelegate.h */,
 				36A934CE176671CD00AFF987 /* DNAppDelegate.m */,
 				36A934D6176671CD00AFF987 /* MainStoryboard.storyboard */,
@@ -118,6 +137,25 @@
 				36A934E61766724500AFF987 /* DNPlayer.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		36AB192F176BC2020097D5E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				36AB1930176BC2900097D5E9 /* DNMenuController.h */,
+				36AB1931176BC2900097D5E9 /* DNMenuController.m */,
+				36AB1933176BC38A0097D5E9 /* DNEylemController.h */,
+				36AB1934176BC38A0097D5E9 /* DNEylemController.m */,
+				36AB1936176BC3970097D5E9 /* DNShopController.h */,
+				36AB1937176BC3970097D5E9 /* DNShopController.m */,
+				36AB1939176BC3AE0097D5E9 /* DNHomeController.h */,
+				36AB193A176BC3AE0097D5E9 /* DNHomeController.m */,
+				36AB193C176BC5320097D5E9 /* DNMeydanController.h */,
+				36AB193D176BC5330097D5E9 /* DNMeydanController.m */,
+				36AB193F176BC6FB0097D5E9 /* DNEylemResultController.h */,
+				36AB1940176BC6FB0097D5E9 /* DNEylemResultController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +229,12 @@
 				36A934CF176671CD00AFF987 /* DNAppDelegate.m in Sources */,
 				36A934DB176671CD00AFF987 /* DNViewController.m in Sources */,
 				36A934E71766724500AFF987 /* DNPlayer.m in Sources */,
+				36AB1932176BC2900097D5E9 /* DNMenuController.m in Sources */,
+				36AB1935176BC38A0097D5E9 /* DNEylemController.m in Sources */,
+				36AB1938176BC3970097D5E9 /* DNShopController.m in Sources */,
+				36AB193B176BC3AE0097D5E9 /* DNHomeController.m in Sources */,
+				36AB193E176BC5330097D5E9 /* DNMeydanController.m in Sources */,
+				36AB1941176BC6FC0097D5E9 /* DNEylemResultController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

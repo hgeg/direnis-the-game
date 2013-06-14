@@ -7,11 +7,16 @@
 //
 
 #import "DNAppDelegate.h"
+#import "DNPlayer.h"
 
 @implementation DNAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    self.player = [[DNPlayer alloc] init];
+    self.city = [[NSUserDefaults standardUserDefaults] stringForKey:@"city"];
+    
     // Override point for customization after application launch.
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     //read plists into a dictionary
