@@ -13,6 +13,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    //read plists into a dictionary
+    NSString *plistFile = [[paths objectAtIndex:0] stringByAppendingPathComponent:@"example.plist"];
+    self.shopItems = [[NSMutableDictionary alloc] initWithContentsOfFile:plistFile];
+    
+    plistFile = [[paths objectAtIndex:0] stringByAppendingPathComponent:@"shop.plist"];
+    self.shopItems = [[NSMutableDictionary alloc] initWithContentsOfFile:plistFile];
+    
     return YES;
 }
 							

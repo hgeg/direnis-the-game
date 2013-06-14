@@ -11,5 +11,7 @@
 @interface DNAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSDictionary *mainDict;
+@property (strong, nonatomic) NSDictionary *shopItems;
 
 @end
