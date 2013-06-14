@@ -1144,22 +1144,22 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sallamadın gitti.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>10</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sallamadın geçti gitti</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Bana ne ondan o kim?</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -1171,35 +1171,35 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>20</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Özer seni pek sallamadı.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>30</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Özer&apos;in kankasıyım diyebilirsin artık. Canlı yayına çıktın!</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Kanka naber yaa???</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>10</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Özer Erdoğan orada canlı yayın yapıyor!</string>
 				</dict>
 			</array>
 			<key>14-18</key>
@@ -1517,22 +1517,22 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sallamadın gitti.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>10</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sallamadın geçti gitti</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Bana ne ondan o kim?</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -1544,35 +1544,35 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>20</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Özer seni pek sallamadı.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>30</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Özer&apos;in kankasıyım diyebilirsin artık. Canlı yayına çıktın!</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Kanka naber yaa???</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>10</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Özer Erdoğan orada canlı yayın yapıyor!</string>
 				</dict>
 			</array>
 			<key>14-18</key>
@@ -1586,29 +1586,29 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>20</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kimse sana eşlik etmedi :(</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>20</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>1</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Herkes seninle birlikte söylemeye başladı!</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>İstiklal Marşı başlat</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>50</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -1618,35 +1618,35 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>5</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kimse sana eşlik etmedi :(</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>5</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>1</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Herkes seninle birlikte bağırıyor!</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>&quot;Her yer taksim her yer direniş&quot; diye bağır</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>20</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Bolca insan var. Polis şimdilik gözükmüyor.</string>
 				</dict>
 			</array>
 			<key>18-22</key>
@@ -1660,29 +1660,29 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>20</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kimse sana eşlik etmedi :(</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>20</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>1</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Herkes seninle birlikte söylemeye başladı!</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>İstiklal Marşı başlat</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>50</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -1692,35 +1692,35 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>5</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kimse sana eşlik etmedi :(</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>5</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>1</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Herkes seninle birlikte bağırıyor!</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>&quot;Her yer taksim her yer direniş&quot; diye bağır</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>20</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Polis ileride ancak şimdi bir müdahele yok.</string>
 				</dict>
 			</array>
 			<key>22-02</key>
@@ -1890,22 +1890,22 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sallamadın gitti.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>10</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sallamadın geçti gitti</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Bana ne ondan o kim?</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -1917,35 +1917,35 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>20</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Özer seni pek sallamadı.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>30</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Özer&apos;in kankasıyım diyebilirsin artık. Canlı yayına çıktın!</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Kanka naber yaa???</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>10</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Özer Erdoğan orada canlı yayın yapıyor!</string>
 				</dict>
 			</array>
 			<key>14-18</key>
