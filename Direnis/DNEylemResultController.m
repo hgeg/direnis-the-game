@@ -52,12 +52,22 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     self.mainText.text = self.text;
+    if ([player getAttrribute:@"points"]<=0) {
+        [player addToAttrribute:@"points" value:[player getAttrribute:@"points"]*-1];
+        self.mainText.text = [NSString stringWithFormat:@"%@\n Puanın bittiği için oyun bitti.",self.mainText.text];
+    }
     [self.status redraw];
 }
 
 - (IBAction) goBack:(id)sender{
-    [player passTime:1];
-    [self.navigationController popViewControllerAnimated:YES];
+    if ([player getAttrribute:@"points"]<=0) {
+        player = nil;
+        [DNPlayer save:player];
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }else{
+        [player passTime:1];
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
 @end

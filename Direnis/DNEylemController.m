@@ -65,13 +65,13 @@
 }
 
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    NSArray *sorular = database[city][[player getLocation]][[player getHourInterval]];
+    NSArray *sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]] ;
     DNEylemResultController *d = (DNEylemResultController *)segue.destinationViewController;
     NSDictionary *soru = sorular[sIndex];
     if ([segue.identifier isEqualToString:@"c1"]) {
         NSDictionary *cevab = soru[@"Cevaplar"][0];
         int rand = arc4random_uniform(100)+1;
-        if ([cevab[@"Zorluk"] integerValue]<rand){
+        if ([cevab[@"Zorluk"] integerValue]<rand+[player getAttrribute:@"level"]*2){
             NSDictionary *result = cevab[@"Success"];
             d.text = result[@"Text"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
@@ -79,14 +79,13 @@
         }else{
             NSDictionary *result = cevab[@"Fail"];
             d.text = result[@"Text"];
-            [player addToAttrribute:@"xp" value:-1*[result[@"Result"][@"XP"] integerValue]];
             [player addToAttrribute:@"points" value:-1*[result[@"Result"][@"Point"] integerValue]];
         }
                 
     }else if([segue.identifier isEqualToString:@"c2"]) {
         NSDictionary *cevab = soru[@"Cevaplar"][1];
         int rand = arc4random_uniform(100)+1;
-        if ([cevab[@"Zorluk"] integerValue]<rand){
+        if ([cevab[@"Zorluk"] integerValue]<rand+[player getAttrribute:@"level"]*2){
             NSDictionary *result = cevab[@"Success"];
             d.text = result[@"Text"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
@@ -94,7 +93,6 @@
         }else{
             NSDictionary *result = cevab[@"Fail"];
             d.text = result[@"Text"];
-            [player addToAttrribute:@"xp" value:-1*[result[@"Result"][@"XP"] integerValue]];
             [player addToAttrribute:@"points" value:-1*[result[@"Result"][@"Point"] integerValue]];
         }
     }
