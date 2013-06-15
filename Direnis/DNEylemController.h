@@ -8,12 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import <stdlib.h>
+@class DNStatusView;
 
 @interface DNEylemController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *level;
 @property (weak, nonatomic) IBOutlet UILabel *points;
 
+@property (weak, nonatomic) IBOutlet DNStatusView *status;
 
 @property (weak, nonatomic) IBOutlet UITextView *mainText;
 @property (weak, nonatomic) IBOutlet UIButton *c1;

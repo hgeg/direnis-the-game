@@ -7,6 +7,7 @@
 //
 
 #import "DNHomeController.h"
+#import "DNStatusView.h"
 #import "DNAppDelegate.h"
 #import "DNPlayer.h"
 
@@ -32,7 +33,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.nameLabel.text = [player getName];
 	// Do any additional setup after loading the view.
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    [player setLocation:@"Ev"];
+    [super viewWillAppear:animated];
+    [self.status redraw];
 }
 
 - (void)didReceiveMemoryWarning

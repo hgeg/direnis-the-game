@@ -34,6 +34,12 @@
 	// Do any additional setup after loading the view.
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    if(player==nil)
+        self.continueButton.hidden = true;
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -62,6 +68,11 @@
     }else if([segue.identifier isEqualToString:@"istanbul"]){
         city = @"İstanbul";
         [[NSUserDefaults standardUserDefaults] setObject:@"İstanbul" forKey:@"city"];
+    }
+    if([segue.identifier isEqualToString:@"new_game"]){
+        player = [[DNPlayer alloc] init];
+    }else if([segue.identifier isEqualToString:@"continue"]){
+        player = [DNPlayer load];
     }
 }
 

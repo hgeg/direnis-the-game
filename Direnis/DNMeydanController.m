@@ -31,12 +31,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
     NSArray *meydans = [database[city] allKeys];
     NSLog(@"%@",meydans);
-    self.m1.titleLabel.text = meydans[0];
-    self.m2.titleLabel.text = meydans[1];
-    self.m3.titleLabel.text = meydans[2];
+    [self.m1 setTitle:meydans[0] forState:UIControlStateNormal];
+    [self.m1 sizeToFit];
+    [self.m2 setTitle:meydans[1] forState:UIControlStateNormal];
+    [self.m2 sizeToFit];
+    [self.m3 setTitle:meydans[2] forState:UIControlStateNormal];
+    [self.m3 sizeToFit];
+}
+
+- (IBAction) goToHome:(id)sender{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning

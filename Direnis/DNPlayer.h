@@ -26,6 +26,7 @@
 - (void) setLocation:(NSString *)location;
 - (void) passTime:(int)hours;
 - (void) addItem:(NSString *)item forKey:(NSString *) key;
+- (void) addToAttrribute:(NSString *)attr value:(int)value;
 - (void) setName:(NSString *)n;
 - (NSMutableDictionary *) getItems;
 - (NSString *) getName;
@@ -33,6 +34,9 @@
 - (int) getAttrribute:(NSString *)attr;
 - (NSString *) getDate;
 - (NSString *) getHourInterval;
+
++ (void)save:(DNPlayer *)obj;
++ (DNPlayer *)load;
 
 
 

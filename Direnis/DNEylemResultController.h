@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@class DNStatusView;
 
 @interface DNEylemResultController : UIViewController
 
@@ -14,6 +15,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *points;
 
 @property (weak, nonatomic) IBOutlet UITextView *mainText;
+@property (weak, nonatomic) IBOutlet DNStatusView *status;
+@property (strong, nonatomic) NSString *text;
 
 - (IBAction) goBackToMeydan:(id)sender;
 - (IBAction) goBack:(id)sender;

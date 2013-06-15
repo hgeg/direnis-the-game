@@ -21,7 +21,7 @@
         xp     = 0;
         points = 500;
         items  = [NSMutableDictionary dictionaryWithCapacity:10];
-        current = @"ev";
+        current = @"Ev";
         time = [NSDate dateWithTimeIntervalSince1970:1371490589];
     }
     return self;
@@ -69,9 +69,16 @@
 
 - (int) getAttrribute:(NSString *)attr {
     if([attr isEqualToString:@"level"]) return level;
-    if([attr isEqualToString:@"xo"]) return xp;
+    if([attr isEqualToString:@"xp"]) return xp;
     if([attr isEqualToString:@"points"]) return points;
     return -1;
+}
+
+- (void) addToAttrribute:(NSString *)attr value:(int)value{
+    NSLog(@"Value: %d",value);
+    if([attr isEqualToString:@"level"]) level+=value;
+    if([attr isEqualToString:@"xp"]) [self addXP:value];
+    if([attr isEqualToString:@"points"]) points += value;
 }
 
 - (NSString *) getDate {
@@ -92,6 +99,47 @@
     else interval = @"Zamansız";
     NSLog(@"interval: %@",interval);
     return interval;
+}
+
+- (void)encodeWithCoder:(NSCoder *)encoder {
+    //Encode properties, other class variables, etc
+    [encoder encodeObject:name forKey:@"name"];
+    [encoder encodeObject:time forKey:@"time"];
+    [encoder encodeObject:current forKey:@"current"];
+    [encoder encodeObject:items forKey:@"items"];
+    
+    [encoder encodeObject:[NSNumber numberWithInt:level] forKey:@"level"];
+    [encoder encodeObject:[NSNumber numberWithInt:xp] forKey:@"xp"];
+    [encoder encodeObject:[NSNumber numberWithInt:points] forKey:@"points"];
+}
+
+- (id)initWithCoder:(NSCoder *)decoder {
+    if((self = [super init])) {
+        //decode properties, other class vars
+        name = [decoder decodeObjectForKey:@"name"];
+        time = [decoder decodeObjectForKey:@"time"];
+        items = [decoder decodeObjectForKey:@"items"];
+        current = [decoder decodeObjectForKey:@"current"];
+        
+        level = [[decoder decodeObjectForKey:@"level"] integerValue];
+        xp = [[decoder decodeObjectForKey:@"xp"] integerValue];
+        points = [[decoder decodeObjectForKey:@"points"] integerValue];
+    }
+    return self;
+}
+
++ (void)save:(DNPlayer *)obj {
+    NSData *encoded = [NSKeyedArchiver archivedDataWithRootObject:obj];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:encoded forKey:@"player"];
+    [defaults synchronize];
+}
+
++ (DNPlayer *)load {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSData *myEncodedObject = [defaults objectForKey:@"player"];
+    DNPlayer *obj = (DNPlayer *)[NSKeyedUnarchiver unarchiveObjectWithData: myEncodedObject];
+    return obj;
 }
 
 @end

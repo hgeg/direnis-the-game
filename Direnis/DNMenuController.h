@@ -10,6 +10,7 @@
 
 @interface DNMenuController : UIViewController <UITextFieldDelegate>
 
+@property (weak, nonatomic) IBOutlet UIButton *continueButton;
 - (BOOL) textFieldShouldReturn:(UITextField *)textField;
 - (IBAction) GoToMainMenu:(id)sender;
 

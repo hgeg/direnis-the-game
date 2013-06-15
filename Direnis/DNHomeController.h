@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class DNStatusView;
 
 @interface DNHomeController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *level;
 @property (weak, nonatomic) IBOutlet UILabel *points;
+@property (weak, nonatomic) IBOutlet DNStatusView *status;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 
 @end
