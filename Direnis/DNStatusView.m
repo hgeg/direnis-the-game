@@ -17,7 +17,6 @@
 @implementation DNStatusView
 
 - (id) initWithCoder:(NSCoder *)aDecoder {
-    NSLog(@"memeler");
     self = [super initWithCoder:aDecoder];
     if (self) {
         self.timeLabel.text = [player getDate];

@@ -11,6 +11,9 @@
 @class DNStatusView;
 
 @interface DNEylemController : UIViewController
+{
+    int sIndex;
+}
 
 @property (weak, nonatomic) IBOutlet UILabel *level;
 @property (weak, nonatomic) IBOutlet UILabel *points;

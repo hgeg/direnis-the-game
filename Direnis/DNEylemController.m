@@ -47,7 +47,7 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     NSArray *sorular = database[city][[player getLocation]][[player getHourInterval]];
-    int sIndex = arc4random_uniform([sorular count]);
+    sIndex = arc4random_uniform([sorular count]);
     NSDictionary *soru = sorular[sIndex];
     self.mainText.text = soru[@"Soru Text"];
     [self.c1 setTitle:soru[@"Cevaplar"][0][@"Cevap Text"] forState:UIControlStateNormal];
@@ -66,7 +66,6 @@
 
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     NSArray *sorular = database[city][[player getLocation]][[player getHourInterval]];
-    int sIndex = arc4random_uniform([sorular count]);
     DNEylemResultController *d = (DNEylemResultController *)segue.destinationViewController;
     NSDictionary *soru = sorular[sIndex];
     if ([segue.identifier isEqualToString:@"c1"]) {
@@ -74,16 +73,14 @@
         int rand = arc4random_uniform(100)+1;
         if ([cevab[@"Zorluk"] integerValue]<rand){
             NSDictionary *result = cevab[@"Success"];
-            NSLog(@"success: %@",result[@"Text"]);
             d.text = result[@"Text"];
-            [player addToAttrribute:@"xp" value:[result[@"result"][@"XP"] integerValue]];
-            [player addToAttrribute:@"points" value:[result[@"result"][@"Point"] integerValue]];
+            [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
+            [player addToAttrribute:@"points" value:[result[@"Result"][@"Point"] integerValue]];
         }else{
             NSDictionary *result = cevab[@"Fail"];
-            NSLog(@"fail: %@",result[@"Text"]);
             d.text = result[@"Text"];
-            [player addToAttrribute:@"xp" value:-1*[result[@"result"][@"XP"] integerValue]];
-            [player addToAttrribute:@"points" value:-1*[result[@"result"][@"Point"] integerValue]];
+            [player addToAttrribute:@"xp" value:-1*[result[@"Result"][@"XP"] integerValue]];
+            [player addToAttrribute:@"points" value:-1*[result[@"Result"][@"Point"] integerValue]];
         }
                 
     }else if([segue.identifier isEqualToString:@"c2"]) {
@@ -92,13 +89,13 @@
         if ([cevab[@"Zorluk"] integerValue]<rand){
             NSDictionary *result = cevab[@"Success"];
             d.text = result[@"Text"];
-            [player addToAttrribute:@"xp" value:[result[@"result"][@"XP"] integerValue]];
-            [player addToAttrribute:@"points" value:[result[@"result"][@"Point"] integerValue]];
+            [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
+            [player addToAttrribute:@"points" value:[result[@"Result"][@"Point"] integerValue]];
         }else{
             NSDictionary *result = cevab[@"Fail"];
             d.text = result[@"Text"];
-            [player addToAttrribute:@"xp" value:-1*[result[@"result"][@"XP"] integerValue]];
-            [player addToAttrribute:@"points" value:-1*[result[@"result"][@"Point"] integerValue]];
+            [player addToAttrribute:@"xp" value:-1*[result[@"Result"][@"XP"] integerValue]];
+            [player addToAttrribute:@"points" value:-1*[result[@"Result"][@"Point"] integerValue]];
         }
     }
 }

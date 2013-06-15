@@ -36,7 +36,6 @@
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     NSArray *meydans = [database[city] allKeys];
-    NSLog(@"%@",meydans);
     [self.m1 setTitle:meydans[0] forState:UIControlStateNormal];
     [self.m1 sizeToFit];
     [self.m2 setTitle:meydans[1] forState:UIControlStateNormal];

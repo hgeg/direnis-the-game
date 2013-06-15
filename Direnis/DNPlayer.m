@@ -75,7 +75,6 @@
 }
 
 - (void) addToAttrribute:(NSString *)attr value:(int)value{
-    NSLog(@"Value: %d",value);
     if([attr isEqualToString:@"level"]) level+=value;
     if([attr isEqualToString:@"xp"]) [self addXP:value];
     if([attr isEqualToString:@"points"]) points += value;
@@ -94,10 +93,9 @@
     NSString *interval = @"";
     if (hour>=14 && hour<18) interval = @"14-18";
     else if (hour>=18 && hour<22) interval = @"18-22";
-    else if (hour>=22 && hour<02) interval = @"22-02";
+    else if (hour>=22 || (hour>=0 && hour<02)) interval = @"22-02";
     else if (hour>=02 && hour<06) interval = @"02-06";
     else interval = @"Zamansız";
-    NSLog(@"interval: %@",interval);
     return interval;
 }
 

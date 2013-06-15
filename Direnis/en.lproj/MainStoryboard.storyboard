@@ -783,19 +783,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PVY-cx-dNX">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Buradan git">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="goBackToMeydan:" destination="S9q-n1-dDi" eventType="touchUpInside" id="QKD-Gc-ePL"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYh-nn-IGl">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="288" id="CCB-FC-nlv"/>
@@ -870,11 +857,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="uYh-nn-IGl" firstAttribute="top" secondItem="NDi-qx-HHh" secondAttribute="top" constant="252" type="user" id="3Qk-Na-Hq0"/>
-                            <constraint firstItem="uYh-nn-IGl" firstAttribute="trailing" secondItem="PVY-cx-dNX" secondAttribute="trailing" type="default" id="7lW-xU-jan"/>
-                            <constraint firstItem="PVY-cx-dNX" firstAttribute="top" secondItem="uYh-nn-IGl" secondAttribute="bottom" constant="18" type="user" id="DTg-vP-dzA"/>
-                            <constraint firstAttribute="bottom" secondItem="PVY-cx-dNX" secondAttribute="bottom" priority="350" constant="192" type="user" id="Dq8-4l-qD1"/>
                             <constraint firstItem="VDD-nu-CVN" firstAttribute="trailing" secondItem="NDi-qx-HHh" secondAttribute="trailing" type="default" id="G6q-Ek-LaY"/>
-                            <constraint firstItem="uYh-nn-IGl" firstAttribute="leading" secondItem="PVY-cx-dNX" secondAttribute="leading" type="default" id="LqN-bI-apZ"/>
                             <constraint firstItem="VDD-nu-CVN" firstAttribute="top" secondItem="NDi-qx-HHh" secondAttribute="top" constant="73" id="NiC-9P-UVv"/>
                             <constraint firstItem="uYh-nn-IGl" firstAttribute="centerX" secondItem="VDD-nu-CVN" secondAttribute="centerX" type="default" id="QY1-Mn-mFx"/>
                             <constraint firstAttribute="bottom" secondItem="qyi-T2-6y9" secondAttribute="bottom" constant="486" id="ZdE-Be-4jw"/>
