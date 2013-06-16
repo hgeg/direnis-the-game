@@ -14,7 +14,7 @@
 {
     NSString *name;
     int level,xp,points;
-    NSMutableDictionary *items;
+    NSMutableArray *items;
     NSDate *time;
     NSString *current;
 }
@@ -25,10 +25,10 @@
 - (void) addXP:(int)x;
 - (void) setLocation:(NSString *)location;
 - (void) passTime:(int)hours;
-- (void) addItem:(NSString *)item forKey:(NSString *) key;
 - (void) addToAttrribute:(NSString *)attr value:(int)value;
 - (void) setName:(NSString *)n;
-- (NSMutableDictionary *) getItems;
+- (void) addItem:(NSDictionary *)item toCategory:(int)category;
+- (NSMutableArray *) getItems;
 - (NSString *) getName;
 - (NSString *) getLocation;
 - (int) getAttrribute:(NSString *)attr;

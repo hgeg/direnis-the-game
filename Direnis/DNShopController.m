@@ -70,11 +70,15 @@ numberOfSectionsInTableView:(UITableView *)tableView {
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"item"];
     
-    NSDictionary *item = items[ sections[indexPath.section] ][indexPath.row];
+    NSDictionary *item = items[sections[indexPath.section]][indexPath.row];
+    NSDictionary *ptem = [player getItems][indexPath.section];
     
     ((UIImageView *)[cell viewWithTag:1]).image = [UIImage imageNamed: [NSString stringWithFormat:@"%@.jpg",item[@"Name"]]];
     ((UILabel *)[cell viewWithTag:2]).text = item[@"Name"];
-    ((UILabel *)[cell viewWithTag:3]).text = [NSString stringWithFormat:@"Fiyat: %@ Puan",item[@"Value"]];
+    if([ptem[@"Name"] isEqualToString:item[@"Name"]]){
+        ((UILabel *)[cell viewWithTag:3]).text = @"Alındı";
+    }else
+        ((UILabel *)[cell viewWithTag:3]).text = [NSString stringWithFormat:@"Fiyat: %@ Puan",item[@"Value"]];
     
     return cell;
 }
@@ -84,8 +88,25 @@ numberOfSectionsInTableView:(UITableView *)tableView {
 }
 
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSDictionary *item = items[sections[indexPath.section]][indexPath.row];
+    NSDictionary *ptem = [player getItems][indexPath.section];
+    if([ptem[@"Name"] isEqualToString:item[@"Name"]]) {
+        [tableView deselectRowAtIndexPath:indexPath animated:NO];
+        return;
+    }
+    if([item[@"Value"] integerValue]<[player getAttrribute:@"points"]){
+        [player addItem:item toCategory:indexPath.section];
+        [player addToAttrribute:@"points" value:-1*[item[@"Value"] integerValue]];
+        [tableView reloadData];
+        [self.status redraw];
+    }else{
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Yetersiz Puan" message:@"Puanınız bu ürünü almaya yeterli değil." delegate:self cancelButtonTitle:@"Tamam" otherButtonTitles:nil];
+        [alert show];
+    }
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
+}
+
+- (void) alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
 }
 
 

@@ -16,4 +16,7 @@
 @property (weak, nonatomic) IBOutlet DNStatusView *status;
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 
+
+- (IBAction) passTime:(id)sender;
+
 @end

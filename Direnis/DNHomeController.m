@@ -43,6 +43,11 @@
     [self.status redraw];
 }
 
+- (IBAction) passTime:(id)sender {
+    [player passTime:1];
+    [self.status redraw];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

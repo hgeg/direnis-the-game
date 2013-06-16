@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 @class DNStatusView;
 
-@interface DNShopController : UIViewController <UITableViewDataSource,UITableViewDelegate>
+@interface DNShopController : UIViewController <UITableViewDataSource,UITableViewDelegate, UIAlertViewDelegate>
 
 @property (weak, nonatomic) IBOutlet DNStatusView *status;
 

@@ -14,7 +14,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    self.player = [[NSUserDefaults standardUserDefaults] objectForKey:@"player"];
+    self.player = [DNPlayer load];
     self.city = [[NSUserDefaults standardUserDefaults] stringForKey:@"city"];
     
     //read plists into a dictionary
@@ -31,6 +31,7 @@
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+    [DNPlayer save:self.player];
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application

@@ -255,6 +255,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="passTime:" destination="VQ4-pR-qbG" eventType="touchUpInside" id="nNq-4w-mtM"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="İsim" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wyq-gK-qc9">
                                 <constraints>
@@ -915,6 +918,7 @@
         <class className="DNHomeController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DNHomeController.h"/>
             <relationships>
+                <relationship kind="action" name="passTime:"/>
                 <relationship kind="outlet" name="level" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="nameLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="points" candidateClass="UILabel"/>

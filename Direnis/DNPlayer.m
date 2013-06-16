@@ -20,7 +20,7 @@
         level  = 1;
         xp     = 0;
         points = 500;
-        items  = [NSMutableDictionary dictionaryWithCapacity:10];
+        items  = [NSMutableArray arrayWithArray:@[@{@"Name": @"None"},@{@"Name": @"None"},@{@"Name": @"None"}]];
         current = @"Ev";
         time = [NSDate dateWithTimeIntervalSince1970:1371490589];
     }
@@ -44,15 +44,13 @@
 - (void) setLocation:(NSString *)location {
     current = location;
 }
+
 - (void) passTime:(int)hours {
     time = [time dateByAddingTimeInterval:hours*3600];
 }
-- (NSMutableDictionary *) getItems {
-    return items;
-}
 
-- (void) addItem:(NSString *)item forKey:(NSString *)key{
-    items[key] = item;
+- (NSMutableArray *) getItems {
+    return items;
 }
 
 - (void) setName:(NSString *)n {
@@ -65,6 +63,10 @@
 
 - (NSString *) getLocation {
     return current;
+}
+
+- (void) addItem:(NSDictionary *)item toCategory:(int)category {
+    items[category] = item;
 }
 
 - (int) getAttrribute:(NSString *)attr {
