@@ -21,7 +21,7 @@
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Database" ofType:@"plist"];
     self.database = [[NSDictionary alloc] initWithContentsOfFile:path];
     
-    path = [[NSBundle mainBundle] pathForResource:@"Database" ofType:@"plist"];
+    path = [[NSBundle mainBundle] pathForResource:@"shop" ofType:@"plist"];
     self.shopItems = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
     
     return YES;

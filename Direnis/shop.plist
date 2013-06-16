@@ -2,6 +2,122 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Maskeler</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Maske</string>
+			<key>Name</key>
+			<string>Bez maske</string>
+			<key>Value</key>
+			<integer>20</integer>
+			<key>Power</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Maske</string>
+			<key>Name</key>
+			<string>Kaşkol</string>
+			<key>Value</key>
+			<integer>80</integer>
+			<key>Power</key>
+			<real>1.2</real>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Maske</string>
+			<key>Name</key>
+			<string>Kar maskesi</string>
+			<key>Value</key>
+			<string>120</string>
+			<key>Power</key>
+			<real>1.6</real>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Maske</string>
+			<key>Name</key>
+			<string>Antika gaz maskesi</string>
+			<key>Value</key>
+			<integer>200</integer>
+			<key>Power</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Maske</string>
+			<key>Name</key>
+			<string>Tam yüz gaz maskesi</string>
+			<key>Value</key>
+			<integer>280</integer>
+			<key>Power</key>
+			<real>2.8</real>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Maske</string>
+			<key>Name</key>
+			<string>Tek filtreli gaz maskesi</string>
+			<key>Value</key>
+			<integer>520</integer>
+			<key>Power</key>
+			<real>3.6</real>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Maske</string>
+			<key>Name</key>
+			<string>Çift filtreli gaz maskesi</string>
+			<key>Value</key>
+			<integer>880</integer>
+			<key>Power</key>
+			<real>4.8</real>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Maske</string>
+			<key>Name</key>
+			<string>Ordu malı gaz maskesi</string>
+			<key>Value</key>
+			<integer>1850</integer>
+			<key>Power</key>
+			<integer>8</integer>
+		</dict>
+	</array>
+	<key>Destek Malzemeleri</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>İlaç</string>
+			<key>Name</key>
+			<string>Limon Suyu</string>
+			<key>Value</key>
+			<integer>20</integer>
+			<key>Power</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>İlaç</string>
+			<key>Name</key>
+			<string>Sirke</string>
+			<key>Value</key>
+			<integer>100</integer>
+			<key>Power</key>
+			<real>1.6</real>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>İlaç</string>
+			<key>Name</key>
+			<string>Talcid</string>
+			<key>Value</key>
+			<integer>240</integer>
+			<key>Power</key>
+			<integer>2</integer>
+		</dict>
+	</array>
 	<key>Eldivenler</key>
 	<array>
 		<dict>
@@ -43,132 +159,6 @@
 			<integer>400</integer>
 			<key>Power</key>
 			<real>2.6</real>
-		</dict>
-	</array>
-	<key>Destek Malzemeleri</key>
-	<array>
-		<dict>
-			<key>Category</key>
-			<string>İlaç</string>
-			<key>Name</key>
-			<string>Limon</string>
-			<key>Value</key>
-			<integer>20</integer>
-			<key>Power</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>İlaç</string>
-			<key>Name</key>
-			<string>Sirke</string>
-			<key>Value</key>
-			<integer>100</integer>
-			<key>Power</key>
-			<real>1.6</real>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>İlaç</string>
-			<key>Name</key>
-			<string>Talcid</string>
-			<key>Value</key>
-			<integer>240</integer>
-			<key>Power</key>
-			<integer>2</integer>
-		</dict>
-	</array>
-	<key>Maskeler</key>
-	<array>
-		<dict>
-			<key>Category</key>
-			<string>Maske</string>
-			<key>Name</key>
-			<string>Bez maske</string>
-			<key>Value</key>
-			<integer>20</integer>
-			<key>Power</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Maske</string>
-			<key>Name</key>
-			<string>Kaşkol</string>
-			<key>Value</key>
-			<integer>80</integer>
-			<key>Power</key>
-			<real>1.2</real>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Maske</string>
-			<key>Name</key>
-			<string>Kar Maskesi</string>
-			<key>Value</key>
-			<string>120</string>
-			<key>Power</key>
-			<real>1.6</real>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Maske</string>
-			<key>Name</key>
-			<string>Antika Gaz Maskesi</string>
-			<key>Value</key>
-			<integer>200</integer>
-			<key>Power</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Maske</string>
-			<key>Name</key>
-			<string>Antika Gaz Maskesi</string>
-			<key>Value</key>
-			<integer>200</integer>
-			<key>Power</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Maske</string>
-			<key>Name</key>
-			<string>Tam Yüz Gaz Maskesi</string>
-			<key>Value</key>
-			<integer>280</integer>
-			<key>Power</key>
-			<real>2.8</real>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Maske</string>
-			<key>Name</key>
-			<string>Tek Filtreli Gaz Maskesi</string>
-			<key>Value</key>
-			<integer>520</integer>
-			<key>Power</key>
-			<real>3.6</real>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Maske</string>
-			<key>Name</key>
-			<string>Çift Filtreli Gaz Maskesi</string>
-			<key>Value</key>
-			<integer>880</integer>
-			<key>Power</key>
-			<real>4.8</real>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Maske</string>
-			<key>Name</key>
-			<string>Ordu Malı Gaz Maskesi</string>
-			<key>Value</key>
-			<integer>2130</integer>
-			<key>Power</key>
-			<integer>8</integer>
 		</dict>
 	</array>
 </dict>

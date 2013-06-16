@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@class DNStatusView;
 
-@interface DNShopController : UIViewController
+@interface DNShopController : UIViewController <UITableViewDataSource,UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet DNStatusView *status;
+
+- (IBAction)goBack:(id)sender;
 
 @end

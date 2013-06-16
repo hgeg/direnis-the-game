@@ -29,6 +29,17 @@
 		3659BDA2176BDABC00557D18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BD91176BDABC00557D18 /* main.m */; };
 		3659BDA5176CA74900557D18 /* DNStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BDA4176CA74900557D18 /* DNStatusView.m */; };
 		3659BDA7176CC26400557D18 /* shop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3659BDA6176CC26400557D18 /* shop.plist */; };
+		3681325A176E14FB00B6F2E6 /* Bez maske.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813252176E14FB00B6F2E6 /* Bez maske.jpg */; };
+		3681325B176E14FB00B6F2E6 /* Çift filtreli gaz maskesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813253176E14FB00B6F2E6 /* Çift filtreli gaz maskesi.jpg */; };
+		3681325C176E14FB00B6F2E6 /* Tam yüz gaz maskesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813254176E14FB00B6F2E6 /* Tam yüz gaz maskesi.jpg */; };
+		3681325D176E14FB00B6F2E6 /* Kaşkol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813255176E14FB00B6F2E6 /* Kaşkol.jpg */; };
+		3681325E176E14FB00B6F2E6 /* Antika gaz maskesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813256176E14FB00B6F2E6 /* Antika gaz maskesi.jpg */; };
+		3681325F176E14FB00B6F2E6 /* Kar Maskesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813257176E14FB00B6F2E6 /* Kar Maskesi.jpg */; };
+		36813260176E14FB00B6F2E6 /* Ordu Malı Gaz Maskesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813258176E14FB00B6F2E6 /* Ordu Malı Gaz Maskesi.jpg */; };
+		36813261176E14FB00B6F2E6 /* Tek filtreli gaz maskesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813259176E14FB00B6F2E6 /* Tek filtreli gaz maskesi.jpg */; };
+		36813263176E155200B6F2E6 /* Talcid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813262176E155200B6F2E6 /* Talcid.jpg */; };
+		36813268176E163E00B6F2E6 /* Limon Suyu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813266176E163E00B6F2E6 /* Limon Suyu.jpg */; };
+		36813269176E163E00B6F2E6 /* Sirke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813267176E163E00B6F2E6 /* Sirke.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +77,17 @@
 		3659BDA3176CA74900557D18 /* DNStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNStatusView.h; sourceTree = "<group>"; };
 		3659BDA4176CA74900557D18 /* DNStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNStatusView.m; sourceTree = "<group>"; };
 		3659BDA6176CC26400557D18 /* shop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shop.plist; sourceTree = "<group>"; };
+		36813252176E14FB00B6F2E6 /* Bez maske.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bez maske.jpg"; sourceTree = "<group>"; };
+		36813253176E14FB00B6F2E6 /* Çift filtreli gaz maskesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Çift filtreli gaz maskesi.jpg"; sourceTree = "<group>"; };
+		36813254176E14FB00B6F2E6 /* Tam yüz gaz maskesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tam yüz gaz maskesi.jpg"; sourceTree = "<group>"; };
+		36813255176E14FB00B6F2E6 /* Kaşkol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kaşkol.jpg"; sourceTree = "<group>"; };
+		36813256176E14FB00B6F2E6 /* Antika gaz maskesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Antika gaz maskesi.jpg"; sourceTree = "<group>"; };
+		36813257176E14FB00B6F2E6 /* Kar Maskesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kar Maskesi.jpg"; sourceTree = "<group>"; };
+		36813258176E14FB00B6F2E6 /* Ordu Malı Gaz Maskesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ordu Malı Gaz Maskesi.jpg"; sourceTree = "<group>"; };
+		36813259176E14FB00B6F2E6 /* Tek filtreli gaz maskesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tek filtreli gaz maskesi.jpg"; sourceTree = "<group>"; };
+		36813262176E155200B6F2E6 /* Talcid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Talcid.jpg; sourceTree = "<group>"; };
+		36813266176E163E00B6F2E6 /* Limon Suyu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Limon Suyu.jpg"; sourceTree = "<group>"; };
+		36813267176E163E00B6F2E6 /* Sirke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sirke.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +164,27 @@
 				3659BD8F176BDABC00557D18 /* MainStoryboard.storyboard */,
 				3659BD91176BDABC00557D18 /* main.m */,
 				3659BDA6176CC26400557D18 /* shop.plist */,
+				36813251176E14EE00B6F2E6 /* Items */,
 			);
 			path = Direnis;
+			sourceTree = "<group>";
+		};
+		36813251176E14EE00B6F2E6 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				36813266176E163E00B6F2E6 /* Limon Suyu.jpg */,
+				36813267176E163E00B6F2E6 /* Sirke.jpg */,
+				36813262176E155200B6F2E6 /* Talcid.jpg */,
+				36813252176E14FB00B6F2E6 /* Bez maske.jpg */,
+				36813253176E14FB00B6F2E6 /* Çift filtreli gaz maskesi.jpg */,
+				36813254176E14FB00B6F2E6 /* Tam yüz gaz maskesi.jpg */,
+				36813255176E14FB00B6F2E6 /* Kaşkol.jpg */,
+				36813256176E14FB00B6F2E6 /* Antika gaz maskesi.jpg */,
+				36813257176E14FB00B6F2E6 /* Kar Maskesi.jpg */,
+				36813258176E14FB00B6F2E6 /* Ordu Malı Gaz Maskesi.jpg */,
+				36813259176E14FB00B6F2E6 /* Tek filtreli gaz maskesi.jpg */,
+			);
+			name = Items;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +247,17 @@
 				3659BDA0176BDABC00557D18 /* InfoPlist.strings in Resources */,
 				3659BDA1176BDABC00557D18 /* MainStoryboard.storyboard in Resources */,
 				3659BDA7176CC26400557D18 /* shop.plist in Resources */,
+				3681325A176E14FB00B6F2E6 /* Bez maske.jpg in Resources */,
+				3681325B176E14FB00B6F2E6 /* Çift filtreli gaz maskesi.jpg in Resources */,
+				3681325C176E14FB00B6F2E6 /* Tam yüz gaz maskesi.jpg in Resources */,
+				3681325D176E14FB00B6F2E6 /* Kaşkol.jpg in Resources */,
+				3681325E176E14FB00B6F2E6 /* Antika gaz maskesi.jpg in Resources */,
+				3681325F176E14FB00B6F2E6 /* Kar Maskesi.jpg in Resources */,
+				36813260176E14FB00B6F2E6 /* Ordu Malı Gaz Maskesi.jpg in Resources */,
+				36813261176E14FB00B6F2E6 /* Tek filtreli gaz maskesi.jpg in Resources */,
+				36813263176E155200B6F2E6 /* Talcid.jpg in Resources */,
+				36813268176E163E00B6F2E6 /* Limon Suyu.jpg in Resources */,
+				36813269176E163E00B6F2E6 /* Sirke.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

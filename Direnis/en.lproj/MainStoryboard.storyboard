@@ -361,21 +361,14 @@
                                     <constraint firstAttribute="height" constant="406" id="m7e-tE-3g3"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="71" id="GSe-3u-LLa">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="item" rowHeight="71" id="GSe-3u-LLa">
                                         <rect key="frame" x="0.0" y="22" width="306" height="71"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="306" height="70"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eVx-Qi-jJC">
-                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="58" id="60r-fr-Jyu"/>
-                                                        <constraint firstAttribute="height" constant="54" id="dRp-FA-lBX"/>
-                                                    </constraints>
-                                                </webView>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Ürün ismi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9AN-vS-yYb">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" text="Ürün ismi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9AN-vS-yYb">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="218" id="ro0-1K-KJO"/>
                                                     </constraints>
@@ -383,7 +376,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fiyat: 100 Puan" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="deo-gJ-i1a">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="left" text="Fiyat: 100 Puan" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="deo-gJ-i1a">
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="7RG-bf-jeI"/>
                                                     </constraints>
@@ -391,20 +384,30 @@
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8MW-ZO-OJf">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="32" id="03k-dI-7ZE"/>
+                                                        <constraint firstAttribute="height" constant="40" id="6Va-VH-SwA"/>
+                                                    </constraints>
+                                                </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <constraints>
+                                            <constraint firstItem="8MW-ZO-OJf" firstAttribute="leading" secondItem="GSe-3u-LLa" secondAttribute="leading" constant="19" id="BMt-Xd-bZl"/>
                                             <constraint firstItem="deo-gJ-i1a" firstAttribute="trailing" secondItem="9AN-vS-yYb" secondAttribute="trailing" type="default" id="CAN-vL-eYe"/>
-                                            <constraint firstItem="9AN-vS-yYb" firstAttribute="top" secondItem="GSe-3u-LLa" secondAttribute="top" constant="17" id="L6h-vc-a2V"/>
-                                            <constraint firstItem="9AN-vS-yYb" firstAttribute="leading" secondItem="eVx-Qi-jJC" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="X3e-nW-b2T"/>
+                                            <constraint firstItem="9AN-vS-yYb" firstAttribute="top" secondItem="GSe-3u-LLa" secondAttribute="top" constant="17" id="He6-wu-JQW"/>
+                                            <constraint firstItem="9AN-vS-yYb" firstAttribute="leading" secondItem="deo-gJ-i1a" secondAttribute="leading" type="default" id="O5z-JU-DRW"/>
+                                            <constraint firstItem="8MW-ZO-OJf" firstAttribute="centerY" secondItem="GSe-3u-LLa" secondAttribute="centerY" type="default" id="Y1S-zp-R4C"/>
                                             <constraint firstItem="deo-gJ-i1a" firstAttribute="top" secondItem="GSe-3u-LLa" secondAttribute="top" constant="35" id="fbh-jJ-CfO"/>
-                                            <constraint firstItem="deo-gJ-i1a" firstAttribute="leading" secondItem="eVx-Qi-jJC" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="i3e-sz-rZP"/>
-                                            <constraint firstItem="eVx-Qi-jJC" firstAttribute="leading" secondItem="GSe-3u-LLa" secondAttribute="leading" constant="6" id="qQJ-jA-TdF"/>
-                                            <constraint firstItem="eVx-Qi-jJC" firstAttribute="top" secondItem="GSe-3u-LLa" secondAttribute="top" constant="9" id="xRy-rk-5D4"/>
+                                            <constraint firstItem="9AN-vS-yYb" firstAttribute="leading" secondItem="GSe-3u-LLa" secondAttribute="leading" constant="72" id="jzx-Cw-BiW"/>
                                         </constraints>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="wZS-8y-sk5" id="Lgg-2Z-FhC"/>
+                                    <outlet property="delegate" destination="wZS-8y-sk5" id="8gi-ss-2I4"/>
+                                </connections>
                             </tableView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Ürünler" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztr-K9-qDv">
                                 <constraints>
@@ -423,6 +426,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="goBack:" destination="wZS-8y-sk5" eventType="touchUpInside" id="hmb-YB-xLU"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bK-mV-Fmb" customClass="DNStatusView">
                                 <subviews>
@@ -495,6 +501,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="vtO-kr-c7J"/>
+                    <connections>
+                        <outlet property="status" destination="3bK-mV-Fmb" id="eYN-ut-B6m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Glc-Zd-da0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -930,6 +939,10 @@
         </class>
         <class className="DNShopController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DNShopController.h"/>
+            <relationships>
+                <relationship kind="action" name="goBack:"/>
+                <relationship kind="outlet" name="status" candidateClass="DNStatusView"/>
+            </relationships>
         </class>
         <class className="DNStatusView" superclassName="UIView">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DNStatusView.h"/>
