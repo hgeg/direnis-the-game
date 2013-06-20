@@ -53,6 +53,7 @@
 
 - (void) textFieldDidEndEditing:(UITextField *)textField {
     [player setName:textField.text];
+    [DNPlayer save:player];
     [self performSegueWithIdentifier:@"city_select" sender:self];
 }
 
