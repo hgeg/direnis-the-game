@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361C00E317744F7E0004D9A9 /* textfield_isimyaz.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D217744F7E0004D9A9 /* textfield_isimyaz.png */; };
+		361C00E417744F7E0004D9A9 /* button_kizilay.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D317744F7E0004D9A9 /* button_kizilay.png */; };
+		361C00E517744F7E0004D9A9 /* button_kugulupark.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D417744F7E0004D9A9 /* button_kugulupark.png */; };
+		361C00E617744F7E0004D9A9 /* button_tunalihilmi.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D517744F7E0004D9A9 /* button_tunalihilmi.png */; };
+		361C00E717744F7E0004D9A9 /* button_kennedy.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D617744F7E0004D9A9 /* button_kennedy.png */; };
+		361C00E817744F7E0004D9A9 /* button_ankara.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D717744F7E0004D9A9 /* button_ankara.png */; };
+		361C00E917744F7E0004D9A9 /* button_istanbul.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D817744F7E0004D9A9 /* button_istanbul.png */; };
+		361C00EA17744F7E0004D9A9 /* statusbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D917744F7E0004D9A9 /* statusbar.png */; };
+		361C00EB17744F7E0004D9A9 /* button_dukkan.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00DA17744F7E0004D9A9 /* button_dukkan.png */; };
+		361C00EC17744F7E0004D9A9 /* button_dinlen.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00DB17744F7E0004D9A9 /* button_dinlen.png */; };
+		361C00ED17744F7E0004D9A9 /* button_direnisegit.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00DC17744F7E0004D9A9 /* button_direnisegit.png */; };
+		361C00EE17744F7E0004D9A9 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00DD17744F7E0004D9A9 /* button.png */; };
+		361C00EF17744F7E0004D9A9 /* intro_hashtags.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00DE17744F7E0004D9A9 /* intro_hashtags.png */; };
+		361C00F017744F7E0004D9A9 /* button_yenioyun.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00DF17744F7E0004D9A9 /* button_yenioyun.png */; };
+		361C00F117744F7E0004D9A9 /* button_nasiloynanir.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00E017744F7E0004D9A9 /* button_nasiloynanir.png */; };
+		361C00F217744F7E0004D9A9 /* button_devamet.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00E117744F7E0004D9A9 /* button_devamet.png */; };
+		361C00F317744F7E0004D9A9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00E217744F7E0004D9A9 /* logo.png */; };
 		3659BD58176BDA7300557D18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD57176BDA7300557D18 /* UIKit.framework */; };
 		3659BD5A176BDA7300557D18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD59176BDA7300557D18 /* Foundation.framework */; };
 		3659BD5C176BDA7300557D18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD5B176BDA7300557D18 /* CoreGraphics.framework */; };
@@ -43,6 +60,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		361C00D217744F7E0004D9A9 /* textfield_isimyaz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfield_isimyaz.png; sourceTree = "<group>"; };
+		361C00D317744F7E0004D9A9 /* button_kizilay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_kizilay.png; sourceTree = "<group>"; };
+		361C00D417744F7E0004D9A9 /* button_kugulupark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_kugulupark.png; sourceTree = "<group>"; };
+		361C00D517744F7E0004D9A9 /* button_tunalihilmi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_tunalihilmi.png; sourceTree = "<group>"; };
+		361C00D617744F7E0004D9A9 /* button_kennedy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_kennedy.png; sourceTree = "<group>"; };
+		361C00D717744F7E0004D9A9 /* button_ankara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_ankara.png; sourceTree = "<group>"; };
+		361C00D817744F7E0004D9A9 /* button_istanbul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_istanbul.png; sourceTree = "<group>"; };
+		361C00D917744F7E0004D9A9 /* statusbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusbar.png; sourceTree = "<group>"; };
+		361C00DA17744F7E0004D9A9 /* button_dukkan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_dukkan.png; sourceTree = "<group>"; };
+		361C00DB17744F7E0004D9A9 /* button_dinlen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_dinlen.png; sourceTree = "<group>"; };
+		361C00DC17744F7E0004D9A9 /* button_direnisegit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_direnisegit.png; sourceTree = "<group>"; };
+		361C00DD17744F7E0004D9A9 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		361C00DE17744F7E0004D9A9 /* intro_hashtags.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro_hashtags.png; sourceTree = "<group>"; };
+		361C00DF17744F7E0004D9A9 /* button_yenioyun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_yenioyun.png; sourceTree = "<group>"; };
+		361C00E017744F7E0004D9A9 /* button_nasiloynanir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_nasiloynanir.png; sourceTree = "<group>"; };
+		361C00E117744F7E0004D9A9 /* button_devamet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_devamet.png; sourceTree = "<group>"; };
+		361C00E217744F7E0004D9A9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		3659BD54176BDA7300557D18 /* Direnis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Direnis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3659BD57176BDA7300557D18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3659BD59176BDA7300557D18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,6 +138,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		361C00D117744F710004D9A9 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				361C00D217744F7E0004D9A9 /* textfield_isimyaz.png */,
+				361C00D317744F7E0004D9A9 /* button_kizilay.png */,
+				361C00D417744F7E0004D9A9 /* button_kugulupark.png */,
+				361C00D517744F7E0004D9A9 /* button_tunalihilmi.png */,
+				361C00D617744F7E0004D9A9 /* button_kennedy.png */,
+				361C00D717744F7E0004D9A9 /* button_ankara.png */,
+				361C00D817744F7E0004D9A9 /* button_istanbul.png */,
+				361C00D917744F7E0004D9A9 /* statusbar.png */,
+				361C00DA17744F7E0004D9A9 /* button_dukkan.png */,
+				361C00DB17744F7E0004D9A9 /* button_dinlen.png */,
+				361C00DC17744F7E0004D9A9 /* button_direnisegit.png */,
+				361C00DD17744F7E0004D9A9 /* button.png */,
+				361C00DE17744F7E0004D9A9 /* intro_hashtags.png */,
+				361C00DF17744F7E0004D9A9 /* button_yenioyun.png */,
+				361C00E017744F7E0004D9A9 /* button_nasiloynanir.png */,
+				361C00E117744F7E0004D9A9 /* button_devamet.png */,
+				361C00E217744F7E0004D9A9 /* logo.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
 		3659BD4B176BDA7200557D18 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +222,7 @@
 				3659BD8F176BDABC00557D18 /* MainStoryboard.storyboard */,
 				3659BD91176BDABC00557D18 /* main.m */,
 				3659BDA6176CC26400557D18 /* shop.plist */,
+				361C00D117744F710004D9A9 /* assets */,
 				36813251176E14EE00B6F2E6 /* Items */,
 			);
 			path = Direnis;
@@ -258,6 +317,23 @@
 				36813263176E155200B6F2E6 /* Talcid.jpg in Resources */,
 				36813268176E163E00B6F2E6 /* Limon Suyu.jpg in Resources */,
 				36813269176E163E00B6F2E6 /* Sirke.jpg in Resources */,
+				361C00E317744F7E0004D9A9 /* textfield_isimyaz.png in Resources */,
+				361C00E417744F7E0004D9A9 /* button_kizilay.png in Resources */,
+				361C00E517744F7E0004D9A9 /* button_kugulupark.png in Resources */,
+				361C00E617744F7E0004D9A9 /* button_tunalihilmi.png in Resources */,
+				361C00E717744F7E0004D9A9 /* button_kennedy.png in Resources */,
+				361C00E817744F7E0004D9A9 /* button_ankara.png in Resources */,
+				361C00E917744F7E0004D9A9 /* button_istanbul.png in Resources */,
+				361C00EA17744F7E0004D9A9 /* statusbar.png in Resources */,
+				361C00EB17744F7E0004D9A9 /* button_dukkan.png in Resources */,
+				361C00EC17744F7E0004D9A9 /* button_dinlen.png in Resources */,
+				361C00ED17744F7E0004D9A9 /* button_direnisegit.png in Resources */,
+				361C00EE17744F7E0004D9A9 /* button.png in Resources */,
+				361C00EF17744F7E0004D9A9 /* intro_hashtags.png in Resources */,
+				361C00F017744F7E0004D9A9 /* button_yenioyun.png in Resources */,
+				361C00F117744F7E0004D9A9 /* button_nasiloynanir.png in Resources */,
+				361C00F217744F7E0004D9A9 /* button_devamet.png in Resources */,
+				361C00F317744F7E0004D9A9 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

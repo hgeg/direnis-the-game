@@ -12,6 +12,7 @@
 #import "DNAppDelegate.h"
 #import "DNPlayer.h"
 
+#define cat @{@"Eldiven":@0,@"İlaç":@1,@"Maske":@2}
 #define player ((DNAppDelegate *)[UIApplication sharedApplication].delegate).player
 #define city ((DNAppDelegate *)[UIApplication sharedApplication].delegate).city
 #define database ((DNAppDelegate *)[UIApplication sharedApplication].delegate).database
@@ -70,8 +71,16 @@
     NSDictionary *soru = sorular[sIndex];
     if ([segue.identifier isEqualToString:@"c1"]) {
         NSDictionary *cevab = soru[@"Cevaplar"][0];
+        float itemPower = 0.6;
+        if (((NSString *)cevab[@"Item"]).length>0) {
+            if([[player getItems][[cat[cevab[@"Item"]] intValue]][@"Name"] isEqualToString:@"None"])
+                itemPower = -200;
+            else
+                itemPower = [[player getItems][[cat[cevab[@"Item"]] intValue]][@"Power"] floatValue];
+        }
         int rand = arc4random_uniform(100)+1;
-        if ([cevab[@"Zorluk"] integerValue]<rand+[player getAttrribute:@"level"]*2){
+        NSLog(@"%d < %.2f, rand: %d - level: %d - itemPower: %.2f",[cevab[@"Zorluk"] integerValue],rand+[player getAttrribute:@"level"]*itemPower/2.0,rand,[player getAttrribute:@"level"],itemPower);
+        if ([cevab[@"Zorluk"] integerValue]<rand+[player getAttrribute:@"level"]*itemPower/2.0){
             NSDictionary *result = cevab[@"Success"];
             d.text = result[@"Text"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
@@ -84,8 +93,16 @@
                 
     }else if([segue.identifier isEqualToString:@"c2"]) {
         NSDictionary *cevab = soru[@"Cevaplar"][1];
+        float itemPower = 0.6;
+        if (((NSString *)cevab[@"Item"]).length>0) {
+            if([[player getItems][[cat[cevab[@"Item"]] intValue]][@"Name"] isEqualToString:@"None"])
+                itemPower = -200;
+            else
+                itemPower = [[player getItems][[cat[cevab[@"Item"]] intValue]][@"Power"] floatValue];
+        }
         int rand = arc4random_uniform(100)+1;
-        if ([cevab[@"Zorluk"] integerValue]<rand+[player getAttrribute:@"level"]*2){
+        NSLog(@"%d < %.2f, rand: %d - level: %d - itemPower: %.2f",[cevab[@"Zorluk"] integerValue],rand+[player getAttrribute:@"level"]*itemPower/2.0,rand,[player getAttrribute:@"level"],itemPower);
+        if ([cevab[@"Zorluk"] integerValue]<rand+[player getAttrribute:@"level"]*itemPower/2.0){
             NSDictionary *result = cevab[@"Success"];
             d.text = result[@"Text"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
