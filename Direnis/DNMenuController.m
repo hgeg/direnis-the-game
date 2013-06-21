@@ -65,9 +65,11 @@
     
     if([segue.identifier isEqualToString:@"ankara"]){
         city = @"Ankara";
+        [player setTime:1370003454];
         [[NSUserDefaults standardUserDefaults] setObject:@"Ankara" forKey:@"city"];
     }else if([segue.identifier isEqualToString:@"istanbul"]){
         city = @"İstanbul";
+        [player setTime:1369755054];
         [[NSUserDefaults standardUserDefaults] setObject:@"İstanbul" forKey:@"city"];
     }
     if([segue.identifier isEqualToString:@"new_game"]){

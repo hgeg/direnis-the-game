@@ -49,6 +49,10 @@
     time = [time dateByAddingTimeInterval:hours*3600];
 }
 
+- (void) setTime:(int) timestamp {
+    time = [NSDate dateWithTimeIntervalSince1970:timestamp];
+}
+
 - (NSMutableArray *) getItems {
     return items;
 }

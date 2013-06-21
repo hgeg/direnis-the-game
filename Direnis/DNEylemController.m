@@ -66,6 +66,7 @@
 }
 
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    NSLog(@"%@",[player getItems]);
     NSArray *sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]] ;
     DNEylemResultController *d = (DNEylemResultController *)segue.destinationViewController;
     NSDictionary *soru = sorular[sIndex];
@@ -85,6 +86,8 @@
             d.text = result[@"Text"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
             [player addToAttrribute:@"points" value:[result[@"Result"][@"Point"] integerValue]];
+            if([cat[cevab[@"Item"]] isEqual:@1] && ![[player getItems][[cat[cevab[@"Item"]] intValue]][@"Name"] isEqualToString:@"None"])
+                [player addItem:@{@"Name":@"None"} toCategory:1];
         }else{
             NSDictionary *result = cevab[@"Fail"];
             d.text = result[@"Text"];
@@ -107,6 +110,8 @@
             d.text = result[@"Text"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
             [player addToAttrribute:@"points" value:[result[@"Result"][@"Point"] integerValue]];
+            if([cat[cevab[@"Item"]] isEqual:@1] && ![[player getItems][[cat[cevab[@"Item"]] intValue]][@"Name"] isEqualToString:@"None"])
+                [player addItem:@{@"Name":@"None"} toCategory:1];
         }else{
             NSDictionary *result = cevab[@"Fail"];
             d.text = result[@"Text"];

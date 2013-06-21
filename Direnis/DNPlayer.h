@@ -25,6 +25,7 @@
 - (void) addXP:(int)x;
 - (void) setLocation:(NSString *)location;
 - (void) passTime:(int)hours;
+- (void) setTime:(int) timestamp;
 - (void) addToAttrribute:(NSString *)attr value:(int)value;
 - (void) setName:(NSString *)n;
 - (void) addItem:(NSDictionary *)item toCategory:(int)category;
