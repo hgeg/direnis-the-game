@@ -2,6 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Press Style.ttf</string>
+		<string>BebasNeue.otf</string>
+	</array>
+	<key>ReplacementFonts</key>
+	<dict>
+		<key>ArialMT</key>
+		<string>BebasNeue</string>
+		<key>Helvetica Neue</key>
+		<string>Press Style</string>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>

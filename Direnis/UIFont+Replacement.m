@@ -77,8 +77,7 @@ static void initializeReplacementFonts()
 		}
 	}
 	
-	[replacementDictionary release];
-	replacementDictionary = [aReplacementDictionary retain];
+	replacementDictionary = aReplacementDictionary;
 	
 	for (id key in [replacementDictionary allKeys])
 	{
