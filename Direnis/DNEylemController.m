@@ -47,10 +47,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    NSArray *sorular = database[city][[player getLocation]][[player getHourInterval]];
+    NSArray *sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
     sIndex = arc4random_uniform([sorular count]);
     NSDictionary *soru = sorular[sIndex];
-    self.mainText.text = soru[@"Soru Text"];
+    self.mainText.text = [((NSString *) soru[@"Soru Text"]) uppercaseString];
     [self.c1 setTitle:soru[@"Cevaplar"][0][@"Cevap Text"] forState:UIControlStateNormal];
     [self.c1 sizeToFit];
     [self.c2 setTitle:soru[@"Cevaplar"][1][@"Cevap Text"] forState:UIControlStateNormal];
@@ -67,7 +67,7 @@
 
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     NSLog(@"%@",[player getItems]);
-    NSArray *sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]] ;
+    NSArray *sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
     DNEylemResultController *d = (DNEylemResultController *)segue.destinationViewController;
     NSDictionary *soru = sorular[sIndex];
     if ([segue.identifier isEqualToString:@"c1"]) {

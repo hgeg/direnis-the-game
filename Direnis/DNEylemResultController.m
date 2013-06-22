@@ -51,7 +51,7 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    self.mainText.text = self.text;
+    self.mainText.text = [self.text uppercaseString];
     if ([player getAttrribute:@"points"]<=0) {
         [player addToAttrribute:@"points" value:[player getAttrribute:@"points"]*-1];
         self.mainText.text = [NSString stringWithFormat:@"%@\n Puanın bittiği için oyun bitti.",self.mainText.text];
