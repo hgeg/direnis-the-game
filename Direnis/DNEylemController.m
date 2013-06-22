@@ -9,6 +9,7 @@
 #import "DNEylemController.h"
 #import "DNEylemResultController.h"
 #import "UITextView+DNConvTest.h"
+#import "UIImageView+Shuffle.h"
 #import "DNStatusView.h"
 #import "DNAppDelegate.h"
 #import "DNPlayer.h"
@@ -57,6 +58,8 @@
     [self.c2 setTitle:soru[@"Cevaplar"][1][@"Cevap Text"] forState:UIControlStateNormal];
     [self.c1 sizeToFit];
     
+    [self.background shuffle];
+    
     [self.status redraw];
 }
 
@@ -70,6 +73,7 @@
     NSLog(@"%@",[player getItems]);
     NSArray *sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
     DNEylemResultController *d = (DNEylemResultController *)segue.destinationViewController;
+    d.backgroundImage = self.background.image;
     NSDictionary *soru = sorular[sIndex];
     if ([segue.identifier isEqualToString:@"c1"]) {
         NSDictionary *cevab = soru[@"Cevaplar"][0];

@@ -25,9 +25,13 @@
         [self addSubview:image];
         [self sendSubviewToBack:image];
         self.titleLabel.font = [UIFont fontWithName:@"ArialMT" size:21];
-        self.titleLabel.text = [self.titleLabel.text stringByReplacingOccurrencesOfString:@"i" withString:@"İ"];
+        //self.titleLabel.text = [self.titleLabel.text stringByReplacingOccurrencesOfString:@"i" withString:@"İ"];
     }
     return self;
+}
+
+- (void) setTitle:(NSString *)title forState:(UIControlState)state {
+    [super setTitle:[title stringByReplacingOccurrencesOfString:@"i" withString:@"İ"] forState:state];
 }
 
 /*

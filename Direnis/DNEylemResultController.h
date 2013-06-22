@@ -17,6 +17,9 @@
 @property (weak, nonatomic) IBOutlet UITextView *mainText;
 @property (weak, nonatomic) IBOutlet DNStatusView *status;
 @property (strong, nonatomic) NSString *text;
+@property (strong, nonatomic) UIImage *backgroundImage;
+
+@property (weak, nonatomic) IBOutlet UIImageView *background;
 
 - (IBAction) goBackToMeydan:(id)sender;
 - (IBAction) goBack:(id)sender;

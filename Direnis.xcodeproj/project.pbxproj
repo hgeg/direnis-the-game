@@ -14,6 +14,8 @@
 		360CD478177519D400FAADE4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 360CD475177519D400FAADE4 /* Default-568h@2x.png */; };
 		360CD47B17758CD000FAADE4 /* DNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 360CD47A17758CD000FAADE4 /* DNButton.m */; };
 		360CD47E17759D6700FAADE4 /* UITextView+DNConvTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 360CD47D17759D6700FAADE4 /* UITextView+DNConvTest.m */; };
+		360CD48017761E6700FAADE4 /* ev.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 360CD47F17761E6700FAADE4 /* ev.jpg */; };
+		360CD48317761EC800FAADE4 /* UIImageView+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 360CD48217761EC800FAADE4 /* UIImageView+Shuffle.m */; };
 		361C00E317744F7E0004D9A9 /* textfield_isimyaz.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D217744F7E0004D9A9 /* textfield_isimyaz.png */; };
 		361C00E417744F7E0004D9A9 /* button_kizilay.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D317744F7E0004D9A9 /* button_kizilay.png */; };
 		361C00E517744F7E0004D9A9 /* button_kugulupark.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D417744F7E0004D9A9 /* button_kugulupark.png */; };
@@ -144,6 +146,9 @@
 		360CD47A17758CD000FAADE4 /* DNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNButton.m; sourceTree = "<group>"; };
 		360CD47C17759D6700FAADE4 /* UITextView+DNConvTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+DNConvTest.h"; sourceTree = "<group>"; };
 		360CD47D17759D6700FAADE4 /* UITextView+DNConvTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+DNConvTest.m"; sourceTree = "<group>"; };
+		360CD47F17761E6700FAADE4 /* ev.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ev.jpg; sourceTree = "<group>"; };
+		360CD48117761EC800FAADE4 /* UIImageView+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Shuffle.h"; sourceTree = "<group>"; };
+		360CD48217761EC800FAADE4 /* UIImageView+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Shuffle.m"; sourceTree = "<group>"; };
 		361C00D217744F7E0004D9A9 /* textfield_isimyaz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfield_isimyaz.png; sourceTree = "<group>"; };
 		361C00D317744F7E0004D9A9 /* button_kizilay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_kizilay.png; sourceTree = "<group>"; };
 		361C00D417744F7E0004D9A9 /* button_kugulupark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_kugulupark.png; sourceTree = "<group>"; };
@@ -324,6 +329,7 @@
 		361C00FC177501060004D9A9 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				360CD47F17761E6700FAADE4 /* ev.jpg */,
 				361C00FD177501060004D9A9 /* 1.jpg */,
 				361C00FE177501060004D9A9 /* 10.jpg */,
 				361C00FF177501060004D9A9 /* 11.jpg */,
@@ -442,6 +448,8 @@
 				360CD47A17758CD000FAADE4 /* DNButton.m */,
 				360CD47C17759D6700FAADE4 /* UITextView+DNConvTest.h */,
 				360CD47D17759D6700FAADE4 /* UITextView+DNConvTest.m */,
+				360CD48117761EC800FAADE4 /* UIImageView+Shuffle.h */,
+				360CD48217761EC800FAADE4 /* UIImageView+Shuffle.m */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -685,6 +693,7 @@
 				360CD476177519D400FAADE4 /* Default.png in Resources */,
 				360CD477177519D400FAADE4 /* Default@2x.png in Resources */,
 				360CD478177519D400FAADE4 /* Default-568h@2x.png in Resources */,
+				360CD48017761E6700FAADE4 /* ev.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +717,7 @@
 				361C0189177507AC0004D9A9 /* UIFont+Replacement.m in Sources */,
 				360CD47B17758CD000FAADE4 /* DNButton.m in Sources */,
 				360CD47E17759D6700FAADE4 /* UITextView+DNConvTest.m in Sources */,
+				360CD48317761EC800FAADE4 /* UIImageView+Shuffle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

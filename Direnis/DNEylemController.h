@@ -23,6 +23,7 @@
 @property (weak, nonatomic) IBOutlet UITextView *mainText;
 @property (weak, nonatomic) IBOutlet UIButton *c1;
 @property (weak, nonatomic) IBOutlet UIButton *c2;
+@property (weak, nonatomic) IBOutlet UIImageView *background;
 
 - (IBAction) takeAction:(id)sender;
 - (IBAction) goBackToMeydan:(id)sender;
