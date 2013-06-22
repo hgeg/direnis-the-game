@@ -8,6 +8,7 @@
 
 #import "DNEylemController.h"
 #import "DNEylemResultController.h"
+#import "UITextView+DNConvTest.h"
 #import "DNStatusView.h"
 #import "DNAppDelegate.h"
 #import "DNPlayer.h"
@@ -50,7 +51,7 @@
     NSArray *sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
     sIndex = arc4random_uniform([sorular count]);
     NSDictionary *soru = sorular[sIndex];
-    self.mainText.text = [((NSString *) soru[@"Soru Text"]) uppercaseString];
+    [self.mainText setTextN:soru[@"Soru Text"]];
     [self.c1 setTitle:soru[@"Cevaplar"][0][@"Cevap Text"] forState:UIControlStateNormal];
     [self.c1 sizeToFit];
     [self.c2 setTitle:soru[@"Cevaplar"][1][@"Cevap Text"] forState:UIControlStateNormal];

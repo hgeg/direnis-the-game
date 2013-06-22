@@ -14,12 +14,18 @@
 {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        UIColor *backColor;
+        UIImageView *image = [[UIImageView alloc] init];
         if (self.frame.size.height==55) {
-    
+            image.image = [UIImage imageNamed:@"button_280x55.png"];
+            image.frame = CGRectMake(0, 0, 280, 55);
         }else {
-            
+            image.image = [UIImage imageNamed:@"button_280x44.png"];
+            image.frame = CGRectMake(0, 0, 280, 44);
         }
+        [self addSubview:image];
+        [self sendSubviewToBack:image];
+        self.titleLabel.font = [UIFont fontWithName:@"ArialMT" size:21];
+        self.titleLabel.text = [self.titleLabel.text stringByReplacingOccurrencesOfString:@"i" withString:@"İ"];
     }
     return self;
 }

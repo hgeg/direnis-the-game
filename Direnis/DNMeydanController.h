@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+@class DNStatusView;
 
 @interface DNMeydanController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIButton *m1;
 @property (weak, nonatomic) IBOutlet UIButton *m2;
 @property (weak, nonatomic) IBOutlet UIButton *m3;
+@property (weak, nonatomic) IBOutlet DNStatusView *status;
 
 - (IBAction) goToHome:(id)sender;
 

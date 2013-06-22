@@ -8,6 +8,7 @@
 
 #import "DNMeydanController.h"
 #import "DNAppDelegate.h"
+#import "DNStatusView.h"
 #import "DNPlayer.h"
 
 #define player ((DNAppDelegate *)[UIApplication sharedApplication].delegate).player
@@ -42,6 +43,7 @@
     [self.m2 sizeToFit];
     [self.m3 setTitle:meydans[2] forState:UIControlStateNormal];
     [self.m3 sizeToFit];
+    [self.status redraw];
 }
 
 - (IBAction) goToHome:(id)sender{

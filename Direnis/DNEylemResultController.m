@@ -7,6 +7,7 @@
 //
 
 #import "DNEylemResultController.h"
+#import "UITextView+DNConvTest.h"
 #import "DNStatusView.h"
 #import "DNAppDelegate.h"
 #import "DNPlayer.h"
@@ -51,7 +52,7 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    self.mainText.text = [self.text uppercaseString];
+    [self.mainText setTextN:self.text];
     if ([player getAttrribute:@"points"]<=0) {
         [player addToAttrribute:@"points" value:[player getAttrribute:@"points"]*-1];
         self.mainText.text = [NSString stringWithFormat:@"%@\n Puanın bittiği için oyun bitti.",self.mainText.text];
