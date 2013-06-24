@@ -56,7 +56,8 @@
     self.background.image = self.backgroundImage;
     if ([player getAttrribute:@"points"]<=0) {
         [player addToAttrribute:@"points" value:[player getAttrribute:@"points"]*-1];
-        self.mainText.text = [NSString stringWithFormat:@"%@\n Puanın bittiği için oyun bitti.",self.mainText.text];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Oyun Bitti" message:@"Puanın sıfırlandı. Gelecek sefere daha dikkatli olman gerek." delegate:self cancelButtonTitle:@"#anamenuyedonuyoruz" otherButtonTitles:nil];
+        [alert show];
     }
     [self.status redraw];
 }
@@ -70,6 +71,12 @@
         [player passTime:1];
         [self.navigationController popViewControllerAnimated:YES];
     }
+}
+
+- (void) alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex{
+    player = nil;
+    [DNPlayer save:player];
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 @end

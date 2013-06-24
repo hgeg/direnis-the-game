@@ -19,7 +19,7 @@
         //set attributes
         level  = 1;
         xp     = 0;
-        points = 500;
+        points = 200;
         items  = [NSMutableArray arrayWithArray:@[@{@"Name": @"None"},@{@"Name": @"None"},@{@"Name": @"None"}]];
         current = @"Ev";
         time = [NSDate dateWithTimeIntervalSince1970:1371490589];

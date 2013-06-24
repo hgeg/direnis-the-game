@@ -88,15 +88,19 @@
         NSLog(@"%d < %.2f, rand: %d - level: %d - itemPower: %.2f",[cevab[@"Zorluk"] integerValue],rand+[player getAttrribute:@"level"]*itemPower/2.0,rand,[player getAttrribute:@"level"],itemPower);
         if ([cevab[@"Zorluk"] integerValue]<rand+[player getAttrribute:@"level"]*itemPower/2.0){
             NSDictionary *result = cevab[@"Success"];
-            d.text = result[@"Text"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
             [player addToAttrribute:@"points" value:[result[@"Result"][@"Point"] integerValue]];
             if([cat[cevab[@"Item"]] isEqual:@1] && ![[player getItems][[cat[cevab[@"Item"]] intValue]][@"Name"] isEqualToString:@"None"])
                 [player addItem:@{@"Name":@"None"} toCategory:1];
+            d.text = [NSString stringWithFormat:@"%@\n\n%@\n%@",result[@"Text"],
+                      [result[@"Result"][@"XP"]integerValue]>0?[NSString stringWithFormat:@"+%d XP",[result[@"Result"][@"XP"] integerValue]]:@"",
+                      [result[@"Result"][@"Point"]integerValue]>0?[NSString stringWithFormat:@"+%d Puan",[result[@"Result"][@"Point"] integerValue]]:@""];
         }else{
             NSDictionary *result = cevab[@"Fail"];
-            d.text = result[@"Text"];
+            
             [player addToAttrribute:@"points" value:-1*[result[@"Result"][@"Point"] integerValue]];
+            d.text = [NSString stringWithFormat:@"%@\n\n%@",result[@"Text"],
+                      [result[@"Result"][@"Point"]integerValue]>0?[NSString stringWithFormat:@"-%d Puan",[result[@"Result"][@"Point"] integerValue]]:@""];
         }
                 
     }else if([segue.identifier isEqualToString:@"c2"]) {
@@ -112,15 +116,18 @@
         NSLog(@"%d < %.2f, rand: %d - level: %d - itemPower: %.2f",[cevab[@"Zorluk"] integerValue],rand+[player getAttrribute:@"level"]*itemPower/2.0,rand,[player getAttrribute:@"level"],itemPower);
         if ([cevab[@"Zorluk"] integerValue]<rand+[player getAttrribute:@"level"]*itemPower/2.0){
             NSDictionary *result = cevab[@"Success"];
-            d.text = result[@"Text"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
             [player addToAttrribute:@"points" value:[result[@"Result"][@"Point"] integerValue]];
             if([cat[cevab[@"Item"]] isEqual:@1] && ![[player getItems][[cat[cevab[@"Item"]] intValue]][@"Name"] isEqualToString:@"None"])
                 [player addItem:@{@"Name":@"None"} toCategory:1];
+            d.text = [NSString stringWithFormat:@"%@\n\n%@\n%@",result[@"Text"],
+                      [result[@"Result"][@"XP"]integerValue]>0?[NSString stringWithFormat:@"+%d XP",[result[@"Result"][@"XP"] integerValue]]:@"",
+                      [result[@"Result"][@"Point"]integerValue]>0?[NSString stringWithFormat:@"+%d Puan",[result[@"Result"][@"Point"] integerValue]]:@""];
         }else{
             NSDictionary *result = cevab[@"Fail"];
-            d.text = result[@"Text"];
             [player addToAttrribute:@"points" value:-1*[result[@"Result"][@"Point"] integerValue]];
+            d.text = [NSString stringWithFormat:@"%@\n\n%@",result[@"Text"],
+                      [result[@"Result"][@"Point"]integerValue]>0?[NSString stringWithFormat:@"-%d Puan",[result[@"Result"][@"Point"] integerValue]]:@""];
         }
     }
 }

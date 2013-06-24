@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 @class DNStatusView;
 
-@interface DNEylemResultController : UIViewController
+@interface DNEylemResultController : UIViewController <UIAlertViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *level;
 @property (weak, nonatomic) IBOutlet UILabel *points;

@@ -74,11 +74,11 @@ numberOfSectionsInTableView:(UITableView *)tableView {
     NSDictionary *ptem = [player getItems][indexPath.section];
     
     ((UIImageView *)[cell viewWithTag:1]).image = [UIImage imageNamed: [NSString stringWithFormat:@"%@.jpg",item[@"Name"]]];
-    ((UILabel *)[cell viewWithTag:2]).text = item[@"Name"];
+    ((UILabel *)[cell viewWithTag:2]).text = [item[@"Name"] stringByReplacingOccurrencesOfString:@"i" withString:@"İ"];
     if([ptem[@"Name"] isEqualToString:item[@"Name"]]){
         ((UILabel *)[cell viewWithTag:3]).text = @"Alındı";
     }else
-        ((UILabel *)[cell viewWithTag:3]).text = [NSString stringWithFormat:@"Fiyat: %@ Puan",item[@"Value"]];
+        ((UILabel *)[cell viewWithTag:3]).text = [NSString stringWithFormat:@"Fİyat: %@ Puan",item[@"Value"]];
     
     return cell;
 }
