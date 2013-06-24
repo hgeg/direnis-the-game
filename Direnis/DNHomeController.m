@@ -40,11 +40,15 @@
 - (void)viewWillAppear:(BOOL)animated{
     [player setLocation:@"Ev"];
     [super viewWillAppear:animated];
+    [self.items reloadData];
     [self.status redraw];
 }
 
 - (IBAction) passTime:(id)sender {
     [player passTime:1];
+    if ([player getAttrribute:@"points"]<100) {
+        [player addToAttrribute:@"points" value:[player getAttrribute:@"points"]<90?10:100-[player getAttrribute:@"points"]];
+    }
     [self.status redraw];
 }
 
@@ -52,6 +56,27 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [player getItems].count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell;
+    
+    NSDictionary *item = [player getItems][indexPath.row];
+    if ([item[@"Name"] isEqualToString:@"None"]) {
+        cell = [tableView dequeueReusableCellWithIdentifier:@"none"];
+        return cell;
+    }
+    cell = [tableView dequeueReusableCellWithIdentifier:@"item"];
+    
+    ((UIImageView *)[cell viewWithTag:1]).image = [UIImage imageNamed: [NSString stringWithFormat:@"%@.jpg",item[@"Name"]]];
+    ((UILabel *)[cell viewWithTag:2]).text = [item[@"Name"] stringByReplacingOccurrencesOfString:@"i" withString:@"İ"];
+    ((UILabel *)[cell viewWithTag:3]).text = [NSString stringWithFormat:@"Güç: %@",item[@"Power"]];
+    
+    return cell;
 }
 
 @end

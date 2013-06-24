@@ -11,7 +11,9 @@
 @implementation UIImageView (Shuffle)
 
 - (void) shuffle {
-    self.image = [UIImage imageNamed:[NSString stringWithFormat:@"%d.jpg",arc4random_uniform(70)+1]];
+    int m = arc4random_uniform(70)+1;
+    self.image = [UIImage imageNamed:[NSString stringWithFormat:@"%d.jpg",m]];
+    NSLog(@"%d",m);
 }
 
 @end

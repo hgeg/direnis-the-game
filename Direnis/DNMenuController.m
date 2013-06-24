@@ -36,6 +36,9 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    [self.textField becomeFirstResponder];
+    UITapGestureRecognizer *tgr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(endEdits)];
+    [self.nameBackView addGestureRecognizer:tgr];
     if(player==nil)
         self.continueButton.hidden = true;
 }
@@ -77,6 +80,16 @@
     }else if([segue.identifier isEqualToString:@"continue"]){
         player = [DNPlayer load];
     }
+}
+
+- (IBAction)textChanged:(id)sender{
+    if(self.textField.text.length>50)
+        self.textField.text = [self.textField.text substringToIndex:50];
+    self.textField.text = [self.textField.text stringByReplacingOccurrencesOfString:@"i" withString:@"İ"];
+}
+
+- (void) endEdits {
+    [self.textField resignFirstResponder];
 }
 
 @end

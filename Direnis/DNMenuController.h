@@ -12,6 +12,9 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *continueButton;
 - (BOOL) textFieldShouldReturn:(UITextField *)textField;
+- (IBAction)textChanged:(id)sender;
 - (IBAction) GoToMainMenu:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *nameBackView;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end

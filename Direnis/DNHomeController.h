@@ -9,12 +9,13 @@
 #import <UIKit/UIKit.h>
 @class DNStatusView;
 
-@interface DNHomeController : UIViewController
+@interface DNHomeController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *level;
 @property (weak, nonatomic) IBOutlet UILabel *points;
 @property (weak, nonatomic) IBOutlet DNStatusView *status;
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UITableView *items;
 
 
 - (IBAction) passTime:(id)sender;

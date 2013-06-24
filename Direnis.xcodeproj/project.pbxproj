@@ -16,6 +16,17 @@
 		360CD47E17759D6700FAADE4 /* UITextView+DNConvTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 360CD47D17759D6700FAADE4 /* UITextView+DNConvTest.m */; };
 		360CD48017761E6700FAADE4 /* ev.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 360CD47F17761E6700FAADE4 /* ev.jpg */; };
 		360CD48317761EC800FAADE4 /* UIImageView+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 360CD48217761EC800FAADE4 /* UIImageView+Shuffle.m */; };
+		361741F71778C5DC0018C4AA /* 53.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361741F31778C5DC0018C4AA /* 53.jpg */; };
+		361741F81778C5DC0018C4AA /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361741F41778C5DC0018C4AA /* 9.jpg */; };
+		361741F91778C5DC0018C4AA /* dukkan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361741F51778C5DC0018C4AA /* dukkan.jpg */; };
+		361741FA1778C5DC0018C4AA /* 65.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361741F61778C5DC0018C4AA /* 65.jpg */; };
+		361741FE1778C61E0018C4AA /* button_280x55.png in Resources */ = {isa = PBXBuildFile; fileRef = 361741FB1778C61E0018C4AA /* button_280x55.png */; };
+		361741FF1778C61E0018C4AA /* button_280x44.png in Resources */ = {isa = PBXBuildFile; fileRef = 361741FC1778C61E0018C4AA /* button_280x44.png */; };
+		361742001778C61E0018C4AA /* button_basla.png in Resources */ = {isa = PBXBuildFile; fileRef = 361741FD1778C61E0018C4AA /* button_basla.png */; };
+		3617420D1778CA990018C4AA /* Bahçe eldiveni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361742091778CA980018C4AA /* Bahçe eldiveni.jpg */; };
+		3617420E1778CA990018C4AA /* Deri eldiven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3617420A1778CA980018C4AA /* Deri eldiven.jpg */; };
+		3617420F1778CA990018C4AA /* Snowboard eldiveni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3617420B1778CA990018C4AA /* Snowboard eldiveni.jpg */; };
+		361742101778CA990018C4AA /* Yün Eldiven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3617420C1778CA990018C4AA /* Yün Eldiven.jpg */; };
 		361C00E317744F7E0004D9A9 /* textfield_isimyaz.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D217744F7E0004D9A9 /* textfield_isimyaz.png */; };
 		361C00E417744F7E0004D9A9 /* button_kizilay.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D317744F7E0004D9A9 /* button_kizilay.png */; };
 		361C00E517744F7E0004D9A9 /* button_kugulupark.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D417744F7E0004D9A9 /* button_kugulupark.png */; };
@@ -33,8 +44,6 @@
 		361C00F117744F7E0004D9A9 /* button_nasiloynanir.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00E017744F7E0004D9A9 /* button_nasiloynanir.png */; };
 		361C00F217744F7E0004D9A9 /* button_devamet.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00E117744F7E0004D9A9 /* button_devamet.png */; };
 		361C00F317744F7E0004D9A9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00E217744F7E0004D9A9 /* logo.png */; };
-		361C00F81774DC540004D9A9 /* button_280x44.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00F41774DC540004D9A9 /* button_280x44.png */; };
-		361C00F91774DC540004D9A9 /* button_280x55.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00F51774DC540004D9A9 /* button_280x55.png */; };
 		361C00FA1774DC540004D9A9 /* shop_gradyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00F61774DC540004D9A9 /* shop_gradyan.png */; };
 		361C00FB1774DC540004D9A9 /* button_geridon.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00F71774DC540004D9A9 /* button_geridon.png */; };
 		361C0140177501060004D9A9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361C00FD177501060004D9A9 /* 1.jpg */; };
@@ -149,6 +158,17 @@
 		360CD47F17761E6700FAADE4 /* ev.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ev.jpg; sourceTree = "<group>"; };
 		360CD48117761EC800FAADE4 /* UIImageView+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Shuffle.h"; sourceTree = "<group>"; };
 		360CD48217761EC800FAADE4 /* UIImageView+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Shuffle.m"; sourceTree = "<group>"; };
+		361741F31778C5DC0018C4AA /* 53.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 53.jpg; sourceTree = "<group>"; };
+		361741F41778C5DC0018C4AA /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		361741F51778C5DC0018C4AA /* dukkan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dukkan.jpg; sourceTree = "<group>"; };
+		361741F61778C5DC0018C4AA /* 65.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 65.jpg; sourceTree = "<group>"; };
+		361741FB1778C61E0018C4AA /* button_280x55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_280x55.png; sourceTree = "<group>"; };
+		361741FC1778C61E0018C4AA /* button_280x44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_280x44.png; sourceTree = "<group>"; };
+		361741FD1778C61E0018C4AA /* button_basla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_basla.png; sourceTree = "<group>"; };
+		361742091778CA980018C4AA /* Bahçe eldiveni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bahçe eldiveni.jpg"; sourceTree = "<group>"; };
+		3617420A1778CA980018C4AA /* Deri eldiven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Deri eldiven.jpg"; sourceTree = "<group>"; };
+		3617420B1778CA990018C4AA /* Snowboard eldiveni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Snowboard eldiveni.jpg"; sourceTree = "<group>"; };
+		3617420C1778CA990018C4AA /* Yün Eldiven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yün Eldiven.jpg"; sourceTree = "<group>"; };
 		361C00D217744F7E0004D9A9 /* textfield_isimyaz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfield_isimyaz.png; sourceTree = "<group>"; };
 		361C00D317744F7E0004D9A9 /* button_kizilay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_kizilay.png; sourceTree = "<group>"; };
 		361C00D417744F7E0004D9A9 /* button_kugulupark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_kugulupark.png; sourceTree = "<group>"; };
@@ -166,8 +186,6 @@
 		361C00E017744F7E0004D9A9 /* button_nasiloynanir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_nasiloynanir.png; sourceTree = "<group>"; };
 		361C00E117744F7E0004D9A9 /* button_devamet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_devamet.png; sourceTree = "<group>"; };
 		361C00E217744F7E0004D9A9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		361C00F41774DC540004D9A9 /* button_280x44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_280x44.png; sourceTree = "<group>"; };
-		361C00F51774DC540004D9A9 /* button_280x55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_280x55.png; sourceTree = "<group>"; };
 		361C00F61774DC540004D9A9 /* shop_gradyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shop_gradyan.png; sourceTree = "<group>"; };
 		361C00F71774DC540004D9A9 /* button_geridon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_geridon.png; sourceTree = "<group>"; };
 		361C00FD177501060004D9A9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
@@ -301,8 +319,6 @@
 				361C018A17750B2E0004D9A9 /* Fonts */,
 				36813251176E14EE00B6F2E6 /* Items */,
 				361C00FC177501060004D9A9 /* Photos */,
-				361C00F41774DC540004D9A9 /* button_280x44.png */,
-				361C00F51774DC540004D9A9 /* button_280x55.png */,
 				361C00F61774DC540004D9A9 /* shop_gradyan.png */,
 				361C00F71774DC540004D9A9 /* button_geridon.png */,
 				361C00D217744F7E0004D9A9 /* textfield_isimyaz.png */,
@@ -322,6 +338,9 @@
 				361C00E017744F7E0004D9A9 /* button_nasiloynanir.png */,
 				361C00E117744F7E0004D9A9 /* button_devamet.png */,
 				361C00E217744F7E0004D9A9 /* logo.png */,
+				361741FB1778C61E0018C4AA /* button_280x55.png */,
+				361741FC1778C61E0018C4AA /* button_280x44.png */,
+				361741FD1778C61E0018C4AA /* button_basla.png */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -329,6 +348,10 @@
 		361C00FC177501060004D9A9 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				361741F31778C5DC0018C4AA /* 53.jpg */,
+				361741F41778C5DC0018C4AA /* 9.jpg */,
+				361741F51778C5DC0018C4AA /* dukkan.jpg */,
+				361741F61778C5DC0018C4AA /* 65.jpg */,
 				360CD47F17761E6700FAADE4 /* ev.jpg */,
 				361C00FD177501060004D9A9 /* 1.jpg */,
 				361C00FE177501060004D9A9 /* 10.jpg */,
@@ -528,6 +551,10 @@
 				36813257176E14FB00B6F2E6 /* Kar Maskesi.jpg */,
 				36813258176E14FB00B6F2E6 /* Ordu Malı Gaz Maskesi.jpg */,
 				36813259176E14FB00B6F2E6 /* Tek filtreli gaz maskesi.jpg */,
+				361742091778CA980018C4AA /* Bahçe eldiveni.jpg */,
+				3617420A1778CA980018C4AA /* Deri eldiven.jpg */,
+				3617420B1778CA990018C4AA /* Snowboard eldiveni.jpg */,
+				3617420C1778CA990018C4AA /* Yün Eldiven.jpg */,
 			);
 			name = Items;
 			sourceTree = "<group>";
@@ -617,8 +644,6 @@
 				361C00F117744F7E0004D9A9 /* button_nasiloynanir.png in Resources */,
 				361C00F217744F7E0004D9A9 /* button_devamet.png in Resources */,
 				361C00F317744F7E0004D9A9 /* logo.png in Resources */,
-				361C00F81774DC540004D9A9 /* button_280x44.png in Resources */,
-				361C00F91774DC540004D9A9 /* button_280x55.png in Resources */,
 				361C00FA1774DC540004D9A9 /* shop_gradyan.png in Resources */,
 				361C00FB1774DC540004D9A9 /* button_geridon.png in Resources */,
 				361C0140177501060004D9A9 /* 1.jpg in Resources */,
@@ -694,6 +719,17 @@
 				360CD477177519D400FAADE4 /* Default@2x.png in Resources */,
 				360CD478177519D400FAADE4 /* Default-568h@2x.png in Resources */,
 				360CD48017761E6700FAADE4 /* ev.jpg in Resources */,
+				361741F71778C5DC0018C4AA /* 53.jpg in Resources */,
+				361741F81778C5DC0018C4AA /* 9.jpg in Resources */,
+				361741F91778C5DC0018C4AA /* dukkan.jpg in Resources */,
+				361741FA1778C5DC0018C4AA /* 65.jpg in Resources */,
+				361741FE1778C61E0018C4AA /* button_280x55.png in Resources */,
+				361741FF1778C61E0018C4AA /* button_280x44.png in Resources */,
+				361742001778C61E0018C4AA /* button_basla.png in Resources */,
+				3617420D1778CA990018C4AA /* Bahçe eldiveni.jpg in Resources */,
+				3617420E1778CA990018C4AA /* Deri eldiven.jpg in Resources */,
+				3617420F1778CA990018C4AA /* Snowboard eldiveni.jpg in Resources */,
+				361742101778CA990018C4AA /* Yün Eldiven.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
