@@ -29,6 +29,7 @@
 		361742101778CA990018C4AA /* Yün Eldiven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3617420C1778CA990018C4AA /* Yün Eldiven.jpg */; };
 		361742141779C3550018C4AA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 361742131779C3550018C4AA /* icon.png */; };
 		361742161779C3580018C4AA /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 361742151779C3580018C4AA /* icon@2x.png */; };
+		361742191779D9D40018C4AA /* DNHighscoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361742181779D9D40018C4AA /* DNHighscoreController.m */; };
 		361C00E317744F7E0004D9A9 /* textfield_isimyaz.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D217744F7E0004D9A9 /* textfield_isimyaz.png */; };
 		361C00E417744F7E0004D9A9 /* button_kizilay.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D317744F7E0004D9A9 /* button_kizilay.png */; };
 		361C00E517744F7E0004D9A9 /* button_kugulupark.png in Resources */ = {isa = PBXBuildFile; fileRef = 361C00D417744F7E0004D9A9 /* button_kugulupark.png */; };
@@ -173,6 +174,8 @@
 		3617420C1778CA990018C4AA /* Yün Eldiven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yün Eldiven.jpg"; sourceTree = "<group>"; };
 		361742131779C3550018C4AA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		361742151779C3580018C4AA /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		361742171779D9D40018C4AA /* DNHighscoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNHighscoreController.h; sourceTree = "<group>"; };
+		361742181779D9D40018C4AA /* DNHighscoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNHighscoreController.m; sourceTree = "<group>"; };
 		361C00D217744F7E0004D9A9 /* textfield_isimyaz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfield_isimyaz.png; sourceTree = "<group>"; };
 		361C00D317744F7E0004D9A9 /* button_kizilay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_kizilay.png; sourceTree = "<group>"; };
 		361C00D417744F7E0004D9A9 /* button_kugulupark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_kugulupark.png; sourceTree = "<group>"; };
@@ -453,6 +456,8 @@
 				3659BD86176BDABC00557D18 /* DNMeydanController.m */,
 				3659BD89176BDABC00557D18 /* DNShopController.h */,
 				3659BD8A176BDABC00557D18 /* DNShopController.m */,
+				361742171779D9D40018C4AA /* DNHighscoreController.h */,
+				361742181779D9D40018C4AA /* DNHighscoreController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -762,6 +767,7 @@
 				360CD47B17758CD000FAADE4 /* DNButton.m in Sources */,
 				360CD47E17759D6700FAADE4 /* UITextView+DNConvTest.m in Sources */,
 				360CD48317761EC800FAADE4 /* UIImageView+Shuffle.m in Sources */,
+				361742191779D9D40018C4AA /* DNHighscoreController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

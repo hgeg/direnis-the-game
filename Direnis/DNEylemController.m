@@ -49,8 +49,11 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    NSArray *sorular = database[city][[player getLocation]][[player getHourInterval]];
-    if ([sorular count]>3) {
+    NSArray *sorular;
+    rand = arc4random_uniform(100);
+    if(rand){
+        sorular = database[city][[player getLocation]][[player getHourInterval]];
+    }else if([sorular count]>3){
         sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
     }
     sIndex = arc4random_uniform([sorular count]);
@@ -74,7 +77,12 @@
 
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     NSLog(@"%@",[player getItems]);
-    NSArray *sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
+    NSArray *sorular;
+    if(rand<80){
+        sorular = database[city][[player getLocation]][[player getHourInterval]];
+    }else if([sorular count]>3){
+        sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
+    }
     DNEylemResultController *d = (DNEylemResultController *)segue.destinationViewController;
     d.backgroundImage = self.background.image;
     NSDictionary *soru = sorular[sIndex];
@@ -87,9 +95,8 @@
             else
                 itemPower = [[player getItems][[cat[cevab[@"Item"]] intValue]][@"Power"] floatValue];
         }
-        int rand = arc4random_uniform(100)+1;
-        NSLog(@"%d < %.2f, rand: %d - level: %d - itemPower: %.2f",[cevab[@"Zorluk"] integerValue],rand+[player getAttrribute:@"level"]*itemPower/2.0,rand,[player getAttrribute:@"level"],itemPower);
-        if ([cevab[@"Zorluk"] integerValue]<rand+[player getAttrribute:@"level"]*itemPower/2.0){
+        int random = arc4random_uniform(100)+1;
+        if ([cevab[@"Zorluk"] integerValue]<random+[player getAttrribute:@"level"]*itemPower/2.0){
             NSDictionary *result = cevab[@"Success"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
             [player addToAttrribute:@"points" value:[result[@"Result"][@"Point"] integerValue]];
@@ -121,8 +128,9 @@
             NSDictionary *result = cevab[@"Success"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
             [player addToAttrribute:@"points" value:[result[@"Result"][@"Point"] integerValue]];
-            if([cat[cevab[@"Item"]] isEqual:@1] && ![[player getItems][[cat[cevab[@"Item"]] intValue]][@"Name"] isEqualToString:@"None"])
+            if([cat[cevab[@"Item"]] isEqual:@1] && ![[player getItems][[cat[cevab[@"Item"]] intValue]][@"Name"] isEqualToString:@"None"]){
                 [player addItem:@{@"Name":@"None"} toCategory:1];
+            }
             d.text = [NSString stringWithFormat:@"%@\n\n%@\n%@",result[@"Text"],
                       [result[@"Result"][@"XP"]integerValue]>0?[NSString stringWithFormat:@"+%d XP",[result[@"Result"][@"XP"] integerValue]]:@"",
                       [result[@"Result"][@"Point"]integerValue]>0?[NSString stringWithFormat:@"+%d Puan",[result[@"Result"][@"Point"] integerValue]]:@""];

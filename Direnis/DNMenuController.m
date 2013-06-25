@@ -51,13 +51,10 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
     [textField resignFirstResponder];
-    return YES;
-}
-
-- (void) textFieldDidEndEditing:(UITextField *)textField {
     [player setName:textField.text];
     [DNPlayer save:player];
     [self performSegueWithIdentifier:@"city_select" sender:self];
+    return YES;
 }
 
 - (IBAction) GoToMainMenu:(id)sender {

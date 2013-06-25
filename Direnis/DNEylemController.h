@@ -13,6 +13,7 @@
 @interface DNEylemController : UIViewController
 {
     int sIndex;
+    int rand;
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *level;
