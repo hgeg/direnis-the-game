@@ -3325,9 +3325,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>500</integer>
-									<key>XP</key>
 									<integer>200</integer>
+									<key>XP</key>
+									<integer>100</integer>
 								</dict>
 								<key>Text</key>
 								<string>İnsanlar da sana katıldı ve taş atmalar durdu. Bravo!</string>
@@ -6935,7 +6935,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -6947,7 +6947,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>-50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -6967,7 +6967,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -6979,7 +6979,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>-50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
