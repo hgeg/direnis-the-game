@@ -88,8 +88,14 @@
 
 - (NSString *) getDate {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"dd MMM EEEE, HH:mm"];
-    return [formatter stringFromDate:time];
+    [formatter setDateFormat:@"dd MMMM EEEE, HH:mm"];
+    return [[formatter stringFromDate:time] stringByReplacingOccurrencesOfString:@"i" withString:@"İ"];
+}
+
+- (int) getHour {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"HH"];
+    return [[formatter stringFromDate:time] integerValue];
 }
 
 - (NSString *) getHourInterval {

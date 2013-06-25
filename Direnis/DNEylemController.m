@@ -49,7 +49,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    NSArray *sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
+    NSArray *sorular = database[city][[player getLocation]][[player getHourInterval]];
+    if ([sorular count]>3) {
+        sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
+    }
     sIndex = arc4random_uniform([sorular count]);
     NSDictionary *soru = sorular[sIndex];
     [self.mainText setTextN:soru[@"Soru Text"]];

@@ -8,6 +8,7 @@
 
 #import "DNEylemResultController.h"
 #import "UITextView+DNConvTest.h"
+#import "DNHomeController.h"
 #import "DNStatusView.h"
 #import "DNAppDelegate.h"
 #import "DNPlayer.h"
@@ -57,6 +58,10 @@
     if ([player getAttrribute:@"points"]<=0) {
         [player addToAttrribute:@"points" value:[player getAttrribute:@"points"]*-1];
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Oyun Bitti" message:@"Puanın sıfırlandı. Gelecek sefere daha dikkatli olman gerek." delegate:self cancelButtonTitle:@"#anamenuyedonuyoruz" otherButtonTitles:nil];
+        alert.tag = 27;
+        [alert show];
+    }else if([player getHour]==6){
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Bu günlük bu kadar" message:@"Güneşin açmasıyla hayat yavaş yavaş normale dönüyor. Akşama tüm gücünle direnebilmen için eve gidip güç toplamalısın." delegate:self cancelButtonTitle:@"#evedonuyoruz" otherButtonTitles:nil];
         [alert show];
     }
     [self.status redraw];
@@ -74,9 +79,19 @@
 }
 
 - (void) alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex{
-    player = nil;
-    [DNPlayer save:player];
-    [self.navigationController popToRootViewControllerAnimated:YES];
+    if (alertView.tag==27) {
+        player = nil;
+        [DNPlayer save:player];
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }else{
+        [player passTime:6];
+        for (int i=0; i<[[self.navigationController viewControllers] count]; i++) {
+            if([[[self.navigationController viewControllers][i] class] isEqual:[DNHomeController class]]){
+                [self.navigationController popToViewController:[self.navigationController viewControllers][i] animated:YES];
+                break;
+            }
+        }
+    }
 }
 
 @end

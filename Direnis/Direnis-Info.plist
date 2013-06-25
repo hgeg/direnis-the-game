@@ -2,24 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Press Style.ttf</string>
-		<string>BebasNeue.otf</string>
-	</array>
-	<key>ReplacementFonts</key>
-	<dict>
-		<key>ArialMT</key>
-		<string>BebasNeue</string>
-		<key>Helvetica Neue</key>
-		<string>Press Style</string>
-	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>icon.png</string>
+				<string>icon@2x.png</string>
+			</array>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
 	<string>com.orkestra.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -36,6 +35,18 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>ReplacementFonts</key>
+	<dict>
+		<key>ArialMT</key>
+		<string>BebasNeue</string>
+		<key>Helvetica Neue</key>
+		<string>Press Style</string>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Press Style.ttf</string>
+		<string>BebasNeue.otf</string>
+	</array>
 	<key>UIMainStoryboardFile</key>
 	<string>MainStoryboard</string>
 	<key>UIRequiredDeviceCapabilities</key>

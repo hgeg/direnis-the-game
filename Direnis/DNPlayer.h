@@ -33,6 +33,7 @@
 - (NSString *) getName;
 - (NSString *) getLocation;
 - (int) getAttrribute:(NSString *)attr;
+- (int) getHour;
 - (NSString *) getDate;
 - (NSString *) getHourInterval;
 
