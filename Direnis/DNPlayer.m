@@ -158,8 +158,8 @@
 }
 
 
-- (NSString *) getCumulativeScore {
-    return [NSString stringWithFormat:@"%d",cumPoints+1000*level+10*xp+(int)([time timeIntervalSinceDate:[NSDate dateWithTimeIntervalSince1970:1369755054]])%1000000/100];
+- (NSNumber *) getCumulativeScore {
+    return [NSNumber numberWithInt:cumPoints+1000*level+10*xp+(int)([time timeIntervalSinceDate:[NSDate dateWithTimeIntervalSince1970:1369755054]])%1000000/100];
 }
 
 @end

@@ -37,7 +37,7 @@
 - (int) getHour;
 - (NSString *) getDate;
 - (NSString *) getHourInterval;
-- (NSString *) getCumulativeScore;
+- (NSNumber *) getCumulativeScore;
 
 + (void)save:(DNPlayer *)obj;
 + (DNPlayer *)load;

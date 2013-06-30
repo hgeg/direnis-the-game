@@ -12,7 +12,9 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    items = [[NSUserDefaults standardUserDefaults] objectForKey:@"scores"];
+    NSMutableArray *scores = [NSMutableArray arrayWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"scores"]];
+    NSSortDescriptor * sort = [[NSSortDescriptor alloc] initWithKey:@"score" ascending:false];
+    items = [scores sortedArrayUsingDescriptors:[NSArray arrayWithObject:sort]];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -26,7 +28,7 @@
     cell = [tableView dequeueReusableCellWithIdentifier:@"list"];
     ((UILabel *)[cell viewWithTag:1]).text = [NSString stringWithFormat:@"%d.",indexPath.row+1];
     ((UILabel *)[cell viewWithTag:2]).text = item[@"name"];
-    ((UILabel *)[cell viewWithTag:3]).text = item[@"score"];
+    ((UILabel *)[cell viewWithTag:3]).text = [NSString stringWithFormat:item[@"score"]];
     return cell;
 }
 

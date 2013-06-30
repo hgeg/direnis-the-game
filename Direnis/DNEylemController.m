@@ -55,9 +55,12 @@
         sorular = database[city][[player getLocation]][[player getHourInterval]];
     }else if([sorular count]>3){
         sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
+    }else{
+        sorular = database[city][[player getLocation]][[player getHourInterval]];
     }
     sIndex = arc4random_uniform([sorular count]);
     soru = sorular[sIndex];
+    NSLog(@"soru:%@",soru);
     [self.mainText setTextN:soru[@"Soru Text"]];
     [self.c1 setTitle:soru[@"Cevaplar"][0][@"Cevap Text"] forState:UIControlStateNormal];
     [self.c1 sizeToFit];
