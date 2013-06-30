@@ -57,7 +57,7 @@
         sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
     }
     sIndex = arc4random_uniform([sorular count]);
-    NSDictionary *soru = sorular[sIndex];
+    soru = sorular[sIndex];
     [self.mainText setTextN:soru[@"Soru Text"]];
     [self.c1 setTitle:soru[@"Cevaplar"][0][@"Cevap Text"] forState:UIControlStateNormal];
     [self.c1 sizeToFit];
@@ -81,15 +81,8 @@
         return;
     }
     NSLog(@"%@",[player getItems]);
-    NSArray *sorular;
-    if(rand<90){
-        sorular = database[city][[player getLocation]][[player getHourInterval]];
-    }else if([sorular count]>3){
-        sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
-    }
     DNEylemResultController *d = (DNEylemResultController *)segue.destinationViewController;
     d.backgroundImage = self.background.image;
-    NSDictionary *soru = sorular[sIndex];
     if ([segue.identifier isEqualToString:@"c1"]) {
         NSDictionary *cevab = soru[@"Cevaplar"][0];
         float itemPower = 0.6;

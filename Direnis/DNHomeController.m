@@ -46,7 +46,12 @@
 }
 
 - (IBAction) passTime:(id)sender {
-    [player passTime:1];
+    if([player getHour]==6){
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Dinlen" message:@"bu saatten sonra iyice dinlenip gücünü toparlaman daha iyi olur." delegate:self cancelButtonTitle:@"Uyu" otherButtonTitles:nil];
+        [alert show];
+    }else{
+        [player passTime:1];
+    }
     if ([player getAttrribute:@"points"]<100) {
         [player addToAttrribute:@"points" value:[player getAttrribute:@"points"]<95?5:100-[player getAttrribute:@"points"]];
     }
@@ -78,6 +83,12 @@
     ((UILabel *)[cell viewWithTag:3]).text = [NSString stringWithFormat:@"Güç: %@",item[@"Power"]];
     
     return cell;
+}
+
+- (void) alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex{
+    [player passTime:8];
+    [player addToAttrribute:@"points" value:100-[player getAttrribute:@"points"]];
+    [self.status redraw];
 }
 
 @end

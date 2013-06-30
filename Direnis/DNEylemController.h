@@ -17,6 +17,7 @@
 {
     int sIndex;
     int rand;
+    NSDictionary *soru;
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *level;

@@ -70,11 +70,11 @@
         [[NSUserDefaults standardUserDefaults] setObject:sorted forKey:@"scores"];
         
         [player addToAttrribute:@"points" value:[player getAttrribute:@"points"]*-1];
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Oyun Bitti" message:@"Puanın sıfırlandı. Gelecek sefere daha dikkatli olman gerek." delegate:self cancelButtonTitle:@"#anamenuyedonuyoruz" otherButtonTitles:nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Oyun Bitti" message:[NSString stringWithFormat:@"Puanın sıfırlandı. Gelecek sefere daha dikkatli olman gerek.\nToplam puanın:%@",[player getCumulativeScore]] delegate:self cancelButtonTitle:@"#anamenuyedonuyoruz" otherButtonTitles:nil];
         alert.tag = 27;
         [alert show];
     }else if([player getHour]==6){
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Bu günlük bu kadar" message:@"Güneşin açmasıyla hayat yavaş yavaş normale dönüyor. Akşama tüm gücünle direnebilmen için eve gidip güç toplamalısın." delegate:self cancelButtonTitle:@"#evedonuyoruz" otherButtonTitles:nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Bu günlük bu kadar" message:@"Güneşin açmasıyla hayat yavaş yavaş normale dönüyor. Akşama tüm gücünle direnebilmen için eve gidip güç toplamalısın." delegate:self cancelButtonTitle:@"Eve Dön" otherButtonTitles:nil];
         [alert show];
     }
     [self.status redraw];

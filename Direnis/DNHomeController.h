@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 @class DNStatusView;
 
-@interface DNHomeController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface DNHomeController : UIViewController <UITableViewDataSource, UITableViewDelegate, UIAlertViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *level;
 @property (weak, nonatomic) IBOutlet UILabel *points;
