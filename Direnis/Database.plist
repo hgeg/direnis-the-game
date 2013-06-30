@@ -1716,9 +1716,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>30</integer>
+									<integer>50</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Arkalara yürümek fayda etmiyor, gaz seni fena etkiledi!</string>
@@ -1728,9 +1728,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>55</integer>
+									<integer>40</integer>
 									<key>XP</key>
-									<integer>35</integer>
+									<integer>30</integer>
 								</dict>
 								<key>Text</key>
 								<string>Güzel. Biraz arkalara geldin, bir şeyin yok. Devam!</string>
@@ -1738,7 +1738,7 @@
 							<key>Cevap Text</key>
 							<string>Arkalara dogru yürü</string>
 							<key>Zorluk</key>
-							<integer>50</integer>
+							<integer>40</integer>
 							<key>Item</key>
 							<string>Maske</string>
 						</dict>
@@ -1748,9 +1748,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>90</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes geriye kaçtı, sen de kaçmak zorunda kaldın.</string>
@@ -1760,9 +1760,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>80</integer>
+									<integer>70</integer>
 									<key>XP</key>
-									<integer>60</integer>
+									<integer>50</integer>
 								</dict>
 								<key>Text</key>
 								<string>İnsanlar sakinleşti direnmeye devam!</string>
@@ -1787,9 +1787,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>200</integer>
 									<key>XP</key>
-									<integer>50</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Delirmiş olmalısın! Elin yandı geri fırlatamadan! Dükkandan güzel bir eldiven alman şart...</string>
@@ -1799,9 +1799,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>300</integer>
+									<integer>150</integer>
 									<key>XP</key>
-									<integer>200</integer>
+									<integer>90</integer>
 								</dict>
 								<key>Text</key>
 								<string>Kahramansın! Alkışlar senin için!!</string>
@@ -1809,7 +1809,7 @@
 							<key>Cevap Text</key>
 							<string>Bombayı aldığın gibi geri polise fırlat!</string>
 							<key>Zorluk</key>
-							<integer>50</integer>
+							<integer>75</integer>
 							<key>Item</key>
 							<string>Eldiven</string>
 						</dict>
@@ -1819,9 +1819,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>40</integer>
+									<integer>90</integer>
 									<key>XP</key>
-									<integer>10</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Gaz çok fena etkiledi. Gözler kıpkırmızı, öksürükler...</string>
@@ -1831,9 +1831,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>80</integer>
+									<integer>70</integer>
 									<key>XP</key>
-									<integer>60</integer>
+									<integer>45</integer>
 								</dict>
 								<key>Text</key>
 								<string>Biraz geri çekildiniz ama direnmeye devam!</string>
@@ -1841,7 +1841,7 @@
 							<key>Cevap Text</key>
 							<string>Geriye koş</string>
 							<key>Zorluk</key>
-							<integer>30</integer>
+							<integer>60</integer>
 							<key>Item</key>
 							<string>Maske</string>
 						</dict>
@@ -1858,9 +1858,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>150</integer>
 									<key>XP</key>
-									<integer>50</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Polis her an çıkabilir, gidemedin ileriye.</string>
@@ -1870,9 +1870,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>75</integer>
 									<key>XP</key>
-									<integer>150</integer>
+									<integer>50</integer>
 								</dict>
 								<key>Text</key>
 								<string>Güzel bir barikat oldu. Hadi bakalım...</string>
@@ -1890,9 +1890,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
-									<key>XP</key>
 									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Kimse eşlik etmedi...</string>
@@ -1902,9 +1902,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>35</integer>
 									<key>XP</key>
-									<integer>80</integer>
+									<integer>30</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes bir ağız seninle söylüyor!</string>
@@ -1931,7 +1931,7 @@
 									<key>Point</key>
 									<integer>150</integer>
 									<key>XP</key>
-									<integer>60</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Kaçabildin ancak bu sırada biraz cop yedin...</string>
@@ -1941,9 +1941,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>200</integer>
-									<key>XP</key>
 									<integer>100</integer>
+									<key>XP</key>
+									<integer>75</integer>
 								</dict>
 								<key>Text</key>
 								<string>Ara sokaklara girdin, polis peşinde değil.</string>
@@ -1961,9 +1961,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>150</integer>
 									<key>XP</key>
-									<integer>70</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>İnternet kesik!</string>
@@ -1973,7 +1973,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>100</integer>
 									<key>XP</key>
 									<integer>80</integer>
 								</dict>
@@ -2000,9 +2000,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>120</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Bu ne gazı? Çok fena öksürtüp hapşırtıyor..</string>
@@ -2012,9 +2012,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>55</integer>
+									<integer>80</integer>
 									<key>XP</key>
-									<integer>35</integer>
+									<integer>50</integer>
 								</dict>
 								<key>Text</key>
 								<string>Güzel. Biraz arkalara geldin, bir şeyin yok. Devam!</string>
@@ -2034,7 +2034,7 @@
 									<key>Point</key>
 									<integer>150</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Sokak dağıldı, sen de kaçtın. Tekrar birleşme zamanını bekliyoruz...</string>
@@ -2044,7 +2044,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>80</integer>
+									<integer>100</integer>
 									<key>XP</key>
 									<integer>60</integer>
 								</dict>
@@ -2071,9 +2071,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>200</integer>
+									<integer>150</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Barikat kurmana kimse izin vermedi.</string>
@@ -2083,9 +2083,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>80</integer>
 									<key>XP</key>
-									<integer>35</integer>
+									<integer>60</integer>
 								</dict>
 								<key>Text</key>
 								<string>Barikat güzel oldu, şimdi bekleyişteyiz.</string>
@@ -2103,9 +2103,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>130</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Sokak dağıldı, sen de kaçtın. Tekrar birleşme zamanını bekliyoruz...</string>
@@ -2115,9 +2115,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>80</integer>
+									<integer>100</integer>
 									<key>XP</key>
-									<integer>60</integer>
+									<integer>50</integer>
 								</dict>
 								<key>Text</key>
 								<string>İnsanları coşturuyorsun!</string>
@@ -2154,9 +2154,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>100</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>60</integer>
 								</dict>
 								<key>Text</key>
 								<string>Ortam biraz sakinleşti.</string>
@@ -2176,7 +2176,7 @@
 									<key>Point</key>
 									<integer>150</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Kapılar kilitli. Hemen kalabalığı takip ettin.</string>
@@ -2186,7 +2186,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>100</integer>
 									<key>XP</key>
 									<integer>60</integer>
 								</dict>
@@ -2213,9 +2213,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>200</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Sende henüz bir ilaç yok ki, nasıl yardım etmeyi düşünüyorsun? Dükkan&apos;dan ilaç alabilirsin.</string>
@@ -2225,15 +2225,15 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>150</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>80</integer>
 								</dict>
 								<key>Text</key>
 								<string>Çok iyi geldi, bol bol teşekkür aldın.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string>Talcid falan elinde ne varsa sıkarak ona yardım et</string>
+							<string>İlaç sıkarak ona yardım et</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -2284,7 +2284,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>-500</integer>
+									<integer>500</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -2316,9 +2316,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>-100</integer>
+									<integer>-30</integer>
 									<key>XP</key>
-									<integer>100</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Doğru olanı yaptın ancak seni malesef dinlemiyorlar.</string>
@@ -2328,9 +2328,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>500</integer>
+									<integer>150</integer>
 									<key>XP</key>
-									<integer>200</integer>
+									<integer>100</integer>
 								</dict>
 								<key>Text</key>
 								<string>İnsanlar da sana katıldı ve taş atmalar durdu. Bravo!</string>
@@ -2338,7 +2338,7 @@
 							<key>Cevap Text</key>
 							<string>&quot;Beyler yapmayın!&quot; diye bağır</string>
 							<key>Zorluk</key>
-							<integer>50</integer>
+							<integer>80</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -2355,7 +2355,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>120</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -2369,7 +2369,7 @@
 									<key>Point</key>
 									<integer>80</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>50</integer>
 								</dict>
 								<key>Text</key>
 								<string>Fotoğrafın paylaşılıyor!</string>
@@ -2387,7 +2387,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>150</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -2409,7 +2409,7 @@
 							<key>Cevap Text</key>
 							<string>Hatıra olarak yanına al</string>
 							<key>Zorluk</key>
-							<integer>30</integer>
+							<integer>50</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -2426,7 +2426,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>100</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -2438,9 +2438,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>40</integer>
+									<integer>70</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>45</integer>
 								</dict>
 								<key>Text</key>
 								<string>Bekliyorsun.</string>
@@ -2458,7 +2458,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>150</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -2470,9 +2470,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>120</integer>
 									<key>XP</key>
-									<integer>50</integer>
+									<integer>80</integer>
 								</dict>
 								<key>Text</key>
 								<string>Bravo! Temiz bir eyleme yardımcı oluyorsun.</string>
@@ -2480,7 +2480,7 @@
 							<key>Cevap Text</key>
 							<string>Yola geçerek trafiği açmaya çalış</string>
 							<key>Zorluk</key>
-							<integer>50</integer>
+							<integer>80</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -2509,9 +2509,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>300</integer>
+									<integer>160</integer>
 									<key>XP</key>
-									<integer>200</integer>
+									<integer>100</integer>
 								</dict>
 								<key>Text</key>
 								<string>Mükemmelsin, sakin bir yere taşıyabildin.</string>
@@ -2529,7 +2529,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>100</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -2541,12 +2541,12 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>70</integer>
 									<key>XP</key>
-									<integer>30</integer>
+									<integer>40</integer>
 								</dict>
 								<key>Text</key>
-								<string>Bir şeyi yok, teşekkür etti.</string>
+								<string>Bir şeyi yok, teşekkür etti. Arkadaşları taşıyor.</string>
 							</dict>
 							<key>Cevap Text</key>
 							<string>&quot;Bir şeyin var mı&quot; diye sor</string>
@@ -2568,7 +2568,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>120</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -2580,9 +2580,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>80</integer>
 									<key>XP</key>
-									<integer>10</integer>
+									<integer>40</integer>
 								</dict>
 								<key>Text</key>
 								<string>Geldiler!</string>
@@ -2600,7 +2600,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>120</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -2612,9 +2612,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>70</integer>
+									<integer>80</integer>
 									<key>XP</key>
-									<integer>30</integer>
+									<integer>40</integer>
 								</dict>
 								<key>Text</key>
 								<string>Evet değil.</string>
@@ -2651,9 +2651,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>250</integer>
+									<integer>150</integer>
 									<key>XP</key>
-									<integer>100</integer>
+									<integer>80</integer>
 								</dict>
 								<key>Text</key>
 								<string>Konuştun. Birazdan boşaltmazsanız müdahaleye devam edeceklerini söylediler.</string>
@@ -2683,9 +2683,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>60</integer>
+									<integer>80</integer>
 									<key>XP</key>
-									<integer>30</integer>
+									<integer>45</integer>
 								</dict>
 								<key>Text</key>
 								<string>Hep bir ağızdan söyleniyor!</string>
@@ -2742,7 +2742,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>200</integer>
+									<integer>120</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -2754,9 +2754,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>200</integer>
+									<integer>95</integer>
 									<key>XP</key>
-									<integer>100</integer>
+									<integer>60</integer>
 								</dict>
 								<key>Text</key>
 								<string>Tamamdır şimdilik uzaklaştın.</string>
@@ -2781,7 +2781,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>250</integer>
+									<integer>150</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -2793,9 +2793,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>60</integer>
+									<integer>100</integer>
 									<key>XP</key>
-									<integer>30</integer>
+									<integer>60</integer>
 								</dict>
 								<key>Text</key>
 								<string>Gittin, topladınız geldiniz.</string>
@@ -2803,7 +2803,7 @@
 							<key>Cevap Text</key>
 							<string>Onunla git</string>
 							<key>Zorluk</key>
-							<integer>50</integer>
+							<integer>60</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -2825,9 +2825,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>80</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>50</integer>
 								</dict>
 								<key>Text</key>
 								<string>Gitmedin. Sivil de olabilirdi...</string>
@@ -2855,9 +2855,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>170</integer>
 									<key>XP</key>
-									<integer>70</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Arkalara yürümek fayda etmiyor, gaz seni fena etkiledi!</string>
@@ -2867,7 +2867,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>130</integer>
 									<key>XP</key>
 									<integer>80</integer>
 								</dict>
@@ -2877,7 +2877,7 @@
 							<key>Cevap Text</key>
 							<string>Arkalara dogru yürü</string>
 							<key>Zorluk</key>
-							<integer>50</integer>
+							<integer>60</integer>
 							<key>Item</key>
 							<string>Maske</string>
 						</dict>
@@ -2899,7 +2899,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>200</integer>
+									<integer>170</integer>
 									<key>XP</key>
 									<integer>100</integer>
 								</dict>
@@ -2926,21 +2926,21 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>200</integer>
+									<integer>300</integer>
 									<key>XP</key>
 									<integer>100</integer>
 								</dict>
 								<key>Text</key>
-								<string>Delirmiş olmalısın! Elin yandı geri fırlatamadan!</string>
+								<string>Delirmiş olmalısın! Elin yandı geri fırlatamadan! Eldivenin iyi mi?</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>500</integer>
+									<integer>200</integer>
 									<key>XP</key>
-									<integer>400</integer>
+									<integer>200</integer>
 								</dict>
 								<key>Text</key>
 								<string>Kahramansın! Alkışlar senin için!!</string>
@@ -2948,7 +2948,7 @@
 							<key>Cevap Text</key>
 							<string>Bombayı aldığın gibi geri polise fırlat!</string>
 							<key>Zorluk</key>
-							<integer>60</integer>
+							<integer>75</integer>
 							<key>Item</key>
 							<string>Eldiven</string>
 						</dict>
@@ -2958,9 +2958,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>60</integer>
+									<integer>200</integer>
 									<key>XP</key>
-									<integer>30</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Gaz çok fena etkiledi. Gözler kıpkırmızı, öksürükler...</string>
@@ -2972,7 +2972,7 @@
 									<key>Point</key>
 									<integer>150</integer>
 									<key>XP</key>
-									<integer>70</integer>
+									<integer>100</integer>
 								</dict>
 								<key>Text</key>
 								<string>Biraz geri çekildiniz ama direnmeye devam!</string>
@@ -3009,9 +3009,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>150</integer>
 									<key>XP</key>
-									<integer>60</integer>
+									<integer>100</integer>
 								</dict>
 								<key>Text</key>
 								<string>Sığındın şimdilik ortam sakin.</string>
@@ -3029,7 +3029,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>250</integer>
+									<integer>200</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -3041,9 +3041,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>250</integer>
-									<key>XP</key>
 									<integer>150</integer>
+									<key>XP</key>
+									<integer>100</integer>
 								</dict>
 								<key>Text</key>
 								<string>Tamamdır şimdilik uzaklaştın.</string>
@@ -3051,7 +3051,7 @@
 							<key>Cevap Text</key>
 							<string>Koşabildiğin kadar koş</string>
 							<key>Zorluk</key>
-							<integer>50</integer>
+							<integer>65</integer>
 							<key>Item</key>
 							<string>Maske</string>
 						</dict>
@@ -3068,7 +3068,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>200</integer>
+									<integer>350</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -3080,9 +3080,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>250</integer>
+									<integer>200</integer>
 									<key>XP</key>
-									<integer>100</integer>
+									<integer>150</integer>
 								</dict>
 								<key>Text</key>
 								<string>Konuştun. Birazdan boşaltmazsanız müdahaleye devam edeceklerini söylediler.</string>
@@ -3100,7 +3100,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>200</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -3112,9 +3112,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>60</integer>
+									<integer>150</integer>
 									<key>XP</key>
-									<integer>30</integer>
+									<integer>100</integer>
 								</dict>
 								<key>Text</key>
 								<string>Hep bir ağızdan söyleniyor!</string>
@@ -3139,7 +3139,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>200</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -3151,9 +3151,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>150</integer>
 									<key>XP</key>
-									<integer>10</integer>
+									<integer>80</integer>
 								</dict>
 								<key>Text</key>
 								<string>Geldiler!</string>
@@ -3183,9 +3183,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>70</integer>
+									<integer>100</integer>
 									<key>XP</key>
-									<integer>30</integer>
+									<integer>70</integer>
 								</dict>
 								<key>Text</key>
 								<string>Evet değil.</string>
@@ -3210,7 +3210,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>200</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -3222,9 +3222,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>80</integer>
+									<integer>150</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>100</integer>
 								</dict>
 								<key>Text</key>
 								<string>Fotoğrafın paylaşılıyor!</string>
@@ -3242,7 +3242,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>250</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -3254,9 +3254,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>200</integer>
 									<key>XP</key>
-									<integer>50</integer>
+									<integer>120</integer>
 								</dict>
 								<key>Text</key>
 								<string>Her sağlam direnişçinin evinde olmalı, bravo.</string>
@@ -3281,7 +3281,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>-500</integer>
+									<integer>500</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -3313,9 +3313,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>-100</integer>
+									<integer>-200</integer>
 									<key>XP</key>
-									<integer>100</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Doğru olanı yaptın ancak seni malesef dinlemiyorlar.</string>
@@ -3325,9 +3325,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>200</integer>
+									<integer>300</integer>
 									<key>XP</key>
-									<integer>100</integer>
+									<integer>150</integer>
 								</dict>
 								<key>Text</key>
 								<string>İnsanlar da sana katıldı ve taş atmalar durdu. Bravo!</string>
@@ -3335,7 +3335,7 @@
 							<key>Cevap Text</key>
 							<string>&quot;Beyler yapmayın!&quot; diye bağır</string>
 							<key>Zorluk</key>
-							<integer>50</integer>
+							<integer>75</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -3352,9 +3352,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>350</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Sende henüz bir ilaç yok ki, nasıl yardım etmeyi düşünüyorsun?</string>
@@ -3364,15 +3364,15 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>250</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>150</integer>
 								</dict>
 								<key>Text</key>
 								<string>Çok iyi geldi, bol bol teşekkür aldın.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string>Talcid falan elinde ne varsa sıkarak ona yardım et</string>
+							<string>İlaç sıkarak ona yardım et</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -3423,9 +3423,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>200</integer>
+									<integer>300</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Her tarafta sivil var. Kalabalıktan ayrılamıyorsun.</string>
@@ -3435,9 +3435,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>250</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>100</integer>
 								</dict>
 								<key>Text</key>
 								<string>Ortam biraz sakinleşti.</string>
@@ -3455,9 +3455,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>250</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Kapılar kilitli. Hemen kalabalığı takip ettin.</string>
@@ -3467,9 +3467,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>200</integer>
 									<key>XP</key>
-									<integer>60</integer>
+									<integer>100</integer>
 								</dict>
 								<key>Text</key>
 								<string>Şansına kapı açıktı, içeridesin.</string>
@@ -3477,7 +3477,7 @@
 							<key>Cevap Text</key>
 							<string>Gördüğün ilk apartmana sığın</string>
 							<key>Zorluk</key>
-							<integer>50</integer>
+							<integer>70</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -3494,9 +3494,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>200</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Bu ne gazı? Çok fena öksürtüp hapşırtıyor..</string>
@@ -3506,9 +3506,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>55</integer>
+									<integer>150</integer>
 									<key>XP</key>
-									<integer>35</integer>
+									<integer>100</integer>
 								</dict>
 								<key>Text</key>
 								<string>Güzel. Biraz arkalara geldin, bir şeyin yok. Devam!</string>
@@ -3526,9 +3526,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>300</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Sokak dağıldı, sen de kaçtın. Tekrar birleşme zamanını bekliyoruz...</string>
@@ -3538,9 +3538,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>80</integer>
+									<integer>250</integer>
 									<key>XP</key>
-									<integer>60</integer>
+									<integer>150</integer>
 								</dict>
 								<key>Text</key>
 								<string>İnsanları coşturuyorsun!</string>
@@ -3565,80 +3565,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>250</integer>
 									<key>XP</key>
-									<integer>5</integer>
-								</dict>
-								<key>Text</key>
-								<string>Bu ne gazı? Çok fena öksürtüp hapşırtıyor..</string>
-							</dict>
-							<key>Success</key>
-							<dict>
-								<key>Result</key>
-								<dict>
-									<key>Point</key>
-									<integer>55</integer>
-									<key>XP</key>
-									<integer>35</integer>
-								</dict>
-								<key>Text</key>
-								<string>Güzel. Biraz arkalara geldin, bir şeyin yok. Devam!</string>
-							</dict>
-							<key>Cevap Text</key>
-							<string>Arkaya kaç ancak vazgeçmek yok!</string>
-							<key>Zorluk</key>
-							<integer>50</integer>
-							<key>Item</key>
-							<string>Maske</string>
-						</dict>
-						<dict>
-							<key>Fail</key>
-							<dict>
-								<key>Result</key>
-								<dict>
-									<key>Point</key>
-									<integer>150</integer>
-									<key>XP</key>
-									<integer>5</integer>
-								</dict>
-								<key>Text</key>
-								<string>Sokak dağıldı, sen de kaçtın. Tekrar birleşme zamanını bekliyoruz...</string>
-							</dict>
-							<key>Success</key>
-							<dict>
-								<key>Result</key>
-								<dict>
-									<key>Point</key>
-									<integer>80</integer>
-									<key>XP</key>
-									<integer>60</integer>
-								</dict>
-								<key>Text</key>
-								<string>İnsanları coşturuyorsun!</string>
-							</dict>
-							<key>Cevap Text</key>
-							<string>Kalabalığın önünde provakasyon yap</string>
-							<key>Zorluk</key>
-							<integer>50</integer>
-							<key>Item</key>
-							<string>Maske</string>
-						</dict>
-					</array>
-					<key>Soru Text</key>
-					<string>Tomalar her yere su sıkmaya başladı, biber gazları havada uçuşuyor!</string>
-				</dict>
-				<dict>
-					<key>Cevaplar</key>
-					<array>
-						<dict>
-							<key>Fail</key>
-							<dict>
-								<key>Result</key>
-								<dict>
-									<key>Point</key>
-									<integer>60</integer>
-									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Koştun ancak gazdan çok etkilendin...</string>
@@ -3648,9 +3577,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>200</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>150</integer>
 								</dict>
 								<key>Text</key>
 								<string>Koştun ve şimdilik kurtuldun.</string>
@@ -3658,7 +3587,7 @@
 							<key>Cevap Text</key>
 							<string>Esat&apos;a doğru koş</string>
 							<key>Zorluk</key>
-							<integer>50</integer>
+							<integer>70</integer>
 							<key>Item</key>
 							<string>Maske</string>
 						</dict>
@@ -3668,9 +3597,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>60</integer>
+									<integer>250</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Koştun ancak gazdan çok etkilendin...</string>
@@ -3680,9 +3609,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>200</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>100</integer>
 								</dict>
 								<key>Text</key>
 								<string>Koştun ve şimdilik kurtuldun.</string>
@@ -3707,9 +3636,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>250</integer>
+									<integer>300</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Kapısı açık bina bulamadın, ilaçlı su üzerine geldi.</string>
@@ -3719,9 +3648,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>250</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>150</integer>
 								</dict>
 								<key>Text</key>
 								<string>Açık bir kapı buldun şansına.</string>
@@ -3739,9 +3668,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>250</integer>
+									<integer>300</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Kaçtın toma suyu üzerine geldi...</string>
@@ -3751,9 +3680,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>70</integer>
+									<integer>250</integer>
 									<key>XP</key>
-									<integer>50</integer>
+									<integer>150</integer>
 								</dict>
 								<key>Text</key>
 								<string>Güç bela kaçabildin...</string>
@@ -3796,9 +3725,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>10</integer>
 									<key>XP</key>
-									<integer>1</integer>
+									<integer>5</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes seninle birlikte söylemeye başladı!</string>
@@ -3816,7 +3745,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>5</integer>
+									<integer>10</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -3830,7 +3759,7 @@
 									<key>Point</key>
 									<integer>5</integer>
 									<key>XP</key>
-									<integer>1</integer>
+									<integer>5</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes seninle birlikte bağırıyor!</string>
@@ -3867,9 +3796,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>10</integer>
 									<key>XP</key>
-									<integer>1</integer>
+									<integer>5</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes seninle birlikte söylemeye başladı!</string>
@@ -3887,7 +3816,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>5</integer>
+									<integer>10</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -3901,7 +3830,7 @@
 									<key>Point</key>
 									<integer>5</integer>
 									<key>XP</key>
-									<integer>1</integer>
+									<integer>5</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes seninle birlikte bağırıyor!</string>
@@ -3958,9 +3887,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>5</integer>
+									<integer>10</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes ufak ufak geri gidiyor, sen de onlarla arkalara gelmek zorunda kaldın.</string>
@@ -3970,9 +3899,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>10</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>5</integer>
 								</dict>
 								<key>Text</key>
 								<string>Beklemeye devam, bakalım neler olacak!</string>
@@ -3997,7 +3926,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>30</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -4009,7 +3938,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>40</integer>
+									<integer>10</integer>
 									<key>XP</key>
 									<integer>5</integer>
 								</dict>
@@ -4029,7 +3958,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>40</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -4041,9 +3970,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>25</integer>
 									<key>XP</key>
-									<integer>50</integer>
+									<integer>15</integer>
 								</dict>
 								<key>Text</key>
 								<string>Bravo! Temiz bir eyleme yardımcı oluyorsun.</string>
@@ -4082,7 +4011,7 @@
 									<key>Point</key>
 									<integer>20</integer>
 									<key>XP</key>
-									<integer>10</integer>
+									<integer>5</integer>
 								</dict>
 								<key>Text</key>
 								<string>Durdun.</string>
@@ -4585,7 +4514,7 @@
 									<key>Point</key>
 									<integer>20</integer>
 									<key>XP</key>
-									<integer>10</integer>
+									<integer>5</integer>
 								</dict>
 								<key>Text</key>
 								<string>Durdun.</string>
@@ -4642,7 +4571,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>200</integer>
+									<integer>100</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -4654,7 +4583,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>25</integer>
 									<key>XP</key>
 									<integer>10</integer>
 								</dict>
@@ -4674,9 +4603,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>0</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Bütün eşyaları alıp gittiler ancak size dokunmadılar.</string>
@@ -4688,7 +4617,7 @@
 									<key>Point</key>
 									<integer>20</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>15</integer>
 								</dict>
 								<key>Text</key>
 								<string>Bütün eşyaları alıp gittiler ancak size dokunmadılar.</string>
@@ -4759,7 +4688,7 @@
 									<key>Point</key>
 									<integer>20</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
 								<string>Yürüyorsun, şimdilik güvendesin.</string>
@@ -4784,7 +4713,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>35</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -4855,7 +4784,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>40</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -4867,9 +4796,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>25</integer>
 									<key>XP</key>
-									<integer>1</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes seninle birlikte söylemeye başladı!</string>
@@ -4887,7 +4816,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>5</integer>
+									<integer>20</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -4899,9 +4828,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>5</integer>
+									<integer>10</integer>
 									<key>XP</key>
-									<integer>1</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes seninle birlikte bağırıyor!</string>
@@ -4915,7 +4844,7 @@
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Keyifler yerinde, henüz bir müdahale yok.</string>
+					<string>Topluluk çoğalıyor. Keyifler yerinde, şu an bir müdahale yok.</string>
 				</dict>
 				<dict>
 					<key>Cevaplar</key>
@@ -4926,7 +4855,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>40</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -4940,7 +4869,7 @@
 									<key>Point</key>
 									<integer>20</integer>
 									<key>XP</key>
-									<integer>1</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes seninle birlikte söylemeye başladı!</string>
@@ -4958,7 +4887,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>5</integer>
+									<integer>20</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -4972,7 +4901,7 @@
 									<key>Point</key>
 									<integer>10</integer>
 									<key>XP</key>
-									<integer>1</integer>
+									<integer>5</integer>
 								</dict>
 								<key>Text</key>
 								<string>Hobaa!! Halaybaşı bile oldun.</string>
@@ -4986,7 +4915,7 @@
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Kuğulu&apos;da bayram havası var, henüz bir müdahale yok.</string>
+					<string>Kuğulu&apos;da bayram havası var, şu an bir müdahale yok.</string>
 				</dict>
 				<dict>
 					<key>Cevaplar</key>
@@ -4997,9 +4926,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>40</integer>
 									<key>XP</key>
-									<integer>10</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Kimse sana katılmadı, sen de susmak zorunda kaldın.</string>
@@ -5009,9 +4938,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>30</integer>
 									<key>XP</key>
-									<integer>10</integer>
+									<integer>20</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes sana eşlik ediyor, kitleyi gaza getirdin!</string>
@@ -5029,9 +4958,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>5</integer>
+									<integer>15</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes ufak ufak geri gidiyor, sen de onlarla arkalara gelmek zorunda kaldın.</string>
@@ -5041,9 +4970,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>20</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
 								<string>Beklemeye devam, bakalım neler olacak!</string>
@@ -5068,7 +4997,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>30</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -5080,7 +5009,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>40</integer>
+									<integer>25</integer>
 									<key>XP</key>
 									<integer>5</integer>
 								</dict>
@@ -5100,7 +5029,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>70</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -5114,7 +5043,7 @@
 									<key>Point</key>
 									<integer>50</integer>
 									<key>XP</key>
-									<integer>50</integer>
+									<integer>35</integer>
 								</dict>
 								<key>Text</key>
 								<string>Bravo! Temiz bir eyleme yardımcı oluyorsun.</string>
@@ -5122,7 +5051,7 @@
 							<key>Cevap Text</key>
 							<string>Yola geçerek trafiği açmaya çalış</string>
 							<key>Zorluk</key>
-							<integer>50</integer>
+							<integer>65</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -5299,9 +5228,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>40</integer>
 									<key>XP</key>
-									<integer>10</integer>
+									<integer>30</integer>
 								</dict>
 								<key>Text</key>
 								<string>Şimdilik sökmeden gittiler.</string>
@@ -5864,7 +5793,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>30</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -5878,7 +5807,7 @@
 									<key>Point</key>
 									<integer>20</integer>
 									<key>XP</key>
-									<integer>1</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes seninle birlikte söylemeye başladı!</string>
@@ -5896,7 +5825,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>5</integer>
+									<integer>20</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -5908,9 +5837,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>5</integer>
+									<integer>10</integer>
 									<key>XP</key>
-									<integer>1</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes seninle birlikte bağırıyor!</string>
@@ -6006,7 +5935,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>30</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -6020,7 +5949,7 @@
 									<key>Point</key>
 									<integer>20</integer>
 									<key>XP</key>
-									<integer>1</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes seninle birlikte söylemeye başladı!</string>
@@ -6052,7 +5981,7 @@
 									<key>Point</key>
 									<integer>10</integer>
 									<key>XP</key>
-									<integer>1</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
 								<string>Hobaa!! Halaybaşı bile oldun.</string>
@@ -6077,7 +6006,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>5</integer>
+									<integer>45</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -6089,9 +6018,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>30</integer>
+									<integer>35</integer>
 									<key>XP</key>
-									<integer>1</integer>
+									<integer>20</integer>
 								</dict>
 								<key>Text</key>
 								<string>Polis çiçeğini aldı, teşekkür etti.</string>
@@ -6148,9 +6077,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>35</integer>
 									<key>XP</key>
-									<integer>10</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Kimse sana katılmadı, sen de susmak zorunda kaldın.</string>
@@ -6160,9 +6089,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>25</integer>
 									<key>XP</key>
-									<integer>10</integer>
+									<integer>15</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes sana eşlik ediyor, kitleyi gaza getirdin!</string>
@@ -6192,7 +6121,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>10</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -6219,7 +6148,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>30</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -6231,9 +6160,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>40</integer>
+									<integer>25</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>10</integer>
 								</dict>
 								<key>Text</key>
 								<string>Bekliyorsun.</string>
@@ -6251,7 +6180,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>60</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -6265,7 +6194,7 @@
 									<key>Point</key>
 									<integer>50</integer>
 									<key>XP</key>
-									<integer>50</integer>
+									<integer>30</integer>
 								</dict>
 								<key>Text</key>
 								<string>Bravo! Temiz bir eyleme yardımcı oluyorsun.</string>
@@ -6293,9 +6222,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>40</integer>
 									<key>XP</key>
-									<integer>10</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Kimse sana katılmadı, sen de susmak zorunda kaldın.</string>
@@ -6305,9 +6234,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>35</integer>
 									<key>XP</key>
-									<integer>10</integer>
+									<integer>20</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes sana eşlik ediyor, kitleyi gaza getirdin!</string>
@@ -6325,9 +6254,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>5</integer>
+									<integer>20</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes ufak ufak geri gidiyor, sen de onlarla arkalara gelmek zorunda kaldın.</string>
@@ -6337,9 +6266,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>30</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>15</integer>
 								</dict>
 								<key>Text</key>
 								<string>Beklemeye devam, bakalım neler olacak!</string>
@@ -6364,9 +6293,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>30</integer>
+									<integer>40</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Arkalara yürümek fayda etmiyor, gaz seni fena etkiledi!</string>
@@ -6376,9 +6305,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
-									<key>XP</key>
 									<integer>30</integer>
+									<key>XP</key>
+									<integer>20</integer>
 								</dict>
 								<key>Text</key>
 								<string>Güzel. Biraz arkalara geldin, bir şeyin yok. Devam!</string>
@@ -6396,9 +6325,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>20</integer>
+									<integer>50</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Herkes geriye kaçtı, sen de kaçmak zorunda kaldın.</string>
@@ -6408,9 +6337,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>40</integer>
 									<key>XP</key>
-									<integer>50</integer>
+									<integer>30</integer>
 								</dict>
 								<key>Text</key>
 								<string>İnsanlar sakinleşti direnmeye devam!</string>
@@ -6435,7 +6364,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>40</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -6447,9 +6376,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>40</integer>
+									<integer>30</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>15</integer>
 								</dict>
 								<key>Text</key>
 								<string>Bekliyorsun.</string>
@@ -6481,7 +6410,7 @@
 									<key>Point</key>
 									<integer>50</integer>
 									<key>XP</key>
-									<integer>50</integer>
+									<integer>35</integer>
 								</dict>
 								<key>Text</key>
 								<string>Bravo! Temiz bir eyleme yardımcı oluyorsun.</string>
@@ -6506,7 +6435,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>80</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -6518,9 +6447,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>80</integer>
+									<integer>40</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>30</integer>
 								</dict>
 								<key>Text</key>
 								<string>Kaçtın, biraz bekleyeyeceksin.</string>
@@ -6538,7 +6467,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>80</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -6550,7 +6479,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>80</integer>
+									<integer>40</integer>
 									<key>XP</key>
 									<integer>30</integer>
 								</dict>
@@ -6589,9 +6518,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>80</integer>
-									<key>XP</key>
 									<integer>20</integer>
+									<key>XP</key>
+									<integer>15</integer>
 								</dict>
 								<key>Text</key>
 								<string>Fotoğrafın paylaşılıyor!</string>
@@ -6599,7 +6528,7 @@
 							<key>Cevap Text</key>
 							<string>Fotoğrafını çek, &apos;Bu ne gazı peki?&apos; diye twitle</string>
 							<key>Zorluk</key>
-							<integer>30</integer>
+							<integer>50</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -6609,7 +6538,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>50</integer>
+									<integer>80</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -6621,9 +6550,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>30</integer>
 									<key>XP</key>
-									<integer>50</integer>
+									<integer>15</integer>
 								</dict>
 								<key>Text</key>
 								<string>Her sağlam direnişçinin evinde olmalı, bravo.</string>
@@ -6631,7 +6560,7 @@
 							<key>Cevap Text</key>
 							<string>Hatıra olarak yanına al</string>
 							<key>Zorluk</key>
-							<integer>30</integer>
+							<integer>50</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -6648,7 +6577,7 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>-500</integer>
+									<integer>500</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
@@ -6680,9 +6609,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>-100</integer>
+									<integer>-30</integer>
 									<key>XP</key>
-									<integer>100</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Doğru olanı yaptın ancak seni malesef dinlemiyorlar.</string>
@@ -6692,9 +6621,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>500</integer>
+									<integer>100</integer>
 									<key>XP</key>
-									<integer>200</integer>
+									<integer>70</integer>
 								</dict>
 								<key>Text</key>
 								<string>İnsanlar da sana katıldı ve taş atmalar durdu. Bravo!</string>
@@ -6702,7 +6631,7 @@
 							<key>Cevap Text</key>
 							<string>&quot;Beyler yapmayın!&quot; diye bağır</string>
 							<key>Zorluk</key>
-							<integer>50</integer>
+							<integer>80</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -6719,9 +6648,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>150</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Sende henüz bir ilaç yok ki, nasıl yardım etmeyi düşünüyorsun?</string>
@@ -6731,15 +6660,15 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>100</integer>
+									<integer>50</integer>
 									<key>XP</key>
-									<integer>20</integer>
+									<integer>40</integer>
 								</dict>
 								<key>Text</key>
 								<string>Çok iyi geldi, bol bol teşekkür aldın.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string>Talcid falan elinde ne varsa sıkarak ona yardım et</string>
+							<string>İlaç sıkarak ona yardım et</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -6790,9 +6719,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>70</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Bu ne gazı? Çok fena öksürtüp hapşırtıyor..</string>
@@ -6802,9 +6731,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>55</integer>
+									<integer>40</integer>
 									<key>XP</key>
-									<integer>35</integer>
+									<integer>30</integer>
 								</dict>
 								<key>Text</key>
 								<string>Güzel. Biraz arkalara geldin, bir şeyin yok. Devam!</string>
@@ -6822,9 +6751,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>150</integer>
+									<integer>100</integer>
 									<key>XP</key>
-									<integer>5</integer>
+									<integer>0</integer>
 								</dict>
 								<key>Text</key>
 								<string>Sokak dağıldı, sen de kaçtın. Tekrar birleşme zamanını bekliyoruz...</string>
@@ -6834,9 +6763,9 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>80</integer>
+									<integer>50</integer>
 									<key>XP</key>
-									<integer>60</integer>
+									<integer>35</integer>
 								</dict>
 								<key>Text</key>
 								<string>İnsanları coşturuyorsun!</string>
@@ -6851,77 +6780,6 @@
 					</array>
 					<key>Soru Text</key>
 					<string>Tomalar her yere su sıkmaya başladı, biber gazları havada uçuşuyor!</string>
-				</dict>
-				<dict>
-					<key>Cevaplar</key>
-					<array>
-						<dict>
-							<key>Fail</key>
-							<dict>
-								<key>Result</key>
-								<dict>
-									<key>Point</key>
-									<integer>100</integer>
-									<key>XP</key>
-									<integer>0</integer>
-								</dict>
-								<key>Text</key>
-								<string>İnsanları takip etmek zorunda kalıp ara sokaklara girdin.</string>
-							</dict>
-							<key>Success</key>
-							<dict>
-								<key>Result</key>
-								<dict>
-									<key>Point</key>
-									<integer>80</integer>
-									<key>XP</key>
-									<integer>20</integer>
-								</dict>
-								<key>Text</key>
-								<string>Kaçtın, biraz bekleyeyeceksin.</string>
-							</dict>
-							<key>Cevap Text</key>
-							<string>Kurtuluş tarafına kaç</string>
-							<key>Zorluk</key>
-							<integer>60</integer>
-							<key>Item</key>
-							<string></string>
-						</dict>
-						<dict>
-							<key>Fail</key>
-							<dict>
-								<key>Result</key>
-								<dict>
-									<key>Point</key>
-									<integer>50</integer>
-									<key>XP</key>
-									<integer>0</integer>
-								</dict>
-								<key>Text</key>
-								<string>İnsanları takip etmek zorunda kalıp ara sokaklara girdin.</string>
-							</dict>
-							<key>Success</key>
-							<dict>
-								<key>Result</key>
-								<dict>
-									<key>Point</key>
-									<integer>80</integer>
-									<key>XP</key>
-									<integer>30</integer>
-								</dict>
-								<key>Text</key>
-								<string>Girdin biraz saklan bakalım.</string>
-							</dict>
-							<key>Cevap Text</key>
-							<string>Sakarya&apos;ya gir</string>
-							<key>Zorluk</key>
-							<integer>50</integer>
-							<key>Item</key>
-							<string></string>
-						</dict>
-					</array>
-					<key>Soru Text</key>
-					<string>Ziya Gökalp ve Güvenpark&apos;ı dağıtıyorlar.</string>
 				</dict>
 			</array>
 			<key>22-02</key>
