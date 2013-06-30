@@ -76,6 +76,10 @@
 }
 
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"shop"]) {
+        [[NSUserDefaults standardUserDefaults] setValue:[player getLocation] forKey:@"lastplace"];
+        return;
+    }
     NSLog(@"%@",[player getItems]);
     NSArray *sorular;
     if(rand<80){
@@ -107,7 +111,6 @@
                       [result[@"Result"][@"Point"]integerValue]>0?[NSString stringWithFormat:@"+%d Puan",[result[@"Result"][@"Point"] integerValue]]:@""];
         }else{
             NSDictionary *result = cevab[@"Fail"];
-            
             [player addToAttrribute:@"points" value:-1*[result[@"Result"][@"Point"] integerValue]];
             d.text = [NSString stringWithFormat:@"%@\n\n%@",result[@"Text"],
                       [result[@"Result"][@"Point"]integerValue]>0?[NSString stringWithFormat:@"-%d Puan",[result[@"Result"][@"Point"] integerValue]]:@""];
@@ -122,9 +125,8 @@
             else
                 itemPower = [[player getItems][[cat[cevab[@"Item"]] intValue]][@"Power"] floatValue];
         }
-        int rand = arc4random_uniform(100)+1;
-        NSLog(@"%d < %.2f, rand: %d - level: %d - itemPower: %.2f",[cevab[@"Zorluk"] integerValue],rand+[player getAttrribute:@"level"]*itemPower/2.0,rand,[player getAttrribute:@"level"],itemPower);
-        if ([cevab[@"Zorluk"] integerValue]<rand+[player getAttrribute:@"level"]*itemPower/2.0){
+        int random = arc4random_uniform(100)+1;
+        if ([cevab[@"Zorluk"] integerValue]<random+[player getAttrribute:@"level"]*itemPower/2.0){
             NSDictionary *result = cevab[@"Success"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
             [player addToAttrribute:@"points" value:[result[@"Result"][@"Point"] integerValue]];

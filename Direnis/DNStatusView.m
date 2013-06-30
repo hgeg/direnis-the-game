@@ -32,6 +32,10 @@
     self.locationLabel.text  = [player getLocation];
     self.levelLabel.text = [NSString stringWithFormat:@"%d",[player getAttrribute:@"level"]];
     self.pointLabel.text = [NSString stringWithFormat:@"%d",[player getAttrribute:@"points"]];
+    NSArray *items = [player getItems];
+    self.destek.image = [UIImage imageNamed: [NSString stringWithFormat:@"%@.jpg",items[0][@"Name"]]];
+    self.maske.image = [UIImage imageNamed: [NSString stringWithFormat:@"%@.jpg",items[1][@"Name"]]];
+    self.eldiven.image = [UIImage imageNamed: [NSString stringWithFormat:@"%@.jpg",items[2][@"Name"]]];
     [self setNeedsDisplay];
 }
 

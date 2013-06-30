@@ -51,8 +51,6 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
     [textField resignFirstResponder];
-    [player setName:textField.text];
-    [DNPlayer save:player];
     [self performSegueWithIdentifier:@"city_select" sender:self];
     return YES;
 }
@@ -76,6 +74,9 @@
         player = [[DNPlayer alloc] init];
     }else if([segue.identifier isEqualToString:@"continue"]){
         player = [DNPlayer load];
+    }else if ([segue.identifier isEqualToString:@"city_select"]){
+        [player setName:self.textField.text];
+        [DNPlayer save:player];
     }
 }
 

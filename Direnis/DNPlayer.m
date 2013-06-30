@@ -88,6 +88,7 @@
 
 - (NSString *) getDate {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"tr"]];
     [formatter setDateFormat:@"dd MMMM EEEE, HH:mm"];
     return [[formatter stringFromDate:time] stringByReplacingOccurrencesOfString:@"i" withString:@"İ"];
 }

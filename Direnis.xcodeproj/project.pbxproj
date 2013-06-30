@@ -117,6 +117,9 @@
 		361C0181177501060004D9A9 /* 70.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361C013E177501060004D9A9 /* 70.jpg */; };
 		361C0182177501060004D9A9 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361C013F177501060004D9A9 /* 8.jpg */; };
 		361C0189177507AC0004D9A9 /* UIFont+Replacement.m in Sources */ = {isa = PBXBuildFile; fileRef = 361C0188177507AC0004D9A9 /* UIFont+Replacement.m */; };
+		361E99EA1780732300AE341E /* extension.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E99E91780732300AE341E /* extension.png */; };
+		361E99EC178075C400AE341E /* None.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361E99EB178075C400AE341E /* None.jpg */; };
+		361E99EE17807BED00AE341E /* button_statusbar_dukkan.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E99ED17807BED00AE341E /* button_statusbar_dukkan.png */; };
 		3659BD58176BDA7300557D18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD57176BDA7300557D18 /* UIKit.framework */; };
 		3659BD5A176BDA7300557D18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD59176BDA7300557D18 /* Foundation.framework */; };
 		3659BD5C176BDA7300557D18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD5B176BDA7300557D18 /* CoreGraphics.framework */; };
@@ -264,6 +267,9 @@
 		361C013F177501060004D9A9 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		361C0187177507AC0004D9A9 /* UIFont+Replacement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Replacement.h"; sourceTree = "<group>"; };
 		361C0188177507AC0004D9A9 /* UIFont+Replacement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Replacement.m"; sourceTree = "<group>"; };
+		361E99E91780732300AE341E /* extension.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = extension.png; sourceTree = "<group>"; };
+		361E99EB178075C400AE341E /* None.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = None.jpg; sourceTree = "<group>"; };
+		361E99ED17807BED00AE341E /* button_statusbar_dukkan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_statusbar_dukkan.png; sourceTree = "<group>"; };
 		3659BD54176BDA7300557D18 /* Direnis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Direnis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3659BD57176BDA7300557D18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3659BD59176BDA7300557D18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -336,11 +342,13 @@
 				361C00D717744F7E0004D9A9 /* button_ankara.png */,
 				361C00D817744F7E0004D9A9 /* button_istanbul.png */,
 				361C00D917744F7E0004D9A9 /* statusbar.png */,
+				361E99ED17807BED00AE341E /* button_statusbar_dukkan.png */,
 				361C00DA17744F7E0004D9A9 /* button_dukkan.png */,
 				361C00DB17744F7E0004D9A9 /* button_dinlen.png */,
 				361C00DC17744F7E0004D9A9 /* button_direnisegit.png */,
 				361C00DD17744F7E0004D9A9 /* button.png */,
 				361C00DE17744F7E0004D9A9 /* intro_hashtags.png */,
+				361E99E91780732300AE341E /* extension.png */,
 				361C00DF17744F7E0004D9A9 /* button_yenioyun.png */,
 				361C00E017744F7E0004D9A9 /* button_nasiloynanir.png */,
 				361C00E117744F7E0004D9A9 /* button_devamet.png */,
@@ -348,6 +356,7 @@
 				361741FB1778C61E0018C4AA /* button_280x55.png */,
 				361741FC1778C61E0018C4AA /* button_280x44.png */,
 				361741FD1778C61E0018C4AA /* button_basla.png */,
+				361E99EB178075C400AE341E /* None.jpg */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -743,6 +752,9 @@
 				361742101778CA990018C4AA /* Yün Eldiven.jpg in Resources */,
 				361742141779C3550018C4AA /* icon.png in Resources */,
 				361742161779C3580018C4AA /* icon@2x.png in Resources */,
+				361E99EA1780732300AE341E /* extension.png in Resources */,
+				361E99EC178075C400AE341E /* None.jpg in Resources */,
+				361E99EE17807BED00AE341E /* button_statusbar_dukkan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@
 #define database ((DNAppDelegate *)[UIApplication sharedApplication].delegate).database
 #define items ((DNAppDelegate *)[UIApplication sharedApplication].delegate).shopItems
 
-#define sections @[@"Eldivenler",@"Destek Malzemeleri",@"Maskeler"]
+#define sections @[@"Destek Malzemeleri",@"Maskeler",@"Eldivenler"]
 
 @interface DNShopController ()
 
@@ -54,6 +54,7 @@
 }
 
 - (IBAction)goBack:(id)sender {
+    [player setLocation:[[NSUserDefaults standardUserDefaults] valueForKey:@"lastplace"]];
     [self.navigationController popViewControllerAnimated:YES];
 }
 

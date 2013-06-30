@@ -15,6 +15,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *levelLabel;
 @property (weak, nonatomic) IBOutlet UILabel *pointLabel;
 
+@property (weak, nonatomic) IBOutlet UIImageView *destek;
+@property (weak, nonatomic) IBOutlet UIImageView *maske;
+@property (weak, nonatomic) IBOutlet UIImageView *eldiven;
+
 - (void) redraw;
 
 @end

@@ -39,6 +39,7 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     [player setLocation:@"Ev"];
+    [[NSUserDefaults standardUserDefaults] setValue:[player getLocation] forKey:@"lastplace"];
     [super viewWillAppear:animated];
     [self.items reloadData];
     [self.status redraw];
