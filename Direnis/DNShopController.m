@@ -58,8 +58,7 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 
-- (NSInteger)
-numberOfSectionsInTableView:(UITableView *)tableView {
+- (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
     return 3;
 }
 

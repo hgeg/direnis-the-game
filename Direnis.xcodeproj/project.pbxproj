@@ -120,6 +120,13 @@
 		361E99EA1780732300AE341E /* extension.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E99E91780732300AE341E /* extension.png */; };
 		361E99EC178075C400AE341E /* None.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361E99EB178075C400AE341E /* None.jpg */; };
 		361E99EE17807BED00AE341E /* button_statusbar_dukkan.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E99ED17807BED00AE341E /* button_statusbar_dukkan.png */; };
+		361E99F21780995100AE341E /* button_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E99EF1780995100AE341E /* button_twitter.png */; };
+		361E99F31780995100AE341E /* button_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E99F01780995100AE341E /* button_facebook.png */; };
+		361E99F41780995100AE341E /* button_buradangit_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E99F11780995100AE341E /* button_buradangit_s.png */; };
+		361E99F617809A7E00AE341E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E99F517809A7E00AE341E /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		361E99F817809A8300AE341E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E99F717809A8300AE341E /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		361E99FA17809A8B00AE341E /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E99F917809A8B00AE341E /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		361E99FC1780A7ED00AE341E /* button_rekorlar.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E99FB1780A7ED00AE341E /* button_rekorlar.png */; };
 		3659BD58176BDA7300557D18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD57176BDA7300557D18 /* UIKit.framework */; };
 		3659BD5A176BDA7300557D18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD59176BDA7300557D18 /* Foundation.framework */; };
 		3659BD5C176BDA7300557D18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD5B176BDA7300557D18 /* CoreGraphics.framework */; };
@@ -270,6 +277,13 @@
 		361E99E91780732300AE341E /* extension.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = extension.png; sourceTree = "<group>"; };
 		361E99EB178075C400AE341E /* None.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = None.jpg; sourceTree = "<group>"; };
 		361E99ED17807BED00AE341E /* button_statusbar_dukkan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_statusbar_dukkan.png; sourceTree = "<group>"; };
+		361E99EF1780995100AE341E /* button_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_twitter.png; sourceTree = "<group>"; };
+		361E99F01780995100AE341E /* button_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_facebook.png; sourceTree = "<group>"; };
+		361E99F11780995100AE341E /* button_buradangit_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_buradangit_s.png; sourceTree = "<group>"; };
+		361E99F517809A7E00AE341E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		361E99F717809A8300AE341E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		361E99F917809A8B00AE341E /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		361E99FB1780A7ED00AE341E /* button_rekorlar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_rekorlar.png; sourceTree = "<group>"; };
 		3659BD54176BDA7300557D18 /* Direnis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Direnis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3659BD57176BDA7300557D18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3659BD59176BDA7300557D18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -317,6 +331,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361E99FA17809A8B00AE341E /* Twitter.framework in Frameworks */,
+				361E99F817809A8300AE341E /* Accounts.framework in Frameworks */,
+				361E99F617809A7E00AE341E /* Social.framework in Frameworks */,
 				3659BD58176BDA7300557D18 /* UIKit.framework in Frameworks */,
 				3659BD5A176BDA7300557D18 /* Foundation.framework in Frameworks */,
 				3659BD5C176BDA7300557D18 /* CoreGraphics.framework in Frameworks */,
@@ -347,6 +364,9 @@
 				361C00DB17744F7E0004D9A9 /* button_dinlen.png */,
 				361C00DC17744F7E0004D9A9 /* button_direnisegit.png */,
 				361C00DD17744F7E0004D9A9 /* button.png */,
+				361E99EF1780995100AE341E /* button_twitter.png */,
+				361E99F01780995100AE341E /* button_facebook.png */,
+				361E99F11780995100AE341E /* button_buradangit_s.png */,
 				361C00DE17744F7E0004D9A9 /* intro_hashtags.png */,
 				361E99E91780732300AE341E /* extension.png */,
 				361C00DF17744F7E0004D9A9 /* button_yenioyun.png */,
@@ -364,6 +384,7 @@
 		361C00FC177501060004D9A9 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				361E99FB1780A7ED00AE341E /* button_rekorlar.png */,
 				361741F31778C5DC0018C4AA /* 53.jpg */,
 				361741F41778C5DC0018C4AA /* 9.jpg */,
 				361741F51778C5DC0018C4AA /* dukkan.jpg */,
@@ -507,6 +528,9 @@
 		3659BD4B176BDA7200557D18 = {
 			isa = PBXGroup;
 			children = (
+				361E99F917809A8B00AE341E /* Twitter.framework */,
+				361E99F717809A8300AE341E /* Accounts.framework */,
+				361E99F517809A7E00AE341E /* Social.framework */,
 				361742151779C3580018C4AA /* icon@2x.png */,
 				361742131779C3550018C4AA /* icon.png */,
 				3659BD56176BDA7300557D18 /* Frameworks */,
@@ -755,6 +779,10 @@
 				361E99EA1780732300AE341E /* extension.png in Resources */,
 				361E99EC178075C400AE341E /* None.jpg in Resources */,
 				361E99EE17807BED00AE341E /* button_statusbar_dukkan.png in Resources */,
+				361E99F21780995100AE341E /* button_twitter.png in Resources */,
+				361E99F31780995100AE341E /* button_facebook.png in Resources */,
+				361E99F41780995100AE341E /* button_buradangit_s.png in Resources */,
+				361E99FC1780A7ED00AE341E /* button_rekorlar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,6 +895,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Direnis/Direnis-Prefix.pch";
 				INFOPLIST_FILE = "Direnis/Direnis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -878,6 +907,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Direnis/Direnis-Prefix.pch";
 				INFOPLIST_FILE = "Direnis/Direnis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

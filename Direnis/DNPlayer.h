@@ -14,6 +14,7 @@
 {
     NSString *name;
     int level,xp,points;
+    int cumPoints;
     NSMutableArray *items;
     NSDate *time;
     NSString *current;
@@ -36,6 +37,7 @@
 - (int) getHour;
 - (NSString *) getDate;
 - (NSString *) getHourInterval;
+- (NSString *) getCumulativeScore;
 
 + (void)save:(DNPlayer *)obj;
 + (DNPlayer *)load;

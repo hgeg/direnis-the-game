@@ -52,10 +52,23 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated{
+    NSLog(@"\n\n\n%@\n\n\n",[player getCumulativeScore]);
     [super viewWillAppear:animated];
     [self.mainText setTextN:self.text];
     self.background.image = self.backgroundImage;
     if ([player getAttrribute:@"points"]<=0) {
+        
+        NSMutableArray *scores = [NSMutableArray arrayWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"scores"]];
+        [scores addObject:@{@"name":[player getName],@"score":[player getCumulativeScore]}];
+        NSSortDescriptor * sort = [[NSSortDescriptor alloc] initWithKey:@"score" ascending:false];
+        NSArray *sorted;
+        if ([scores count]>10) {
+            sorted = [[scores sortedArrayUsingDescriptors:[NSArray arrayWithObject:sort]] subarrayWithRange:NSMakeRange(0, 10)];
+        }else {
+            sorted = [scores sortedArrayUsingDescriptors:[NSArray arrayWithObject:sort]];
+        }
+        [[NSUserDefaults standardUserDefaults] setObject:sorted forKey:@"scores"];
+        
         [player addToAttrribute:@"points" value:[player getAttrribute:@"points"]*-1];
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Oyun Bitti" message:@"Puanın sıfırlandı. Gelecek sefere daha dikkatli olman gerek." delegate:self cancelButtonTitle:@"#anamenuyedonuyoruz" otherButtonTitles:nil];
         alert.tag = 27;
@@ -84,7 +97,7 @@
         [DNPlayer save:player];
         [self.navigationController popToRootViewControllerAnimated:YES];
     }else{
-        [player passTime:6];
+        [player passTime:8];
         for (int i=0; i<[[self.navigationController viewControllers] count]; i++) {
             if([[[self.navigationController viewControllers][i] class] isEqual:[DNHomeController class]]){
                 [self.navigationController popToViewController:[self.navigationController viewControllers][i] animated:YES];

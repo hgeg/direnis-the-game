@@ -24,6 +24,10 @@
     path = [[NSBundle mainBundle] pathForResource:@"shop" ofType:@"plist"];
     self.shopItems = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
     
+    if([[NSUserDefaults standardUserDefaults] objectForKey:@"scores"]==nil){
+        [[NSUserDefaults standardUserDefaults] setObject:@[] forKey:@"scores"];
+    }
+    
     return YES;
 }
 							

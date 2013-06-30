@@ -20,6 +20,7 @@
         level  = 1;
         xp     = 0;
         points = 200;
+        cumPoints = 200;
         items  = [NSMutableArray arrayWithArray:@[@{@"Name": @"None"},@{@"Name": @"None"},@{@"Name": @"None"}]];
         current = @"Ev";
         time = [NSDate dateWithTimeIntervalSince1970:1371490589];
@@ -83,7 +84,10 @@
 - (void) addToAttrribute:(NSString *)attr value:(int)value{
     if([attr isEqualToString:@"level"]) level+=value;
     if([attr isEqualToString:@"xp"]) [self addXP:value];
-    if([attr isEqualToString:@"points"]) points += value;
+    if([attr isEqualToString:@"points"]) {
+        points += value;
+        cumPoints += value>0?value:0;
+    }
 }
 
 - (NSString *) getDate {
@@ -151,6 +155,11 @@
     NSData *myEncodedObject = [defaults objectForKey:@"player"];
     DNPlayer *obj = (DNPlayer *)[NSKeyedUnarchiver unarchiveObjectWithData: myEncodedObject];
     return obj;
+}
+
+
+- (NSString *) getCumulativeScore {
+    return [NSString stringWithFormat:@"%d",cumPoints+1000*level+10*xp+(int)([time timeIntervalSinceDate:[NSDate dateWithTimeIntervalSince1970:1369755054]])%1000000/100];
 }
 
 @end

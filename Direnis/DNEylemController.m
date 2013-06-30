@@ -51,7 +51,7 @@
     [super viewWillAppear:animated];
     NSArray *sorular;
     rand = arc4random_uniform(100);
-    if(rand){
+    if(rand<90){
         sorular = database[city][[player getLocation]][[player getHourInterval]];
     }else if([sorular count]>3){
         sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
@@ -82,7 +82,7 @@
     }
     NSLog(@"%@",[player getItems]);
     NSArray *sorular;
-    if(rand<80){
+    if(rand<90){
         sorular = database[city][[player getLocation]][[player getHourInterval]];
     }else if([sorular count]>3){
         sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
@@ -142,6 +142,46 @@
             d.text = [NSString stringWithFormat:@"%@\n\n%@",result[@"Text"],
                       [result[@"Result"][@"Point"]integerValue]>0?[NSString stringWithFormat:@"-%d Puan",[result[@"Result"][@"Point"] integerValue]]:@""];
         }
+    }
+    
+}
+
+
+-(IBAction)twitter:(id)sender {
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter]) {
+        SLComposeViewController *controller = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+        SLComposeViewControllerCompletionHandler myBlock = ^(SLComposeViewControllerResult result){
+            [controller dismissViewControllerAnimated:YES completion:nil];
+        };
+        controller.completionHandler = myBlock;
+        [controller setInitialText:@""];
+        UIGraphicsBeginImageContextWithOptions(CGSizeMake(320, 380),NO,0.0);
+        [[self.view layer] renderInContext:UIGraphicsGetCurrentContext()];
+        UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        
+        [controller addImage:image];
+        [self presentViewController:controller animated:YES completion:nil];
+    }
+}
+
+
+-(IBAction)facebook:(id)sender{
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]) {
+        SLComposeViewController *controller = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+        SLComposeViewControllerCompletionHandler myBlock = ^(SLComposeViewControllerResult result){
+            [controller dismissViewControllerAnimated:YES completion:nil];
+        };
+        controller.completionHandler = myBlock;
+        [controller setInitialText:@""];
+        [controller addURL:[NSURL URLWithString:@"http://www.google.com"]];
+        UIGraphicsBeginImageContextWithOptions(CGSizeMake(320, 380),NO,0.0);
+        [[self.view layer] renderInContext:UIGraphicsGetCurrentContext()];
+        UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+        //image = [UIImage imageWithCGImage:CGImageCreateWithImageInRect([image CGImage], CGRectMake(16, 16, 288, self.view.frame.size.height-32))];
+        UIGraphicsEndImageContext();
+        [controller addImage:image];
+        [self presentViewController:controller animated:YES completion:nil];
     }
 }
 

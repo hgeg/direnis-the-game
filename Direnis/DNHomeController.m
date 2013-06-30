@@ -48,7 +48,7 @@
 - (IBAction) passTime:(id)sender {
     [player passTime:1];
     if ([player getAttrribute:@"points"]<100) {
-        [player addToAttrribute:@"points" value:[player getAttrribute:@"points"]<90?10:100-[player getAttrribute:@"points"]];
+        [player addToAttrribute:@"points" value:[player getAttrribute:@"points"]<95?5:100-[player getAttrribute:@"points"]];
     }
     [self.status redraw];
 }

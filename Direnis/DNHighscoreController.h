@@ -13,4 +13,6 @@
     NSArray *items;
 }
 
+- (IBAction)goBack:(id)sender;
+
 @end

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <stdlib.h>
+#import <Accounts/Accounts.h>
+#import <Twitter/Twitter.h>
+#import <QuartzCore/QuartzCore.h>
 @class DNStatusView;
 
 @interface DNEylemController : UIViewController
@@ -28,5 +31,8 @@
 
 - (IBAction) takeAction:(id)sender;
 - (IBAction) goBackToMeydan:(id)sender;
+
+-(IBAction)facebook:(id)sender;
+-(IBAction)twitter:(id)sender;
 
 @end
