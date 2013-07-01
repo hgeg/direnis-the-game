@@ -13,8 +13,21 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     NSMutableArray *scores = [NSMutableArray arrayWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"scores"]];
-    NSSortDescriptor * sort = [[NSSortDescriptor alloc] initWithKey:@"score" ascending:false];
-    items = [scores sortedArrayUsingDescriptors:[NSArray arrayWithObject:sort]];
+    [scores sortUsingComparator:^NSComparisonResult(id obj1, id obj2) {
+        int value1 = [((NSDictionary *)obj1)[@"score"] integerValue];
+        int value2 = [((NSDictionary *)obj2)[@"score"] integerValue];
+        if (value1 > value2)
+        {
+            return (NSComparisonResult)NSOrderedAscending;
+        }
+        
+        if (value1 < value2)
+        {
+            return (NSComparisonResult)NSOrderedDescending;
+        }
+        return (NSComparisonResult)NSOrderedSame;
+    }];
+    items = scores;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -28,7 +41,7 @@
     cell = [tableView dequeueReusableCellWithIdentifier:@"list"];
     ((UILabel *)[cell viewWithTag:1]).text = [NSString stringWithFormat:@"%d.",indexPath.row+1];
     ((UILabel *)[cell viewWithTag:2]).text = item[@"name"];
-    ((UILabel *)[cell viewWithTag:3]).text = [NSString stringWithFormat:item[@"score"]];
+    ((UILabel *)[cell viewWithTag:3]).text = [NSString stringWithFormat:@"%d",[item[@"score"] integerValue]];
     return cell;
 }
 

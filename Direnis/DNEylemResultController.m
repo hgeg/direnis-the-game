@@ -60,14 +60,22 @@
         
         NSMutableArray *scores = [NSMutableArray arrayWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"scores"]];
         [scores addObject:@{@"name":[player getName],@"score":[player getCumulativeScore]}];
-        NSSortDescriptor * sort = [[NSSortDescriptor alloc] initWithKey:@"score" ascending:false];
-        NSArray *sorted;
-        if ([scores count]>10) {
-            sorted = [[scores sortedArrayUsingDescriptors:[NSArray arrayWithObject:sort]] subarrayWithRange:NSMakeRange(0, 10)];
-        }else {
-            sorted = [scores sortedArrayUsingDescriptors:[NSArray arrayWithObject:sort]];
-        }
-        [[NSUserDefaults standardUserDefaults] setObject:sorted forKey:@"scores"];
+        [scores sortUsingComparator:^NSComparisonResult(id obj1, id obj2) {
+            int value1 = [((NSDictionary *)obj1)[@"score"] integerValue];
+            int value2 = [((NSDictionary *)obj2)[@"score"] integerValue];
+            if (value1 > value2)
+            {
+                return (NSComparisonResult)NSOrderedAscending;
+            }
+            
+            if (value1 < value2)
+            {
+                return (NSComparisonResult)NSOrderedDescending;
+            }
+            return (NSComparisonResult)NSOrderedSame;
+        }];
+        if ([scores count]>10) [scores subarrayWithRange:NSMakeRange(0, 10)];
+        [[NSUserDefaults standardUserDefaults] setObject:scores forKey:@"scores"];
         
         [player addToAttrribute:@"points" value:[player getAttrribute:@"points"]*-1];
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Oyun Bitti" message:[NSString stringWithFormat:@"Puanın sıfırlandı. Gelecek sefere daha dikkatli olman gerek.\nToplam puanın:%@",[player getCumulativeScore]] delegate:self cancelButtonTitle:@"#anamenuyedonuyoruz" otherButtonTitles:nil];

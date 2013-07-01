@@ -87,7 +87,7 @@
 
 - (void) alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex{
     [player passTime:8];
-    [player addToAttrribute:@"points" value:100-[player getAttrribute:@"points"]];
+    if ([player getAttrribute:@"points"]<100) [player addToAttrribute:@"points" value:100-[player getAttrribute:@"points"]];
     [self.status redraw];
 }
 
