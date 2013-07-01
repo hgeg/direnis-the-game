@@ -12,6 +12,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    self.howtoText.text = [self.howtoText.text stringByReplacingOccurrencesOfString:@"i" withString:@"İ"];
     NSMutableArray *scores = [NSMutableArray arrayWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"scores"]];
     [scores sortUsingComparator:^NSComparisonResult(id obj1, id obj2) {
         int value1 = [((NSDictionary *)obj1)[@"score"] integerValue];

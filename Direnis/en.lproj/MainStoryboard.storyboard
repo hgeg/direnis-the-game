@@ -94,6 +94,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="n0j-Hc-3nT" kind="push" identifier="howto" id="dcp-Pw-lck"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="intro_hashtags.png" translatesAutoresizingMaskIntoConstraints="NO" id="y3Z-d4-7z2">
                                 <constraints>
@@ -260,6 +263,84 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LF7-Ti-Uom" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="409" y="861"/>
+        </scene>
+        <!--Highscore Controller-->
+        <scene sceneID="Cl4-6h-KSX">
+            <objects>
+                <viewController id="n0j-Hc-3nT" customClass="DNHighscoreController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y2E-Jg-fpx">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.50000000000000011" contentMode="scaleToFill" image="9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cPv-Vm-kyW"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2t-0H-ap4">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" type="user" id="Dng-0c-khN"/>
+                                    <constraint firstAttribute="width" constant="306" id="lyI-bY-52i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Geri Dön" image="button_geridon.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBack:" destination="TSS-zT-KiL" eventType="touchUpInside" id="LrK-Oh-GAc"/>
+                                    <action selector="goBack:" destination="n0j-Hc-3nT" eventType="touchUpInside" id="fKx-O8-vNS"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03t-DA-dwL">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="452" type="user" id="QR5-u4-yns"/>
+                                </constraints>
+                                <mutableString key="text">Oyunun amacı oyunu olabildiğince yüksek skorla bitirmektir. Karakterin oyunu bittikten sonra hesaplanan bu skor; karakterin seviyesene, elindeki malzemelere, oyun içinde ulaştığı puana göre şekillenir.
+
+Oyunda karaktere çeşitli sorular sorulmaktadır ve bu sorulara göre karakterin bir seçim yapması beklenmektedir. Karakterin seçimleri kendisine seviye ve puan kazandırır ya da kaybettirir. Karakterin seçiminde başarılı olması sorunun zorluğuna, gerektirdiği malzemelere, karakterin seviyesine, seçiminin zorluğuna, yere ve saate göre değişmektedir. Örneğin gündüz soruları daha kolayken gece geç oldukça sorular ve seçimlerin zorlukları artmaktadır. Buna bağlı olarak kazandırdığı puanlar da artmakadır. Bu yüzden karakterin başta daha kolay yerlerde ve zamanlarda bulunması, tecrübe ve puan kazandıkça yeni malzemeler alarak daha zor yerlerde bulunması oyunun püf noktasıdır. 
+
+İstenilen zamanda yer değiştirebilir, eve gidebilirsiniz. Evde 'Dinlen' tuşu ile saatleri ilerletebilir ve istediğiniz saatte dışarı çıkabilirsiniz. Burada karakterin karşısına hiç soru gelmemektedir. Zor durumlarda ve geç saatlerde eve gidip dinlenmek, sabah olmasını beklemek karakterinizi güvende tutacaktır.
+ 
+Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedilir. En iyi skorlarınızı 'Rekorlar' bölümünden görebilirsiniz.</mutableString>
+                                <color key="textColor" red="0.94232014419999999" green="0.93705578590000005" blue="0.94758450260000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="NASIL OYNANIR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJA-D6-1g5">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" type="user" id="Ffy-eR-IHi"/>
+                                    <constraint firstAttribute="width" constant="192" id="GYf-oc-smB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="cPv-Vm-kyW" firstAttribute="leading" secondItem="Y2E-Jg-fpx" secondAttribute="leading" type="default" id="5n2-xT-7Ej"/>
+                            <constraint firstAttribute="bottom" secondItem="o2t-0H-ap4" secondAttribute="bottom" constant="6" type="user" id="6bS-KL-GaO"/>
+                            <constraint firstItem="cPv-Vm-kyW" firstAttribute="bottom" secondItem="Y2E-Jg-fpx" secondAttribute="bottom" type="default" id="H3d-jF-UUX"/>
+                            <constraint firstItem="o2t-0H-ap4" firstAttribute="top" secondItem="03t-DA-dwL" secondAttribute="bottom" constant="7" type="user" id="NDT-BT-PNr"/>
+                            <constraint firstItem="dJA-D6-1g5" firstAttribute="centerX" secondItem="03t-DA-dwL" secondAttribute="centerX" type="default" id="bvm-rg-GHd"/>
+                            <constraint firstItem="dJA-D6-1g5" firstAttribute="top" secondItem="Y2E-Jg-fpx" secondAttribute="top" constant="14" type="user" id="f4P-Ju-je3"/>
+                            <constraint firstItem="03t-DA-dwL" firstAttribute="leading" secondItem="Y2E-Jg-fpx" secondAttribute="leading" type="default" id="iC9-MV-Mc8"/>
+                            <constraint firstItem="cPv-Vm-kyW" firstAttribute="top" secondItem="Y2E-Jg-fpx" secondAttribute="top" type="default" id="kzZ-TC-QNb"/>
+                            <constraint firstItem="o2t-0H-ap4" firstAttribute="centerX" secondItem="03t-DA-dwL" secondAttribute="centerX" type="default" id="ltO-LW-8Lq"/>
+                            <constraint firstItem="cPv-Vm-kyW" firstAttribute="trailing" secondItem="Y2E-Jg-fpx" secondAttribute="trailing" type="default" id="lwq-zb-Bbe"/>
+                            <constraint firstItem="03t-DA-dwL" firstAttribute="top" secondItem="dJA-D6-1g5" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="oQE-Nr-7OI"/>
+                            <constraint firstItem="03t-DA-dwL" firstAttribute="trailing" secondItem="Y2E-Jg-fpx" secondAttribute="trailing" type="default" id="q47-Jo-uZh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="w2a-JO-pLD"/>
+                    <connections>
+                        <outlet property="howtoText" destination="03t-DA-dwL" id="6sB-tD-1Bl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S2a-td-Ikd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="409" y="1597"/>
         </scene>
         <!--Menu Controller-->
         <scene sceneID="MUi-PP-xil">
@@ -1655,14 +1736,14 @@
                                     <outlet property="timeLabel" destination="TfB-J8-GX3" id="Cwl-Eu-i74"/>
                                 </connections>
                             </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et " translatesAutoresizingMaskIntoConstraints="NO" id="VDD-nu-CVN">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et " translatesAutoresizingMaskIntoConstraints="NO" id="VDD-nu-CVN">
                                 <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="149" id="VQm-KM-oUL"/>
                                 </constraints>
                                 <color key="textColor" red="0.94232014419999999" green="0.93705578590000005" blue="0.94758450260000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYh-nn-IGl">
                                 <constraints>
@@ -1717,6 +1798,7 @@
         <image name="57.jpg" width="640" height="1136"/>
         <image name="69.jpg" width="640" height="1136"/>
         <image name="8.jpg" width="640" height="1136"/>
+        <image name="9.jpg" width="640" height="1136"/>
         <image name="button_ankara.png" width="550" height="85"/>
         <image name="button_basla.png" width="550" height="86"/>
         <image name="button_buradangit_s.png" width="260" height="86"/>

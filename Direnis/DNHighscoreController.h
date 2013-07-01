@@ -12,6 +12,7 @@
 {
     NSArray *items;
 }
+@property (weak, nonatomic) IBOutlet UITextView *howtoText;
 
 - (IBAction)goBack:(id)sender;
 
