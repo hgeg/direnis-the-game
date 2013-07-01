@@ -91,4 +91,8 @@
     [self.status redraw];
 }
 
+- (IBAction) goBackToMainMenu:(id)sender {
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
 @end

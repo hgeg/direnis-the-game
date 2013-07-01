@@ -12,6 +12,7 @@
 
 - (void) setTextN:(NSString *)text {
     [self setText:[text stringByReplacingOccurrencesOfString:@"i" withString:@"İ"]];
+    [self setFont:[UIFont fontWithName:@"BebasNeue" size:20]];
 }
 
 @end

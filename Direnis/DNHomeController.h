@@ -20,4 +20,6 @@
 
 - (IBAction) passTime:(id)sender;
 
+- (IBAction) goBackToMainMenu:(id)sender;
+
 @end

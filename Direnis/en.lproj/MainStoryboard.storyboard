@@ -296,13 +296,13 @@
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="452" type="user" id="QR5-u4-yns"/>
                                 </constraints>
-                                <mutableString key="text">Oyunun amacı oyunu olabildiğince yüksek skorla bitirmektir. Karakterin oyunu bittikten sonra hesaplanan bu skor; karakterin seviyesene, elindeki malzemelere, oyun içinde ulaştığı puana göre şekillenir.
+                                <string key="text">Oyunun amacı oyunu olabildiğince yüksek skorla bitirmektir. Karakterin oyunu bittikten sonra hesaplanan bu skor; karakterin seviyesene, elindeki malzemelere, oyun içinde ulaştığı puana göre şekillenir.
 
 Oyunda karaktere çeşitli sorular sorulmaktadır ve bu sorulara göre karakterin bir seçim yapması beklenmektedir. Karakterin seçimleri kendisine seviye ve puan kazandırır ya da kaybettirir. Karakterin seçiminde başarılı olması sorunun zorluğuna, gerektirdiği malzemelere, karakterin seviyesine, seçiminin zorluğuna, yere ve saate göre değişmektedir. Örneğin gündüz soruları daha kolayken gece geç oldukça sorular ve seçimlerin zorlukları artmaktadır. Buna bağlı olarak kazandırdığı puanlar da artmakadır. Bu yüzden karakterin başta daha kolay yerlerde ve zamanlarda bulunması, tecrübe ve puan kazandıkça yeni malzemeler alarak daha zor yerlerde bulunması oyunun püf noktasıdır. 
 
 İstenilen zamanda yer değiştirebilir, eve gidebilirsiniz. Evde 'Dinlen' tuşu ile saatleri ilerletebilir ve istediğiniz saatte dışarı çıkabilirsiniz. Burada karakterin karşısına hiç soru gelmemektedir. Zor durumlarda ve geç saatlerde eve gidip dinlenmek, sabah olmasını beklemek karakterinizi güvende tutacaktır.
  
-Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedilir. En iyi skorlarınızı 'Rekorlar' bölümünden görebilirsiniz.</mutableString>
+Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedilir. En iyi skorlarınızı 'Rekorlar' bölümünden görebilirsiniz.</string>
                                 <color key="textColor" red="0.94232014419999999" green="0.93705578590000005" blue="0.94758450260000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -579,7 +579,7 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                                     <action selector="passTime:" destination="VQ4-pR-qbG" eventType="touchUpInside" id="nNq-4w-mtM"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jqQ-Ef-86W">
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jqQ-Ef-86W">
                                 <subviews>
                                     <tableView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="53" sectionHeaderHeight="30" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="R22-lY-c1b">
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -688,15 +688,15 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="RuI-b9-sJS" firstAttribute="top" secondItem="jqQ-Ef-86W" secondAttribute="top" constant="59" id="6em-sX-BqB"/>
+                                    <constraint firstAttribute="height" constant="230" type="user" id="86Z-mz-FLJ"/>
                                     <constraint firstItem="Wyq-gK-qc9" firstAttribute="top" secondItem="jqQ-Ef-86W" secondAttribute="top" constant="6" id="9Ql-2d-sPO"/>
-                                    <constraint firstAttribute="bottom" secondItem="DIS-CY-h5W" secondAttribute="bottom" constant="49" id="FM0-oj-pXO"/>
-                                    <constraint firstItem="R22-lY-c1b" firstAttribute="top" secondItem="jqQ-Ef-86W" secondAttribute="top" constant="46" id="GY3-MC-jhi"/>
+                                    <constraint firstItem="R22-lY-c1b" firstAttribute="top" secondItem="jqQ-Ef-86W" secondAttribute="top" constant="36" id="EvE-TF-DrS"/>
+                                    <constraint firstAttribute="bottom" secondItem="DIS-CY-h5W" secondAttribute="bottom" constant="49" id="JIn-5a-aVY"/>
                                     <constraint firstItem="Wyq-gK-qc9" firstAttribute="centerX" secondItem="jqQ-Ef-86W" secondAttribute="centerX" type="default" id="N14-0Q-Aq7"/>
                                     <constraint firstItem="DIS-CY-h5W" firstAttribute="leading" secondItem="n39-c1-W77" secondAttribute="leading" type="default" id="Q3X-dd-A1Y"/>
                                     <constraint firstItem="n39-c1-W77" firstAttribute="leading" secondItem="RuI-b9-sJS" secondAttribute="leading" type="default" id="Rfo-8R-joX"/>
-                                    <constraint firstAttribute="height" constant="240" type="user" id="Srf-2V-9fp"/>
-                                    <constraint firstItem="n39-c1-W77" firstAttribute="top" secondItem="jqQ-Ef-86W" secondAttribute="top" constant="112" id="Vc8-2L-hqP"/>
+                                    <constraint firstItem="n39-c1-W77" firstAttribute="top" secondItem="jqQ-Ef-86W" secondAttribute="top" constant="102" id="X6x-XX-PHQ"/>
+                                    <constraint firstItem="RuI-b9-sJS" firstAttribute="top" secondItem="jqQ-Ef-86W" secondAttribute="top" constant="49" id="eep-c4-V3W"/>
                                     <constraint firstItem="RuI-b9-sJS" firstAttribute="leading" secondItem="jqQ-Ef-86W" secondAttribute="leading" constant="9" id="p7S-Sg-CB0"/>
                                     <constraint firstItem="R22-lY-c1b" firstAttribute="leading" secondItem="jqQ-Ef-86W" secondAttribute="leading" constant="70" id="pYP-Qf-p3D"/>
                                 </constraints>
@@ -803,32 +803,51 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                                     <outlet property="timeLabel" destination="Yiw-TL-ax9" id="NZ2-mG-ZZ8"/>
                                 </connections>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4K-Nl-h5V">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="znd-O2-OBI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="button_anamenuyedon.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBackToMainMenu:" destination="VQ4-pR-qbG" eventType="touchUpInside" id="Pe6-vo-oli"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Y4K-Nl-h5V" firstAttribute="top" secondItem="xGx-nE-Ybz" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="12k-Oc-R1j"/>
                             <constraint firstAttribute="trailing" secondItem="yPW-eA-x1e" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="1zk-7h-1cc"/>
-                            <constraint firstItem="jqQ-Ef-86W" firstAttribute="top" secondItem="87X-Nm-I8c" secondAttribute="top" constant="80" type="user" id="5Ka-ct-u8K"/>
-                            <constraint firstAttribute="bottom" secondItem="fYf-wY-zVP" secondAttribute="bottom" constant="478" id="5ar-sB-3v3"/>
-                            <constraint firstItem="xGx-nE-Ybz" firstAttribute="top" secondItem="fsG-4x-fA3" secondAttribute="bottom" constant="19" type="user" id="5vq-mg-Mlg"/>
+                            <constraint firstAttribute="trailing" secondItem="Y4K-Nl-h5V" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="4FU-7j-W4H"/>
                             <constraint firstItem="TEh-Zw-Amy" firstAttribute="trailing" secondItem="87X-Nm-I8c" secondAttribute="trailing" type="default" id="7cW-n7-G8u"/>
                             <constraint firstItem="fsG-4x-fA3" firstAttribute="leading" secondItem="87X-Nm-I8c" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="A81-1c-mRq"/>
+                            <constraint firstItem="yPW-eA-x1e" firstAttribute="top" secondItem="fsG-4x-fA3" secondAttribute="bottom" constant="7" type="user" id="Ekz-U5-1ZU"/>
                             <constraint firstAttribute="bottom" secondItem="jqQ-Ef-86W" secondAttribute="bottom" priority="578" constant="230" type="user" id="Fhr-ek-x4k"/>
+                            <constraint firstAttribute="bottom" secondItem="fYf-wY-zVP" secondAttribute="bottom" constant="390" id="HHH-dd-egw"/>
                             <constraint firstItem="fYf-wY-zVP" firstAttribute="top" secondItem="87X-Nm-I8c" secondAttribute="top" type="default" id="Hb4-6k-fSC"/>
                             <constraint firstItem="TEh-Zw-Amy" firstAttribute="top" secondItem="87X-Nm-I8c" secondAttribute="top" type="user" id="JAk-6z-1fu"/>
                             <constraint firstItem="fYf-wY-zVP" firstAttribute="trailing" secondItem="87X-Nm-I8c" secondAttribute="trailing" type="default" id="K66-vV-a8d"/>
-                            <constraint firstAttribute="bottom" secondItem="xGx-nE-Ybz" secondAttribute="bottom" priority="272" constant="119" type="user" id="Mjk-Sc-bcZ"/>
+                            <constraint firstItem="jqQ-Ef-86W" firstAttribute="top" secondItem="87X-Nm-I8c" secondAttribute="top" constant="76" type="user" id="LnK-pj-8gG"/>
                             <constraint firstAttribute="bottom" secondItem="fsG-4x-fA3" secondAttribute="bottom" priority="185" constant="178" type="user" id="Ndl-nt-dlC"/>
                             <constraint firstItem="xGx-nE-Ybz" firstAttribute="leading" secondItem="87X-Nm-I8c" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="R1k-ZT-xEs"/>
                             <constraint firstItem="fYf-wY-zVP" firstAttribute="leading" secondItem="87X-Nm-I8c" secondAttribute="leading" type="default" id="Tm4-Cb-fKu"/>
-                            <constraint firstItem="fsG-4x-fA3" firstAttribute="top" secondItem="jqQ-Ef-86W" secondAttribute="bottom" constant="18" type="user" id="VFJ-Uz-nKa"/>
                             <constraint firstItem="jqQ-Ef-86W" firstAttribute="leading" secondItem="87X-Nm-I8c" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="WJp-4P-IUa"/>
                             <constraint firstItem="TEh-Zw-Amy" firstAttribute="bottom" secondItem="87X-Nm-I8c" secondAttribute="bottom" priority="403" type="user" id="Wpu-oJ-JCT"/>
-                            <constraint firstItem="yPW-eA-x1e" firstAttribute="top" secondItem="xGx-nE-Ybz" secondAttribute="top" type="user" id="aHU-07-39m"/>
                             <constraint firstItem="TEh-Zw-Amy" firstAttribute="leading" secondItem="87X-Nm-I8c" secondAttribute="leading" type="default" id="eXS-eb-HPz"/>
+                            <constraint firstItem="Y4K-Nl-h5V" firstAttribute="top" secondItem="yPW-eA-x1e" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="fIb-Ag-66q"/>
                             <constraint firstAttribute="trailing" secondItem="jqQ-Ef-86W" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="gDg-yP-nTT"/>
+                            <constraint firstItem="Y4K-Nl-h5V" firstAttribute="leading" secondItem="87X-Nm-I8c" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="kbq-Yr-wgX"/>
                             <constraint firstAttribute="trailing" secondItem="fsG-4x-fA3" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="kpJ-Gb-msF"/>
-                            <constraint firstItem="yPW-eA-x1e" firstAttribute="top" secondItem="fsG-4x-fA3" secondAttribute="bottom" constant="19" type="user" id="kpf-Qj-295"/>
-                            <constraint firstItem="yPW-eA-x1e" firstAttribute="bottom" secondItem="xGx-nE-Ybz" secondAttribute="bottom" type="default" id="wix-te-eNl"/>
+                            <constraint firstItem="xGx-nE-Ybz" firstAttribute="top" secondItem="fsG-4x-fA3" secondAttribute="bottom" constant="7" type="user" id="mk5-lG-Obb"/>
+                            <constraint firstAttribute="bottom" secondItem="xGx-nE-Ybz" secondAttribute="bottom" priority="4" constant="62" type="user" id="oow-YL-5cA"/>
+                            <constraint firstItem="yPW-eA-x1e" firstAttribute="top" secondItem="xGx-nE-Ybz" secondAttribute="top" type="user" id="tix-mV-W1R"/>
+                            <constraint firstItem="fsG-4x-fA3" firstAttribute="top" secondItem="jqQ-Ef-86W" secondAttribute="bottom" constant="5" type="user" id="ytA-ZP-Z08"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ghY-I0-d3g"/>
@@ -840,7 +859,7 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rDy-jJ-6rL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1391" y="316"/>
+            <point key="canvasLocation" x="1394" y="316"/>
         </scene>
         <!--Shop Controller-->
         <scene sceneID="gPR-h2-lRq">
@@ -1041,10 +1060,10 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                             <constraint firstItem="5Iv-SK-il1" firstAttribute="centerX" secondItem="Hvl-8i-Qxo" secondAttribute="centerX" type="default" id="RaU-u5-w4P"/>
                             <constraint firstItem="0Hh-mx-Bhf" firstAttribute="leading" secondItem="ZVK-z4-ZHF" secondAttribute="leading" type="default" id="a7U-gP-mdO"/>
                             <constraint firstItem="5Iv-SK-il1" firstAttribute="trailing" secondItem="ZVK-z4-ZHF" secondAttribute="trailing" type="default" id="ah3-nn-d0v"/>
+                            <constraint firstAttribute="bottom" secondItem="0Hh-mx-Bhf" secondAttribute="bottom" constant="460" id="dZl-nu-Wcv"/>
                             <constraint firstItem="0Hh-mx-Bhf" firstAttribute="top" secondItem="ZVK-z4-ZHF" secondAttribute="top" type="default" id="e1i-RJ-wvU"/>
                             <constraint firstItem="qf6-GW-OGa" firstAttribute="trailing" secondItem="ZVK-z4-ZHF" secondAttribute="trailing" type="default" id="emZ-Cg-BdF"/>
                             <constraint firstItem="qf6-GW-OGa" firstAttribute="bottom" secondItem="ZVK-z4-ZHF" secondAttribute="bottom" type="default" id="ens-Cr-aRo"/>
-                            <constraint firstAttribute="bottom" secondItem="0Hh-mx-Bhf" secondAttribute="bottom" constant="478" id="gOz-hK-2lp"/>
                             <constraint firstItem="qf6-GW-OGa" firstAttribute="leading" secondItem="ZVK-z4-ZHF" secondAttribute="leading" type="default" id="luD-kG-CzR"/>
                             <constraint firstItem="qf6-GW-OGa" firstAttribute="top" secondItem="ZVK-z4-ZHF" secondAttribute="top" type="default" id="ooc-0Y-8fg"/>
                             <constraint firstItem="5Iv-SK-il1" firstAttribute="leading" secondItem="ZVK-z4-ZHF" secondAttribute="leading" type="default" id="ppO-Jg-FiS"/>
@@ -1215,37 +1234,59 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                                         <color key="textColor" red="0.94232014419999999" green="0.93705578590000005" blue="0.94758450260000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEH-ib-7Rq">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Lsw-W4-RYv"/>
+                                            <constraint firstAttribute="width" constant="45" id="djN-Li-O5w"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="19"/>
+                                        <color key="textColor" red="0.94232014419999999" green="0.93705578590000005" blue="0.94758450260000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="10" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3U-vZ-11T">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="102" id="iSb-ou-qvt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="19"/>
+                                        <color key="textColor" red="0.94232014419999999" green="0.93705578590000005" blue="0.94758450260000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="hRA-bC-cYw" secondAttribute="bottom" constant="13" id="0dd-Ee-Gpa"/>
+                                    <constraint firstItem="flT-eR-9NO" firstAttribute="leading" secondItem="xu1-iO-NOt" secondAttribute="leading" constant="204" id="0aX-zd-zeQ"/>
                                     <constraint firstItem="bJ8-jO-JEw" firstAttribute="baseline" secondItem="qzE-mc-MUR" secondAttribute="baseline" type="default" id="2Zr-cz-dWp"/>
                                     <constraint firstItem="hRA-bC-cYw" firstAttribute="leading" secondItem="xu1-iO-NOt" secondAttribute="leading" constant="61" id="2h0-qf-66F"/>
-                                    <constraint firstAttribute="trailing" secondItem="flT-eR-9NO" secondAttribute="trailing" constant="14" id="6sR-c1-VgR"/>
+                                    <constraint firstItem="GEH-ib-7Rq" firstAttribute="top" secondItem="G3U-vZ-11T" secondAttribute="top" type="default" id="5hD-JD-BtR"/>
                                     <constraint firstItem="hRA-bC-cYw" firstAttribute="baseline" secondItem="flT-eR-9NO" secondAttribute="baseline" type="default" id="9Gn-jY-rHb"/>
                                     <constraint firstItem="1iP-Rj-QPH" firstAttribute="leading" secondItem="xu1-iO-NOt" secondAttribute="leading" type="default" id="9kX-F3-Igx"/>
                                     <constraint firstItem="bJ8-jO-JEw" firstAttribute="top" secondItem="Tuo-BJ-g2x" secondAttribute="top" type="default" id="BDE-VB-wEb"/>
                                     <constraint firstItem="Tuo-BJ-g2x" firstAttribute="trailing" secondItem="zOO-tp-jQL" secondAttribute="trailing" type="default" id="C7r-Tb-vaa"/>
-                                    <constraint firstItem="bJ8-jO-JEw" firstAttribute="top" secondItem="xu1-iO-NOt" secondAttribute="top" constant="33" id="CD5-7f-vfD"/>
+                                    <constraint firstItem="GEH-ib-7Rq" firstAttribute="baseline" secondItem="G3U-vZ-11T" secondAttribute="baseline" type="default" id="Flp-TG-Zwo"/>
                                     <constraint firstItem="qzE-mc-MUR" firstAttribute="leading" secondItem="uaL-kW-wRI" secondAttribute="leading" type="default" id="G1R-b3-Ht4"/>
+                                    <constraint firstItem="GEH-ib-7Rq" firstAttribute="top" secondItem="xu1-iO-NOt" secondAttribute="top" constant="36" id="GTi-mu-6zg"/>
                                     <constraint firstItem="bJ8-jO-JEw" firstAttribute="bottom" secondItem="Tuo-BJ-g2x" secondAttribute="bottom" type="default" id="H07-Qt-B0R"/>
                                     <constraint firstItem="bJ8-jO-JEw" firstAttribute="leading" secondItem="xu1-iO-NOt" secondAttribute="leading" constant="130" id="ICu-md-9Ez"/>
-                                    <constraint firstItem="qzE-mc-MUR" firstAttribute="top" secondItem="kId-RT-hab" secondAttribute="top" type="default" id="Iof-NV-785"/>
                                     <constraint firstItem="1iP-Rj-QPH" firstAttribute="top" secondItem="xu1-iO-NOt" secondAttribute="top" constant="-20" id="N9X-Yy-jjf"/>
-                                    <constraint firstItem="bJ8-jO-JEw" firstAttribute="top" secondItem="kId-RT-hab" secondAttribute="top" type="default" id="PZ4-NY-3DR"/>
+                                    <constraint firstItem="kId-RT-hab" firstAttribute="top" secondItem="qzE-mc-MUR" secondAttribute="top" type="default" id="QZj-mF-0TG"/>
                                     <constraint firstItem="qzE-mc-MUR" firstAttribute="bottom" secondItem="kId-RT-hab" secondAttribute="bottom" type="default" id="SCH-0G-M8c"/>
                                     <constraint firstItem="flT-eR-9NO" firstAttribute="top" secondItem="hRA-bC-cYw" secondAttribute="top" type="default" id="YKF-bV-hJr"/>
+                                    <constraint firstItem="hRA-bC-cYw" firstAttribute="top" secondItem="xu1-iO-NOt" secondAttribute="top" constant="-34" id="ZJ5-T2-tFe"/>
                                     <constraint firstItem="1iP-Rj-QPH" firstAttribute="trailing" secondItem="xu1-iO-NOt" secondAttribute="trailing" type="default" id="abA-Fg-2id"/>
+                                    <constraint firstAttribute="trailing" secondItem="G3U-vZ-11T" secondAttribute="trailing" constant="13" id="bLf-uo-k6Q"/>
                                     <constraint firstItem="uaL-kW-wRI" firstAttribute="leading" secondItem="xu1-iO-NOt" secondAttribute="leading" constant="10" id="ccF-xR-9Zg"/>
                                     <constraint firstItem="zOO-tp-jQL" firstAttribute="top" secondItem="uaL-kW-wRI" secondAttribute="top" type="default" id="dxQ-6t-lai"/>
+                                    <constraint firstItem="qzE-mc-MUR" firstAttribute="top" secondItem="xu1-iO-NOt" secondAttribute="top" constant="33" id="elm-TC-95W"/>
                                     <constraint firstItem="zOO-tp-jQL" firstAttribute="leading" secondItem="xu1-iO-NOt" secondAttribute="leading" constant="125" id="iBt-9D-p4z"/>
+                                    <constraint firstItem="kId-RT-hab" firstAttribute="top" secondItem="bJ8-jO-JEw" secondAttribute="top" type="default" id="jbi-cp-fSy"/>
                                     <constraint firstItem="zOO-tp-jQL" firstAttribute="top" secondItem="xu1-iO-NOt" secondAttribute="top" constant="2" id="mh3-Hz-HZV"/>
+                                    <constraint firstItem="GEH-ib-7Rq" firstAttribute="centerX" secondItem="kId-RT-hab" secondAttribute="centerX" type="default" id="rdi-cn-upd"/>
                                     <constraint firstItem="kId-RT-hab" firstAttribute="leading" secondItem="xu1-iO-NOt" secondAttribute="leading" constant="60" id="uMW-3K-SYX"/>
                                 </constraints>
                                 <connections>
-                                    <outlet property="levelLabel" destination="hRA-bC-cYw" id="5bR-VL-7AU"/>
+                                    <outlet property="levelLabel" destination="GEH-ib-7Rq" id="WxI-hd-77C"/>
                                     <outlet property="locationLabel" destination="uaL-kW-wRI" id="gZh-9X-itS"/>
-                                    <outlet property="pointLabel" destination="flT-eR-9NO" id="lKI-xD-OBC"/>
+                                    <outlet property="pointLabel" destination="G3U-vZ-11T" id="gqu-dp-HX2"/>
                                     <outlet property="timeLabel" destination="zOO-tp-jQL" id="CrL-QT-UiF"/>
                                 </connections>
                             </view>
@@ -1257,7 +1298,6 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                             <constraint firstItem="0nm-mv-4VV" firstAttribute="top" secondItem="H23-Oh-pZN" secondAttribute="top" constant="150" type="user" id="3v5-vz-ozk"/>
                             <constraint firstItem="DnL-Fv-Hhm" firstAttribute="top" secondItem="0nm-mv-4VV" secondAttribute="bottom" constant="15" type="user" id="8fg-Nq-VyX"/>
                             <constraint firstItem="xu1-iO-NOt" firstAttribute="trailing" secondItem="H23-Oh-pZN" secondAttribute="trailing" type="default" id="AGY-qO-Dxe"/>
-                            <constraint firstAttribute="bottom" secondItem="xu1-iO-NOt" secondAttribute="bottom" constant="478" id="KQF-Ze-zYj"/>
                             <constraint firstAttribute="trailing" secondItem="DnL-Fv-Hhm" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Kzg-Gp-IGl"/>
                             <constraint firstItem="8g9-zu-lZx" firstAttribute="leading" secondItem="H23-Oh-pZN" secondAttribute="leading" constant="71" id="LEW-IY-8tr"/>
                             <constraint firstItem="F0H-Oc-HNP" firstAttribute="top" secondItem="H23-Oh-pZN" secondAttribute="top" type="user" id="M2h-u5-Tvs"/>
@@ -1267,6 +1307,7 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                             <constraint firstItem="DnL-Fv-Hhm" firstAttribute="leading" secondItem="H23-Oh-pZN" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="dCO-w8-7r5"/>
                             <constraint firstAttribute="trailing" secondItem="OeK-1H-LWz" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="e6p-h2-ain"/>
                             <constraint firstItem="0nm-mv-4VV" firstAttribute="leading" secondItem="H23-Oh-pZN" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="g9q-2O-5tc"/>
+                            <constraint firstAttribute="bottom" secondItem="xu1-iO-NOt" secondAttribute="bottom" constant="460" id="kkE-yx-DR4"/>
                             <constraint firstItem="xu1-iO-NOt" firstAttribute="leading" secondItem="H23-Oh-pZN" secondAttribute="leading" type="default" id="leH-VY-LZg"/>
                             <constraint firstItem="GeU-NR-z86" firstAttribute="top" secondItem="OeK-1H-LWz" secondAttribute="bottom" constant="40" type="user" id="mDa-bc-6ZU"/>
                             <constraint firstAttribute="bottom" secondItem="GeU-NR-z86" secondAttribute="bottom" priority="390" constant="127" type="user" id="mo7-ka-6Of"/>
@@ -1736,7 +1777,7 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                                     <outlet property="timeLabel" destination="TfB-J8-GX3" id="Cwl-Eu-i74"/>
                                 </connections>
                             </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et " translatesAutoresizingMaskIntoConstraints="NO" id="VDD-nu-CVN">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et" translatesAutoresizingMaskIntoConstraints="NO" id="VDD-nu-CVN">
                                 <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="149" id="VQm-KM-oUL"/>
@@ -1799,6 +1840,7 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
         <image name="69.jpg" width="640" height="1136"/>
         <image name="8.jpg" width="640" height="1136"/>
         <image name="9.jpg" width="640" height="1136"/>
+        <image name="button_anamenuyedon.png" width="550" height="86"/>
         <image name="button_ankara.png" width="550" height="85"/>
         <image name="button_basla.png" width="550" height="86"/>
         <image name="button_buradangit_s.png" width="260" height="86"/>
@@ -1859,11 +1901,13 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DNHighscoreController.h"/>
             <relationships>
                 <relationship kind="action" name="goBack:"/>
+                <relationship kind="outlet" name="howtoText" candidateClass="UITextView"/>
             </relationships>
         </class>
         <class className="DNHomeController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DNHomeController.h"/>
             <relationships>
+                <relationship kind="action" name="goBackToMainMenu:"/>
                 <relationship kind="action" name="passTime:"/>
                 <relationship kind="outlet" name="items" candidateClass="UITableView"/>
                 <relationship kind="outlet" name="level" candidateClass="UILabel"/>
@@ -1922,8 +1966,8 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="UJ3-V1-LGn"/>
+        <segue reference="6DW-13-5KR"/>
         <segue reference="vhO-kb-BE8"/>
         <segue reference="eyF-fp-aBK"/>
-        <segue reference="Xeb-He-X0g"/>
     </inferredMetricsTieBreakers>
 </document>

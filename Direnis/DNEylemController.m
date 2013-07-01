@@ -60,7 +60,6 @@
     }
     sIndex = arc4random_uniform([sorular count]);
     soru = sorular[sIndex];
-    NSLog(@"soru:%@",soru);
     [self.mainText setTextN:soru[@"Soru Text"]];
     [self.c1 setTitle:soru[@"Cevaplar"][0][@"Cevap Text"] forState:UIControlStateNormal];
     [self.c1 sizeToFit];
@@ -83,7 +82,6 @@
         [[NSUserDefaults standardUserDefaults] setValue:[player getLocation] forKey:@"lastplace"];
         return;
     }
-    NSLog(@"%@",[player getItems]);
     DNEylemResultController *d = (DNEylemResultController *)segue.destinationViewController;
     d.backgroundImage = self.background.image;
     if ([segue.identifier isEqualToString:@"c1"]) {

@@ -127,6 +127,7 @@
 		361E99F817809A8300AE341E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E99F717809A8300AE341E /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		361E99FA17809A8B00AE341E /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E99F917809A8B00AE341E /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		361E99FC1780A7ED00AE341E /* button_rekorlar.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E99FB1780A7ED00AE341E /* button_rekorlar.png */; };
+		361E99FE1781C7DA00AE341E /* button_anamenuyedon.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E99FD1781C7DA00AE341E /* button_anamenuyedon.png */; };
 		3659BD58176BDA7300557D18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD57176BDA7300557D18 /* UIKit.framework */; };
 		3659BD5A176BDA7300557D18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD59176BDA7300557D18 /* Foundation.framework */; };
 		3659BD5C176BDA7300557D18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD5B176BDA7300557D18 /* CoreGraphics.framework */; };
@@ -284,6 +285,7 @@
 		361E99F717809A8300AE341E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		361E99F917809A8B00AE341E /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		361E99FB1780A7ED00AE341E /* button_rekorlar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_rekorlar.png; sourceTree = "<group>"; };
+		361E99FD1781C7DA00AE341E /* button_anamenuyedon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_anamenuyedon.png; sourceTree = "<group>"; };
 		3659BD54176BDA7300557D18 /* Direnis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Direnis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3659BD57176BDA7300557D18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3659BD59176BDA7300557D18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -356,6 +358,7 @@
 				361C00D417744F7E0004D9A9 /* button_kugulupark.png */,
 				361C00D517744F7E0004D9A9 /* button_tunalihilmi.png */,
 				361C00D617744F7E0004D9A9 /* button_kennedy.png */,
+				361E99FD1781C7DA00AE341E /* button_anamenuyedon.png */,
 				361C00D717744F7E0004D9A9 /* button_ankara.png */,
 				361C00D817744F7E0004D9A9 /* button_istanbul.png */,
 				361C00D917744F7E0004D9A9 /* statusbar.png */,
@@ -783,6 +786,7 @@
 				361E99F31780995100AE341E /* button_facebook.png in Resources */,
 				361E99F41780995100AE341E /* button_buradangit_s.png in Resources */,
 				361E99FC1780A7ED00AE341E /* button_rekorlar.png in Resources */,
+				361E99FE1781C7DA00AE341E /* button_anamenuyedon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

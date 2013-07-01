@@ -52,7 +52,6 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated{
-    NSLog(@"\n\n\n%@\n\n\n",[player getCumulativeScore]);
     [super viewWillAppear:animated];
     [self.mainText setTextN:self.text];
     self.background.image = self.backgroundImage;
