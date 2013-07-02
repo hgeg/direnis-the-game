@@ -131,7 +131,6 @@
 		3659BD5A176BDA7300557D18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD59176BDA7300557D18 /* Foundation.framework */; };
 		3659BD5C176BDA7300557D18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3659BD5B176BDA7300557D18 /* CoreGraphics.framework */; };
 		3659BD92176BDABC00557D18 /* Database.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3659BD75176BDABC00557D18 /* Database.plist */; };
-		3659BD96176BDABC00557D18 /* Direnis-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3659BD79176BDABC00557D18 /* Direnis-Info.plist */; };
 		3659BD97176BDABC00557D18 /* DNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BD7C176BDABC00557D18 /* DNAppDelegate.m */; };
 		3659BD98176BDABC00557D18 /* DNEylemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BD7E176BDABC00557D18 /* DNEylemController.m */; };
 		3659BD99176BDABC00557D18 /* DNEylemResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659BD80176BDABC00557D18 /* DNEylemResultController.m */; };
@@ -658,7 +657,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3659BD92176BDABC00557D18 /* Database.plist in Resources */,
-				3659BD96176BDABC00557D18 /* Direnis-Info.plist in Resources */,
 				3659BDA0176BDABC00557D18 /* InfoPlist.strings in Resources */,
 				3659BDA1176BDABC00557D18 /* MainStoryboard.storyboard in Resources */,
 				3659BDA7176CC26400557D18 /* shop.plist in Resources */,

@@ -79,10 +79,8 @@
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Oyun Bitti" message:[NSString stringWithFormat:@"Puanın sıfırlandı. Gelecek sefere daha dikkatli olman gerek.\nToplam puanın:%@",[player getCumulativeScore]] delegate:self cancelButtonTitle:@"#anamenuyedonuyoruz" otherButtonTitles:nil];
         alert.tag = 27;
         [alert show];
-    }else if([player getHour]==6){
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Bu günlük bu kadar" message:@"Güneşin açmasıyla hayat yavaş yavaş normale dönüyor. Akşama tüm gücünle direnebilmen için eve gidip güç toplamalısın." delegate:self cancelButtonTitle:@"Eve Dön" otherButtonTitles:nil];
-        [alert show];
     }
+    [self.mainText setFont:[UIFont fontWithName:@"BebasNeue" size:20]];
     [self.status redraw];
 }
 
@@ -92,8 +90,13 @@
         [DNPlayer save:player];
         [self.navigationController popToRootViewControllerAnimated:YES];
     }else{
-        [player passTime:1];
-        [self.navigationController popViewControllerAnimated:YES];
+        if([player getHour]==6){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Bu günlük bu kadar" message:@"Güneşin açmasıyla hayat yavaş yavaş normale dönüyor. Akşama tüm gücünle direnebilmen için eve gidip güç toplamalısın." delegate:self cancelButtonTitle:@"Eve Dön" otherButtonTitles:nil];
+            [alert show];
+        }else{
+            [player passTime:1];
+            [self.navigationController popViewControllerAnimated:YES];
+        }
     }
 }
 

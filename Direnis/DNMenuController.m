@@ -41,6 +41,7 @@
     [self.nameBackView addGestureRecognizer:tgr];
     if(player==nil)
         self.continueButton.hidden = true;
+    else self.continueButton.hidden = false;
 }
 
 - (void)didReceiveMemoryWarning

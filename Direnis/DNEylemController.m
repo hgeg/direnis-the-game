@@ -94,7 +94,7 @@
                 itemPower = [[player getItems][[cat[cevab[@"Item"]] intValue]][@"Power"] floatValue];
         }
         int random = arc4random_uniform(100)+1;
-        if ([cevab[@"Zorluk"] integerValue]<random+[player getAttrribute:@"level"]*itemPower/2.0){
+        if ([cevab[@"Zorluk"] integerValue]<random+[player getAttrribute:@"level"]*itemPower*0.6){
             NSDictionary *result = cevab[@"Success"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
             [player addToAttrribute:@"points" value:[result[@"Result"][@"Point"] integerValue]];
@@ -124,7 +124,7 @@
                 itemPower = [[player getItems][[cat[cevab[@"Item"]] intValue]][@"Power"] floatValue];
         }
         int random = arc4random_uniform(100)+1;
-        if ([cevab[@"Zorluk"] integerValue]<random+[player getAttrribute:@"level"]*itemPower/2.0){
+        if ([cevab[@"Zorluk"] integerValue]<random+[player getAttrribute:@"level"]*itemPower*0.6){
             NSDictionary *result = cevab[@"Success"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
             [player addToAttrribute:@"points" value:[result[@"Result"][@"Point"] integerValue]];

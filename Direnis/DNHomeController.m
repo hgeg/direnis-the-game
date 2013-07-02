@@ -92,6 +92,7 @@
 }
 
 - (IBAction) goBackToMainMenu:(id)sender {
+    [DNPlayer save:player];
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
