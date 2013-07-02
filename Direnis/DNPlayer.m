@@ -37,7 +37,7 @@
 }
 - (void) addXP:(int)x {
     xp += x;
-    if(xp>100) {
+    if(xp>100+(level*level)) {
         level++;
         xp %= 100;
     }
@@ -46,7 +46,7 @@
     current = location;
 }
 
-- (void) passTime:(int)hours {
+- (void) passTime:(float)hours {
     time = [time dateByAddingTimeInterval:hours*3600];
 }
 
@@ -72,6 +72,8 @@
 
 - (void) addItem:(NSDictionary *)item toCategory:(int)category {
     items[category] = item;
+    medCount = [item[@"Power"] integerValue];
+    NSLog(@"medCount:%d",medCount);
 }
 
 - (int) getAttrribute:(NSString *)attr {
@@ -123,6 +125,7 @@
     [encoder encodeObject:current forKey:@"current"];
     [encoder encodeObject:items forKey:@"items"];
     
+    [encoder encodeObject:[NSNumber numberWithInt:medCount] forKey:@"medc"];
     [encoder encodeObject:[NSNumber numberWithInt:level] forKey:@"level"];
     [encoder encodeObject:[NSNumber numberWithInt:xp] forKey:@"xp"];
     [encoder encodeObject:[NSNumber numberWithInt:points] forKey:@"points"];
@@ -136,11 +139,20 @@
         items = [decoder decodeObjectForKey:@"items"];
         current = [decoder decodeObjectForKey:@"current"];
         
+        medCount = [[decoder decodeObjectForKey:@"medc"] integerValue];
         level = [[decoder decodeObjectForKey:@"level"] integerValue];
         xp = [[decoder decodeObjectForKey:@"xp"] integerValue];
         points = [[decoder decodeObjectForKey:@"points"] integerValue];
     }
     return self;
+}
+
+- (int) medC {
+    NSLog(@"%d",medCount);
+    return medCount;
+}
+- (void) decMedC {
+    medCount--;
 }
 
 + (void)save:(DNPlayer *)obj {
@@ -159,7 +171,7 @@
 
 
 - (NSNumber *) getCumulativeScore {
-    return [NSNumber numberWithInt:cumPoints+1000*level+10*xp+(int)([time timeIntervalSinceDate:[NSDate dateWithTimeIntervalSince1970:1369755054]])%1000000/100];
+    return [NSNumber numberWithInt:cumPoints+1000*(level-1)+10*xp+(int)([time timeIntervalSinceDate:[NSDate dateWithTimeIntervalSince1970:1369755054]])%1000000/1000];
 }
 
 @end

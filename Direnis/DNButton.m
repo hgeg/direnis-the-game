@@ -32,6 +32,13 @@
 
 - (void) setTitle:(NSString *)title forState:(UIControlState)state {
     [super setTitle:[title stringByReplacingOccurrencesOfString:@"i" withString:@"İ"] forState:state];
+    if (self.titleLabel.text.length>40) {
+        self.titleLabel.font = [UIFont fontWithName:@"ArialMT" size:17];
+    }else if (self.titleLabel.text.length>30) {
+        self.titleLabel.font = [UIFont fontWithName:@"ArialMT" size:19];
+    }else{
+        self.titleLabel.font = [UIFont fontWithName:@"ArialMT" size:21];
+    }
 }
 
 /*

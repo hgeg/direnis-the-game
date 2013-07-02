@@ -18,6 +18,7 @@
     NSMutableArray *items;
     NSDate *time;
     NSString *current;
+    int medCount;
 }
 
 - (id) init;
@@ -25,7 +26,7 @@
 - (void) addPoints:(int)p;
 - (void) addXP:(int)x;
 - (void) setLocation:(NSString *)location;
-- (void) passTime:(int)hours;
+- (void) passTime:(float)hours;
 - (void) setTime:(int) timestamp;
 - (void) addToAttrribute:(NSString *)attr value:(int)value;
 - (void) setName:(NSString *)n;
@@ -38,6 +39,9 @@
 - (NSString *) getDate;
 - (NSString *) getHourInterval;
 - (NSNumber *) getCumulativeScore;
+
+- (int)  medC;
+- (void) decMedC;
 
 + (void)save:(DNPlayer *)obj;
 + (DNPlayer *)load;

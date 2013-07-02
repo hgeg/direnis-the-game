@@ -2237,7 +2237,7 @@
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
-							<string>1</string>
+							<string>İlaç</string>
 						</dict>
 						<dict>
 							<key>Fail</key>
@@ -3376,7 +3376,7 @@
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
-							<string>1</string>
+							<string>İlaç</string>
 						</dict>
 						<dict>
 							<key>Fail</key>
@@ -6672,7 +6672,7 @@
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
-							<string>1</string>
+							<string>İlaç</string>
 						</dict>
 						<dict>
 							<key>Fail</key>

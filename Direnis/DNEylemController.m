@@ -14,7 +14,7 @@
 #import "DNAppDelegate.h"
 #import "DNPlayer.h"
 
-#define cat @{@"Eldiven":@0,@"İlaç":@1,@"Maske":@2}
+#define cat @{@"İlaç":@0,@"Maske":@1,@"Eldiven":@2}
 #define player ((DNAppDelegate *)[UIApplication sharedApplication].delegate).player
 #define city ((DNAppDelegate *)[UIApplication sharedApplication].delegate).city
 #define database ((DNAppDelegate *)[UIApplication sharedApplication].delegate).database
@@ -51,9 +51,9 @@
     [super viewWillAppear:animated];
     NSArray *sorular;
     rand = arc4random_uniform(100);
-    if(rand<90){
+    if(rand<80){
         sorular = database[city][[player getLocation]][[player getHourInterval]];
-    }else if([sorular count]>3){
+    }else if([database[city][[player getLocation]][[player getHourInterval]] count]>3){
         sorular = [database[city][[player getLocation]][[player getHourInterval]] arrayByAddingObjectsFromArray:database[city][[player getLocation]][@"Zamansız"]];
     }else{
         sorular = database[city][[player getLocation]][[player getHourInterval]];
@@ -94,22 +94,27 @@
                 itemPower = [[player getItems][[cat[cevab[@"Item"]] intValue]][@"Power"] floatValue];
         }
         int random = arc4random_uniform(100)+1;
+        NSLog(@"%@",cat[cevab[@"Item"]]);
         if ([cevab[@"Zorluk"] integerValue]<random+[player getAttrribute:@"level"]*itemPower/2.0){
             NSDictionary *result = cevab[@"Success"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
             [player addToAttrribute:@"points" value:[result[@"Result"][@"Point"] integerValue]];
-            if([cat[cevab[@"Item"]] isEqual:@1] && ![[player getItems][[cat[cevab[@"Item"]] intValue]][@"Name"] isEqualToString:@"None"])
-                [player addItem:@{@"Name":@"None"} toCategory:1];
+            
+            if([cat[cevab[@"Item"]] isEqual:@0] && ![[player getItems][[cat[cevab[@"Item"]] intValue]][@"Name"] isEqualToString:@"None"]){
+                [player decMedC];
+                if ([player medC]==0) {
+                    [player addItem:@{@"Name":@"None"} toCategory:0];
+                }
+            }
             d.text = [NSString stringWithFormat:@"%@\n\n%@\n%@",result[@"Text"],
                       [result[@"Result"][@"XP"]integerValue]>0?[NSString stringWithFormat:@"+%d XP",[result[@"Result"][@"XP"] integerValue]]:@"",
                       [result[@"Result"][@"Point"]integerValue]>0?[NSString stringWithFormat:@"+%d Puan",[result[@"Result"][@"Point"] integerValue]]:@""];
         }else{
             NSDictionary *result = cevab[@"Fail"];
             [player addToAttrribute:@"points" value:-1*[result[@"Result"][@"Point"] integerValue]];
-            d.text = [NSString stringWithFormat:@"%@\n\n%@",result[@"Text"],
+            d.text = [NSString stringWithFormat:@"%@\n\n%@\n",result[@"Text"],
                       [result[@"Result"][@"Point"]integerValue]>0?[NSString stringWithFormat:@"-%d Puan",[result[@"Result"][@"Point"] integerValue]]:@""];
         }
-                
     }else if([segue.identifier isEqualToString:@"c2"]) {
         NSDictionary *cevab = soru[@"Cevaplar"][1];
         float itemPower = 0.6;
@@ -119,13 +124,17 @@
             else
                 itemPower = [[player getItems][[cat[cevab[@"Item"]] intValue]][@"Power"] floatValue];
         }
+        NSLog(@"%@",cat[cevab[@"Item"]]);
         int random = arc4random_uniform(100)+1;
         if ([cevab[@"Zorluk"] integerValue]<random+[player getAttrribute:@"level"]*itemPower/2.0){
             NSDictionary *result = cevab[@"Success"];
             [player addToAttrribute:@"xp" value:[result[@"Result"][@"XP"] integerValue]];
             [player addToAttrribute:@"points" value:[result[@"Result"][@"Point"] integerValue]];
-            if([cat[cevab[@"Item"]] isEqual:@1] && ![[player getItems][[cat[cevab[@"Item"]] intValue]][@"Name"] isEqualToString:@"None"]){
-                [player addItem:@{@"Name":@"None"} toCategory:1];
+            if([cat[cevab[@"Item"]] isEqual:@0] && ![[player getItems][[cat[cevab[@"Item"]] intValue]][@"Name"] isEqualToString:@"None"]){
+                [player decMedC];
+                if ([player medC]==0) {
+                    [player addItem:@{@"Name":@"None"} toCategory:0];
+                }
             }
             d.text = [NSString stringWithFormat:@"%@\n\n%@\n%@",result[@"Text"],
                       [result[@"Result"][@"XP"]integerValue]>0?[NSString stringWithFormat:@"+%d XP",[result[@"Result"][@"XP"] integerValue]]:@"",
@@ -133,7 +142,7 @@
         }else{
             NSDictionary *result = cevab[@"Fail"];
             [player addToAttrribute:@"points" value:-1*[result[@"Result"][@"Point"] integerValue]];
-            d.text = [NSString stringWithFormat:@"%@\n\n%@",result[@"Text"],
+            d.text = [NSString stringWithFormat:@"%@\n\n%@\n",result[@"Text"],
                       [result[@"Result"][@"Point"]integerValue]>0?[NSString stringWithFormat:@"-%d Puan",[result[@"Result"][@"Point"] integerValue]]:@""];
         }
     }

@@ -48,6 +48,7 @@
 }
 
 - (IBAction) goToHome:(id)sender{
+    [player passTime:0.5];
     [self.navigationController popViewControllerAnimated:YES];
 }
 
@@ -58,6 +59,7 @@
 }
 
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    [player passTime:0.5];
     NSArray *meydans = [database[city] allKeys];
     if([segue.identifier isEqualToString:@"m1"]){
         [player setLocation:meydans[0]];

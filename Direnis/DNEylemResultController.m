@@ -56,7 +56,6 @@
     [self.mainText setTextN:self.text];
     self.background.image = self.backgroundImage;
     if ([player getAttrribute:@"points"]<=0) {
-        
         NSMutableArray *scores = [NSMutableArray arrayWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"scores"]];
         [scores addObject:@{@"name":[player getName],@"score":[player getCumulativeScore]}];
         [scores sortUsingComparator:^NSComparisonResult(id obj1, id obj2) {
