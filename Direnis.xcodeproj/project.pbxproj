@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		360CD4721775129100FAADE4 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 360CD4701775129100FAADE4 /* BebasNeue.otf */; };
-		360CD476177519D400FAADE4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 360CD473177519D400FAADE4 /* Default.png */; };
 		360CD47B17758CD000FAADE4 /* DNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 360CD47A17758CD000FAADE4 /* DNButton.m */; };
 		360CD47E17759D6700FAADE4 /* UITextView+DNConvTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 360CD47D17759D6700FAADE4 /* UITextView+DNConvTest.m */; };
 		360CD48017761E6700FAADE4 /* ev.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 360CD47F17761E6700FAADE4 /* ev.jpg */; };
@@ -761,7 +760,6 @@
 				361C0181177501060004D9A9 /* 70.jpg in Resources */,
 				361C0182177501060004D9A9 /* 8.jpg in Resources */,
 				360CD4721775129100FAADE4 /* BebasNeue.otf in Resources */,
-				360CD476177519D400FAADE4 /* Default.png in Resources */,
 				360CD48017761E6700FAADE4 /* ev.jpg in Resources */,
 				361741F71778C5DC0018C4AA /* 53.jpg in Resources */,
 				361741F81778C5DC0018C4AA /* 9.jpg in Resources */,

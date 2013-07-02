@@ -598,16 +598,17 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                                                     <subviews>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="left" text="Ürün ismi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yMm-gW-LFP">
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="218" id="7pe-Md-rXa"/>
+                                                                <constraint firstAttribute="width" constant="150" id="VhY-G0-XfD"/>
                                                                 <constraint firstAttribute="height" constant="21" id="rSt-28-VGu"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="22"/>
+                                                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                                             <color key="textColor" red="0.87876674109999997" green="0.87876674109999997" blue="0.87876674109999997" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </label>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="left" text="Güç: 1.2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ae-pk-kul">
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="JmW-7I-L0e"/>
+                                                                <constraint firstAttribute="width" constant="218" id="MAf-RH-9HY"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
                                                             <color key="textColor" red="0.87876674109999997" green="0.87876674109999997" blue="0.87876674109999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -628,7 +629,6 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                                                     <constraint firstItem="Xs4-vy-u4t" firstAttribute="leading" secondItem="pnz-aI-MS4" secondAttribute="leading" constant="6" id="84p-ry-1tC"/>
                                                     <constraint firstItem="0ae-pk-kul" firstAttribute="top" secondItem="pnz-aI-MS4" secondAttribute="top" constant="28" id="VLP-qD-w59"/>
                                                     <constraint firstItem="yMm-gW-LFP" firstAttribute="leading" secondItem="pnz-aI-MS4" secondAttribute="leading" constant="47" id="Wuh-gI-1o1"/>
-                                                    <constraint firstItem="yMm-gW-LFP" firstAttribute="trailing" secondItem="0ae-pk-kul" secondAttribute="trailing" type="default" id="x7L-kk-NNU"/>
                                                     <constraint firstItem="Xs4-vy-u4t" firstAttribute="top" secondItem="pnz-aI-MS4" secondAttribute="top" constant="5" id="xId-9G-DBz"/>
                                                 </constraints>
                                             </tableViewCell>

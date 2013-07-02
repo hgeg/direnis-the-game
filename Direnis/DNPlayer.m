@@ -73,7 +73,6 @@
 - (void) addItem:(NSDictionary *)item toCategory:(int)category {
     items[category] = item;
     medCount = [item[@"Power"] integerValue];
-    NSLog(@"medCount:%d",medCount);
 }
 
 - (int) getAttrribute:(NSString *)attr {
@@ -148,7 +147,6 @@
 }
 
 - (int) medC {
-    NSLog(@"%d",medCount);
     return medCount;
 }
 - (void) decMedC {

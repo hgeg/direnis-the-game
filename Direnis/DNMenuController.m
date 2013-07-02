@@ -71,6 +71,26 @@
         [[NSUserDefaults standardUserDefaults] setObject:@"İstanbul" forKey:@"city"];
     }
     if([segue.identifier isEqualToString:@"new_game"]){
+        if (player != nil) {
+            NSMutableArray *scores = [NSMutableArray arrayWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"scores"]];
+            [scores addObject:@{@"name":[player getName],@"score":[player getCumulativeScore]}];
+            [scores sortUsingComparator:^NSComparisonResult(id obj1, id obj2) {
+                int value1 = [((NSDictionary *)obj1)[@"score"] integerValue];
+                int value2 = [((NSDictionary *)obj2)[@"score"] integerValue];
+                if (value1 > value2)
+                {
+                    return (NSComparisonResult)NSOrderedAscending;
+                }
+                
+                if (value1 < value2)
+                {
+                    return (NSComparisonResult)NSOrderedDescending;
+                }
+                return (NSComparisonResult)NSOrderedSame;
+            }];
+            if ([scores count]>10) [scores subarrayWithRange:NSMakeRange(0, 10)];
+            [[NSUserDefaults standardUserDefaults] setObject:scores forKey:@"scores"];
+        }
         player = [[DNPlayer alloc] init];
     }else if([segue.identifier isEqualToString:@"continue"]){
         player = [DNPlayer load];
