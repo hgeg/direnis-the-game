@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Istanbul</key>
+	<key>İstanbul</key>
 	<dict>
 		<key>Gezi Parkı</key>
 		<dict>
@@ -1500,7 +1500,7 @@
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Harbiye ve Beşiktaş&apos;ta çok sert müdahaleler varmış, istiyorsan oralara bak.</string>
+					<string>Harbiye&apos;de çok sert müdahaleler varmış, istiyorsan oralara bak.</string>
 				</dict>
 				<dict>
 					<key>Cevaplar</key>
@@ -1571,7 +1571,7 @@
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Harbiye ve Beşiktaş&apos;ta çok sert müdahaleler varmış, istiyorsan oralara bak.</string>
+					<string>Harbiye&apos;de çok sert müdahaleler varmış, istiyorsan oralara bak.</string>
 				</dict>
 				<dict>
 					<key>Cevaplar</key>
