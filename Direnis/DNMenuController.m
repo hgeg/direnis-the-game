@@ -36,6 +36,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    self.startButton.enabled = false;
     [self.textField becomeFirstResponder];
     UITapGestureRecognizer *tgr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(endEdits)];
     [self.nameBackView addGestureRecognizer:tgr];
@@ -51,9 +52,15 @@
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
-    [textField resignFirstResponder];
-    [self performSegueWithIdentifier:@"city_select" sender:self];
-    return YES;
+    if (self.textField.text.length>0) {
+        [textField resignFirstResponder];
+        [self performSegueWithIdentifier:@"city_select" sender:self];
+        return YES;
+    }else{
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Lütfen isminizi girin" message:@"Oyuna başlamak için direnişçinin ismini girmelisin" delegate:nil cancelButtonTitle:@"Tamam" otherButtonTitles:nil];
+        [alert show];
+        return NO;
+    }
 }
 
 - (IBAction) GoToMainMenu:(id)sender {
@@ -82,7 +89,6 @@
                 {
                     return (NSComparisonResult)NSOrderedAscending;
                 }
-                
                 if (value1 < value2)
                 {
                     return (NSComparisonResult)NSOrderedDescending;
@@ -102,6 +108,8 @@
 }
 
 - (IBAction)textChanged:(id)sender{
+    if(self.textField.text.length>0) self.startButton.enabled = true;
+    else self.startButton.enabled = false;
     if(self.textField.text.length>50)
         self.textField.text = [self.textField.text substringToIndex:50];
     self.textField.text = [self.textField.text stringByReplacingOccurrencesOfString:@"i" withString:@"İ"];

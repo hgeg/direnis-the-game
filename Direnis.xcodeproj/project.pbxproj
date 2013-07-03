@@ -12,6 +12,9 @@
 		360CD47E17759D6700FAADE4 /* UITextView+DNConvTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 360CD47D17759D6700FAADE4 /* UITextView+DNConvTest.m */; };
 		360CD48017761E6700FAADE4 /* ev.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 360CD47F17761E6700FAADE4 /* ev.jpg */; };
 		360CD48317761EC800FAADE4 /* UIImageView+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 360CD48217761EC800FAADE4 /* UIImageView+Shuffle.m */; };
+		360FC6C81784BDE400ABA9B9 /* Kar maskesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 360FC6C71784BDE400ABA9B9 /* Kar maskesi.jpg */; };
+		360FC6CA1784BDED00ABA9B9 /* Ordu malı gaz maskesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 360FC6C91784BDED00ABA9B9 /* Ordu malı gaz maskesi.jpg */; };
+		360FC6CC1784BDF600ABA9B9 /* Yün eldiven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 360FC6CB1784BDF600ABA9B9 /* Yün eldiven.jpg */; };
 		361741F71778C5DC0018C4AA /* 53.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361741F31778C5DC0018C4AA /* 53.jpg */; };
 		361741F81778C5DC0018C4AA /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361741F41778C5DC0018C4AA /* 9.jpg */; };
 		361741F91778C5DC0018C4AA /* dukkan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361741F51778C5DC0018C4AA /* dukkan.jpg */; };
@@ -22,7 +25,6 @@
 		3617420D1778CA990018C4AA /* Bahçe eldiveni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 361742091778CA980018C4AA /* Bahçe eldiveni.jpg */; };
 		3617420E1778CA990018C4AA /* Deri eldiven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3617420A1778CA980018C4AA /* Deri eldiven.jpg */; };
 		3617420F1778CA990018C4AA /* Snowboard eldiveni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3617420B1778CA990018C4AA /* Snowboard eldiveni.jpg */; };
-		361742101778CA990018C4AA /* Yün Eldiven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3617420C1778CA990018C4AA /* Yün Eldiven.jpg */; };
 		361742141779C3550018C4AA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 361742131779C3550018C4AA /* icon.png */; };
 		361742161779C3580018C4AA /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 361742151779C3580018C4AA /* icon@2x.png */; };
 		361742191779D9D40018C4AA /* DNHighscoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361742181779D9D40018C4AA /* DNHighscoreController.m */; };
@@ -149,8 +151,6 @@
 		3681325C176E14FB00B6F2E6 /* Tam yüz gaz maskesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813254176E14FB00B6F2E6 /* Tam yüz gaz maskesi.jpg */; };
 		3681325D176E14FB00B6F2E6 /* Kaşkol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813255176E14FB00B6F2E6 /* Kaşkol.jpg */; };
 		3681325E176E14FB00B6F2E6 /* Antika gaz maskesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813256176E14FB00B6F2E6 /* Antika gaz maskesi.jpg */; };
-		3681325F176E14FB00B6F2E6 /* Kar Maskesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813257176E14FB00B6F2E6 /* Kar Maskesi.jpg */; };
-		36813260176E14FB00B6F2E6 /* Ordu Malı Gaz Maskesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813258176E14FB00B6F2E6 /* Ordu Malı Gaz Maskesi.jpg */; };
 		36813261176E14FB00B6F2E6 /* Tek filtreli gaz maskesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813259176E14FB00B6F2E6 /* Tek filtreli gaz maskesi.jpg */; };
 		36813263176E155200B6F2E6 /* Talcid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813262176E155200B6F2E6 /* Talcid.jpg */; };
 		36813268176E163E00B6F2E6 /* Limon Suyu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36813266176E163E00B6F2E6 /* Limon Suyu.jpg */; };
@@ -167,6 +167,9 @@
 		360CD47F17761E6700FAADE4 /* ev.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ev.jpg; sourceTree = "<group>"; };
 		360CD48117761EC800FAADE4 /* UIImageView+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Shuffle.h"; sourceTree = "<group>"; };
 		360CD48217761EC800FAADE4 /* UIImageView+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Shuffle.m"; sourceTree = "<group>"; };
+		360FC6C71784BDE400ABA9B9 /* Kar maskesi.jpg */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Kar maskesi.jpg"; sourceTree = "<group>"; };
+		360FC6C91784BDED00ABA9B9 /* Ordu malı gaz maskesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ordu malı gaz maskesi.jpg"; sourceTree = "<group>"; };
+		360FC6CB1784BDF600ABA9B9 /* Yün eldiven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yün eldiven.jpg"; sourceTree = "<group>"; };
 		361741F31778C5DC0018C4AA /* 53.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 53.jpg; sourceTree = "<group>"; };
 		361741F41778C5DC0018C4AA /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
 		361741F51778C5DC0018C4AA /* dukkan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dukkan.jpg; sourceTree = "<group>"; };
@@ -177,7 +180,6 @@
 		361742091778CA980018C4AA /* Bahçe eldiveni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bahçe eldiveni.jpg"; sourceTree = "<group>"; };
 		3617420A1778CA980018C4AA /* Deri eldiven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Deri eldiven.jpg"; sourceTree = "<group>"; };
 		3617420B1778CA990018C4AA /* Snowboard eldiveni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Snowboard eldiveni.jpg"; sourceTree = "<group>"; };
-		3617420C1778CA990018C4AA /* Yün Eldiven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yün Eldiven.jpg"; sourceTree = "<group>"; };
 		361742131779C3550018C4AA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		361742151779C3580018C4AA /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		361742171779D9D40018C4AA /* DNHighscoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNHighscoreController.h; sourceTree = "<group>"; };
@@ -318,8 +320,6 @@
 		36813254176E14FB00B6F2E6 /* Tam yüz gaz maskesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tam yüz gaz maskesi.jpg"; sourceTree = "<group>"; };
 		36813255176E14FB00B6F2E6 /* Kaşkol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kaşkol.jpg"; sourceTree = "<group>"; };
 		36813256176E14FB00B6F2E6 /* Antika gaz maskesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Antika gaz maskesi.jpg"; sourceTree = "<group>"; };
-		36813257176E14FB00B6F2E6 /* Kar Maskesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kar Maskesi.jpg"; sourceTree = "<group>"; };
-		36813258176E14FB00B6F2E6 /* Ordu Malı Gaz Maskesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ordu Malı Gaz Maskesi.jpg"; sourceTree = "<group>"; };
 		36813259176E14FB00B6F2E6 /* Tek filtreli gaz maskesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tek filtreli gaz maskesi.jpg"; sourceTree = "<group>"; };
 		36813262176E155200B6F2E6 /* Talcid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Talcid.jpg; sourceTree = "<group>"; };
 		36813266176E163E00B6F2E6 /* Limon Suyu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Limon Suyu.jpg"; sourceTree = "<group>"; };
@@ -586,20 +586,20 @@
 			isa = PBXGroup;
 			children = (
 				36813266176E163E00B6F2E6 /* Limon Suyu.jpg */,
+				360FC6C71784BDE400ABA9B9 /* Kar maskesi.jpg */,
+				360FC6CB1784BDF600ABA9B9 /* Yün eldiven.jpg */,
 				36813267176E163E00B6F2E6 /* Sirke.jpg */,
 				36813262176E155200B6F2E6 /* Talcid.jpg */,
 				36813252176E14FB00B6F2E6 /* Bez maske.jpg */,
+				360FC6C91784BDED00ABA9B9 /* Ordu malı gaz maskesi.jpg */,
 				36813253176E14FB00B6F2E6 /* Çift filtreli gaz maskesi.jpg */,
 				36813254176E14FB00B6F2E6 /* Tam yüz gaz maskesi.jpg */,
 				36813255176E14FB00B6F2E6 /* Kaşkol.jpg */,
 				36813256176E14FB00B6F2E6 /* Antika gaz maskesi.jpg */,
-				36813257176E14FB00B6F2E6 /* Kar Maskesi.jpg */,
-				36813258176E14FB00B6F2E6 /* Ordu Malı Gaz Maskesi.jpg */,
 				36813259176E14FB00B6F2E6 /* Tek filtreli gaz maskesi.jpg */,
 				361742091778CA980018C4AA /* Bahçe eldiveni.jpg */,
 				3617420A1778CA980018C4AA /* Deri eldiven.jpg */,
 				3617420B1778CA990018C4AA /* Snowboard eldiveni.jpg */,
-				3617420C1778CA990018C4AA /* Yün Eldiven.jpg */,
 			);
 			name = Items;
 			sourceTree = "<group>";
@@ -665,8 +665,6 @@
 				3681325C176E14FB00B6F2E6 /* Tam yüz gaz maskesi.jpg in Resources */,
 				3681325D176E14FB00B6F2E6 /* Kaşkol.jpg in Resources */,
 				3681325E176E14FB00B6F2E6 /* Antika gaz maskesi.jpg in Resources */,
-				3681325F176E14FB00B6F2E6 /* Kar Maskesi.jpg in Resources */,
-				36813260176E14FB00B6F2E6 /* Ordu Malı Gaz Maskesi.jpg in Resources */,
 				36813261176E14FB00B6F2E6 /* Tek filtreli gaz maskesi.jpg in Resources */,
 				36813263176E155200B6F2E6 /* Talcid.jpg in Resources */,
 				36813268176E163E00B6F2E6 /* Limon Suyu.jpg in Resources */,
@@ -769,7 +767,6 @@
 				3617420D1778CA990018C4AA /* Bahçe eldiveni.jpg in Resources */,
 				3617420E1778CA990018C4AA /* Deri eldiven.jpg in Resources */,
 				3617420F1778CA990018C4AA /* Snowboard eldiveni.jpg in Resources */,
-				361742101778CA990018C4AA /* Yün Eldiven.jpg in Resources */,
 				361742141779C3550018C4AA /* icon.png in Resources */,
 				361742161779C3580018C4AA /* icon@2x.png in Resources */,
 				361E99EA1780732300AE341E /* extension.png in Resources */,
@@ -783,6 +780,9 @@
 				361E9A021781CC3500AE341E /* Default@2x.png in Resources */,
 				361E9A041781CC3800AE341E /* Default-568h@2x.png in Resources */,
 				361E9A061781CC5B00AE341E /* Default.png in Resources */,
+				360FC6C81784BDE400ABA9B9 /* Kar maskesi.jpg in Resources */,
+				360FC6CA1784BDED00ABA9B9 /* Ordu malı gaz maskesi.jpg in Resources */,
+				360FC6CC1784BDF600ABA9B9 /* Yün eldiven.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -893,6 +893,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMPRESS_PNG_FILES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Direnis/Direnis-Prefix.pch";
 				INFOPLIST_FILE = "Direnis/Direnis-Info.plist";
@@ -907,6 +908,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMPRESS_PNG_FILES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Direnis/Direnis-Prefix.pch";
 				INFOPLIST_FILE = "Direnis/Direnis-Info.plist";

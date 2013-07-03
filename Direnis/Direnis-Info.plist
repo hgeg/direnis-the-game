@@ -41,8 +41,6 @@
 	<dict>
 		<key>ArialMT</key>
 		<string>BebasNeue</string>
-		<key>Helvetica Neue</key>
-		<string>Press Style</string>
 	</dict>
 	<key>UIAppFonts</key>
 	<array>

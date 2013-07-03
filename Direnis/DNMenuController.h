@@ -16,5 +16,6 @@
 - (IBAction) GoToMainMenu:(id)sender;
 @property (weak, nonatomic) IBOutlet UIImageView *nameBackView;
 @property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UIButton *startButton;
 
 @end

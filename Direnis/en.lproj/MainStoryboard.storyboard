@@ -437,6 +437,7 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                     <navigationItem key="navigationItem" id="cBn-Ym-9Us"/>
                     <connections>
                         <outlet property="nameBackView" destination="v6y-SZ-H1f" id="b4L-r3-C3s"/>
+                        <outlet property="startButton" destination="cj6-53-dNB" id="dRk-YM-Ey8"/>
                         <outlet property="textField" destination="6Y7-8o-hNq" id="4jn-2E-pSa"/>
                     </connections>
                 </viewController>
@@ -1923,6 +1924,7 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                 <relationship kind="action" name="textChanged:"/>
                 <relationship kind="outlet" name="continueButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="nameBackView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="startButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
             </relationships>
         </class>
