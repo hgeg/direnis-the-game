@@ -4,8 +4,1647 @@
 <dict>
 	<key>Istanbul</key>
 	<dict>
-		<key>Kennedy Cad</key>
+		<key>Gezi Parkı</key>
 		<dict>
+			<key>14-18</key>
+			<array>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sen o hareketleri yapamadın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Mmmm zevkliymiş ya bu? Devam.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Onlara katıl</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Tek RT alamadın?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>15</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Twitin paylaşılıyor!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Fotoğrafını çekip twitle.</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>İleride yoga yapanları gördün.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-10</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Dinledin.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Dinledin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Biraz dinle</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Saçmaladın, indirildin... :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Konuşman coşkuyla karşılandı, alkışlandın!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Sen de söz al</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Halk Meclisi&apos;nde konuşanlar var.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>75</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Seni dinlemediler.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>50</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bravo! Sivil bir direnişe yardımcı oldun, buradan gittiler.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Beyler o bayrakları kaldıralım!&quot;</string>
+							<key>Zorluk</key>
+							<integer>80</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Salladın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Salladın.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Salla sen onları</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>İlerde bazı parti bayrakları açanlar var.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Başı çok kalabalıktır boşver</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Başı çok kalabalık, sana sıra gelemedi.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>15</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Çekindin, sohbet ettin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Bir fotoğraf çekin</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Mehmet Ali Alabora&apos;yı gördün.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Durdun.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Durdun.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Sen de bir 5 dakika dur</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Boşver sen onları</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>İnsanlar durma eylemine başladı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana eşlik etmedi :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes seninle birlikte söylemeye başladı!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>İstiklal Marşı başlat</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>15</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sana kalmamış...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Lezzetliymiş ha...</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Biraz karpuz ye</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Topluluk çoğalıyor. Hava güzel, keyifler yerinde.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana eşlik etmedi :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes seninle birlikte söylemeye başladı!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>10. Yıl Marşı başlat.</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Nasıl çekiliyodu olm bu halay?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>15</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Girdin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Halaya gir</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Topluluk çoğalıyor. Hava güzel, keyifler yerinde.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sıkılıp bıraktın...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bu saati kitap okuyarak geçirdin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Biraz kitap oku</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>35</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Elinde hiçbir şey kalmamış :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bravo, yardımlaşma örneğisin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Revire biraz eşya bırak</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Bugün Gezi çok neşeli. Bakalım ilerleyen saatlerde ne olacak?</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Divan Oteli&apos;ne ne kadar teşekkür etsen az...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Divan Oteli&apos;ne ne kadar teşekkür etsen az...</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Divan Oteli&apos;ne git.</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>35</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Biraz sıkıntılı olmuş burası...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Halletin hadi bakalım...</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Baraka&apos;ya git.</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Tuvaletin geldi.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bi sen kalmıştın...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bir hatıra da senden...</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Fotoğraf çek &amp; twitle</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>45</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bi sen kalmıştın...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>25</integer>
+								</dict>
+								<key>Text</key>
+								<string>Çektin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Piston aşağı indi vidyosu çek</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Taşkışla&apos;nın önündeki otobüse gittiniz.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Miden bozuldu... :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Patlattın.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Bi köfte patlat</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Yine mi karpuz?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Eh biraz daha idare eder seni.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Karpuza devam</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Acıktın. Ne yesek?</string>
+				</dict>
+			</array>
+			<key>18-22</key>
+			<array>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanlar seni ayıpladı.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Geçtiler.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Kanka benim biraz işim var yaa&quot;</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Çabuk yoruldun.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>35</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Tebrikler! Örnek bir direnişçisin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Sen de hemen başla toplamaya</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Biri geldi, &quot;Arkadaşlar haydi çöpleri topluyoruz&quot; diye bağırıyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Durdun.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Durdun.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Sen de bir 5 dakika dur</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Boşver sen onları</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>İnsanlar durma eylemine başladı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana eşlik etmedi :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes seninle birlikte söylemeye başladı!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>İstiklal Marşı başlat</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>15</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sana kalmamış...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Lezzetliymiş ha...</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Biraz karpuz ye</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Topluluk çoğalıyor. Hava güzel, keyifler yerinde.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Divan Oteli&apos;ne ne kadar teşekkür etsen az...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Divan Oteli&apos;ne ne kadar teşekkür etsen az...</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Divan Oteli&apos;ne git.</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>35</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Biraz sıkıntılı olmuş burası...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Halletin hadi bakalım...</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Baraka&apos;ya git.</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Tuvaletin geldi.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Miden bozuldu... :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Patlattın.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Bi köfte patlat</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Yine mi karpuz?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Eh biraz daha idare eder seni.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Karpuza devam</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Acıktın. Ne yesek?</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Arkadaşların çok istediler, gittiniz.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kaldınız.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Biz burada kalalım</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>45</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Arkadaşların &apos;burada kalalım&apos; dedi, gidemediniz.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Çav bella çav bella çav bella çav çav çav...</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Dinlemeye git.</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Meydanda piyano resitali başladı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Arkadaşların çok istediler, gittiniz.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kaldınız.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Biz burada kalalım</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>45</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Arkadaşların &apos;burada kalalım&apos; dedi, gidemediniz.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>İzliyorsun.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>İzlemeye git.</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Tiyatro gösterisi başladı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>1 saat oldu hala yoklar...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Geldiler!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Kardeşlerim benim!!</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Gerçekten geldiler...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Evet değil.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Yok ya 1000 değildir o</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Çarşı grubu geliyormuş, yaklaşık 1000 kişi ile.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Duruyorsun. Ee?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine duruyorsun. Ee?</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Burada dur</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine bağırıyorsun da... Ee?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine bağırıyorsun. Ee?</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Kendi kendine bağır</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Harbiye ve Beşiktaş&apos;ta çok sert müdahaleler varmış, istiyorsan oralara bak.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Duruyorsun. Ee?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine duruyorsun. Ee?</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Burada dur</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine bağırıyorsun da... Ee?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine bağırıyorsun. Ee?</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Kendi kendine bağır</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Harbiye ve Beşiktaş&apos;ta çok sert müdahaleler varmış, istiyorsan oralara bak.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Duruyorsun. Ee?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine duruyorsun. Ee?</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Burada dur</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine bağırıyorsun da... Ee?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine bağırıyorsun. Ee?</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Kendi kendine bağır</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Harbiye ve Beşiktaş&apos;ta çok sert müdahaleler varmış, istiyorsan oralara bak.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Taksim&apos;e girişler kapalı, buraya gelemeyecekler.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Geliyorlar!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Helal olsun gelsinler!!!</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Gerçekten geliyorlar, kesin bilgi...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Evet Taksim&apos;e girişler kapanmış.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Geçirtmezler onları köprüden</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>&quot;Kadıköyden yaklaşık 5000 kişi geliyormuş, köprüdelermiş!&quot;</string>
+				</dict>
+			</array>
 			<key>Zamansız</key>
 			<array>
 				<dict>
@@ -22,7 +1661,7 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sallamadın gitti.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -34,10 +1673,10 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sallamadın geçti gitti</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Abi benim ingilizcem yok</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -49,39 +1688,36 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>40</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Aferin. Moğnnster ne?</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>30</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>15</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Harika anlattın.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>&quot;They are like moğğnnsterrs&quot;</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>40</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>CNN Int. canlı yayın yapıyor!</string>
 				</dict>
-			</array>
-			<key>14-18</key>
-			<array>
 				<dict>
 					<key>Cevaplar</key>
 					<array>
@@ -96,7 +1732,7 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sallamadın gitti.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -108,10 +1744,10 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sallamadın geçti gitti</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Yok kalsın annemler görmesin şimdi</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -123,39 +1759,36 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>60</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Tam gazlı bir şeyler diyecektin ki kamera başka yöne döndü.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>20</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Televizyonlara çıktın, haykırdın!</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Patlat en güzelinden bi konuşma</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>10</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Halk TV orada! Seninle konuşmak istiyor.</string>
 				</dict>
-			</array>
-			<key>18-22</key>
-			<array>
 				<dict>
 					<key>Cevaplar</key>
 					<array>
@@ -165,12 +1798,12 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>75</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Seni korkak...</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -182,12 +1815,12 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sildin.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Ben bi şu twitleri sileyim</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>20</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -202,7 +1835,149 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>İşe yarar mı acaba...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Hadi bakalım işe yarar mı acaba.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>#hesapredhacktarafindanhacklenmistir</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Bu arada, Twitter&apos;dan gözaltıların başladığı söyleniyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Annen seni Halk TV&apos;de en önde görmüş bile...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Tamamdır, anneyi merak ettirme.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Arkalardayız anne merak etme</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>70</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Annen seni Halk TV&apos;de en önde görmüş bile...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Tamamdır, anneyi merak ettirme.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Eylem mi yok canım ben gitmedim</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Annen arıyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>O kadar kalabalık ki sana bir türlü sıra gelmedi.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>30</integer>
+								</dict>
+								<key>Text</key>
+								<string>Seni dinledi, anladığını ve ilgileneceğini söyledi.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Onunla konuşmaya çalış</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Salladın.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -214,10 +1989,10 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Salladın.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Başı çok kalabalık boşver</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -225,7 +2000,7 @@
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Bir milletvekili yanınıza geldi.</string>
 				</dict>
 			</array>
 			<key>22-02</key>
@@ -239,27 +2014,27 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Duruyorsun. Ee?</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>-50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kendi kendine duruyorsun. Ee?</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Burada dur</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -271,27 +2046,27 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kendi kendine bağırıyorsun da... Ee?</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>-50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kendi kendine bağırıyorsun. Ee?</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Kendi kendine bağır</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -299,7 +2074,7 @@
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Harbiye ve Beşiktaş&apos;ta çok sert müdahaleler varmış, istiyorsan oralara bak.</string>
 				</dict>
 			</array>
 			<key>02-06</key>
@@ -313,27 +2088,27 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Duruyorsun. Ee?</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>-50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kendi kendine duruyorsun. Ee?</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Burada dur</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -345,27 +2120,27 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kendi kendine bağırıyorsun da... Ee?</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>-50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kendi kendine bağırıyorsun. Ee?</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Kendi kendine bağır</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -373,12 +2148,1367 @@
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Beşiktaş&apos;ta çok sert müdahaleler varmış, istiyorsan oraya bak.</string>
 				</dict>
 			</array>
 		</dict>
-		<key>Kugulu Park</key>
+		<key>Beşiktaş</key>
 		<dict>
+			<key>02-06</key>
+			<array>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>170</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Arkalara yürümek fayda etmiyor, gaz seni fena etkiledi!</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>130</integer>
+									<key>XP</key>
+									<integer>80</integer>
+								</dict>
+								<key>Text</key>
+								<string>Güzel. Biraz arkalara geldin, bir şeyin yok. Devam!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Arkalara dogru yürü</string>
+							<key>Zorluk</key>
+							<integer>60</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>50</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes geriye kaçtı, sen de kaçmak zorunda kaldın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>170</integer>
+									<key>XP</key>
+									<integer>100</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanlar sakinleşti direnmeye devam!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Beyler sakiiin!&quot; diye bağır, olduğun yerde dur</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis Biber Gazı fırlattı. Direnişçi sayısı da baya azaldı...</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>300</integer>
+									<key>XP</key>
+									<integer>100</integer>
+								</dict>
+								<key>Text</key>
+								<string>Delirmiş olmalısın! Elin yandı geri fırlatamadan! Eldivenin iyi mi?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>200</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kahramansın! Alkışlar senin için!!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Bombayı aldığın gibi geri polise fırlat!</string>
+							<key>Zorluk</key>
+							<integer>75</integer>
+							<key>Item</key>
+							<string>Eldiven</string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Gaz çok fena etkiledi. Gözler kıpkırmızı, öksürükler...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>100</integer>
+								</dict>
+								<key>Text</key>
+								<string>Biraz geri çekildiniz ama direnmeye devam!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Geriye koş</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis Biber Gazı fırlattı. Yakınına düştü!</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>250</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Hiç kapısı açık apartman yok! Suyu yedin...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>100</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sığındın şimdilik ortam sakin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Bir apartmana sığın</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Hala takip ediyorlar ve suyu &amp; biberi yedin...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>100</integer>
+								</dict>
+								<key>Text</key>
+								<string>Tamamdır şimdilik uzaklaştın.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Koşabildiğin kadar koş</string>
+							<key>Zorluk</key>
+							<integer>65</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Çok sert bir müdahale başladı şu an. Sayı çok az...</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>350</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Yemedi...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>150</integer>
+								</dict>
+								<key>Text</key>
+								<string>Konuştun. Birazdan boşaltmazsanız müdahaleye devam edeceklerini söylediler.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Polislerle konuşmaya git</string>
+							<key>Zorluk</key>
+							<integer>80</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse seni sallamadı.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>100</integer>
+								</dict>
+								<key>Text</key>
+								<string>Hep bir ağızdan söyleniyor!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Sık bakalım, sık bakalım, biber gazı sık bakalım…&quot;</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polisler şu an geriye çekildi. Ancak direnişçilerin çoğu evine döndü.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>1 saat oldu hala gelmediler...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>80</integer>
+								</dict>
+								<key>Text</key>
+								<string>Geldiler!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Kardeşlerim benim!</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Cidden 2000miş...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>70</integer>
+								</dict>
+								<key>Text</key>
+								<string>Evet değil.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>2000 değildir ya o</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Karşıdan 2000 kişilik bir ekibin geldiği haberi geldi.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Senden önce alan oldu.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>100</integer>
+								</dict>
+								<key>Text</key>
+								<string>Fotoğrafın paylaşılıyor!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Fotoğrafını çek, &apos;Bu ne gazı peki?&apos; diye twitle</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>250</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Senden önce alan oldu.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>120</integer>
+								</dict>
+								<key>Text</key>
+								<string>Her sağlam direnişçinin evinde olmalı, bravo.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Hatıra olarak yanına al</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>İleride biraz önce atılmış bir gaz bombası duruyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>500</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Unutma, ne olursa olsun bu bir pasif direniş. Taş atmamalısın!</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-500</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Unutma, ne olursa olsun bu bir pasif direniş. Taş atmamalısın!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Sen de birkaç taş bulup atmaya başla</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Doğru olanı yaptın ancak seni malesef dinlemiyorlar.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>300</integer>
+									<key>XP</key>
+									<integer>150</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanlar da sana katıldı ve taş atmalar durdu. Bravo!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Beyler yapmayın!&quot; diye bağır</string>
+							<key>Zorluk</key>
+							<integer>75</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Yanında birkaç insan polise taş atmaya başladı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>350</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sende henüz bir ilaç yok ki, nasıl yardım etmeyi düşünüyorsun?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>250</integer>
+									<key>XP</key>
+									<integer>150</integer>
+								</dict>
+								<key>Text</key>
+								<string>Çok iyi geldi, bol bol teşekkür aldın.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>İlaç sıkarak ona yardım et</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string>İlaç</string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Uzaklaştılar zaten.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Uzaklaştılar zaten.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Yapacak bir şey yok</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Biber gazı yanındaki kişiyi çok etkiledi, gözleri kıpkırmızı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>300</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Her tarafta sivil var. Kalabalıktan ayrılamıyorsun.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>250</integer>
+									<key>XP</key>
+									<integer>100</integer>
+								</dict>
+								<key>Text</key>
+								<string>Ortam biraz sakinleşti.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Ara sokaklara sığınmaya çalış</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>250</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kapılar kilitli. Hemen kalabalığı takip ettin.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>100</integer>
+								</dict>
+								<key>Text</key>
+								<string>Şansına kapı açıktı, içeridesin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Gördüğün ilk apartmana sığın</string>
+							<key>Zorluk</key>
+							<integer>70</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Sivil polisler etrafta. Gözaltıların çok arttığı yazıyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bu ne gazı? Çok fena öksürtüp hapşırtıyor..</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>100</integer>
+								</dict>
+								<key>Text</key>
+								<string>Güzel. Biraz arkalara geldin, bir şeyin yok. Devam!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Arkaya kaç ancak vazgeçmek yok!</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>300</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sokak dağıldı, sen de kaçtın. Tekrar birleşme zamanını bekliyoruz...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>250</integer>
+									<key>XP</key>
+									<integer>150</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanları coşturuyorsun!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Kalabalığın önünde provakasyon yap</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Tomalar her yere su sıkıyor, biber gazları havada uçuşuyor!</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>250</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Koştun ancak gazdan çok etkilendin...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>150</integer>
+								</dict>
+								<key>Text</key>
+								<string>Koştun ve şimdilik kurtuldun.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Halk TV&apos;ye doğru koş</string>
+							<key>Zorluk</key>
+							<integer>70</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>250</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Koştun ancak gazdan çok etkilendin...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>100</integer>
+								</dict>
+								<key>Text</key>
+								<string>Koştun ve şimdilik kurtuldun.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Ihlamurdere&apos;ye doğru koş</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Bir anda tüm Akaretler&apos;i dağıtmaya girdiler!</string>
+				</dict>
+			</array>
+			<key>14-18</key>
+			<array>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana eşlik etmedi :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes seninle birlikte söylemeye başladı!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>10. Yıl Marşı başlat</string>
+							<key>Zorluk</key>
+							<integer>70</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana eşlik etmedi :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>5</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes seninle birlikte bağırıyor!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Her yer taksim her yer direniş&quot; diye bağır</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Bolca insan var. Polis şimdilik gözükmüyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana eşlik etmedi :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes seninle birlikte söylemeye başladı!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>İstiklal Marşı başlat</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana eşlik etmedi :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>5</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes seninle birlikte bağırıyor!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Sık bakalım sık bakalım biber gazı sık bakalım&quot;</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana katılmadı, sen de susmak zorunda kaldın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes sana eşlik ediyor, kitleyi gaza getirdin!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Önlere geçip, slogan at</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes ufak ufak geri gidiyor, sen de onlarla arkalara gelmek zorunda kaldın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Beklemeye devam, bakalım neler olacak!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Olduğun yerde dur</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis Kartal Heykelinin orada &quot;Dağılın artık daha fazla bir şey olmadan&quot; dedi.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bekliyorsun ancak yol kapanıyor.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bekliyorsun.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Kenarda beklemeye devam et</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Yemediler.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>25</integer>
+									<key>XP</key>
+									<integer>15</integer>
+								</dict>
+								<key>Text</key>
+								<string>Şimdilik bekliyorlar.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Dağılıcaz abi merak etme&quot;</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis &quot;Erken dağılırsanız müdahale yapmayacağız&quot; dedi.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Durdun.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Durdun.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Sen de bir 5 dakika dur</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Boşver sen onları</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>İnsanlar durma eylemine başladı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>80</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Yemedi...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>70</integer>
+									<key>XP</key>
+									<integer>40</integer>
+								</dict>
+								<key>Text</key>
+								<string>Çektiğin fotoğraflar sosyal medyada paylaşılıyor, bravo!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>İskeleye inip sivillerin fotoğrafını çek</string>
+							<key>Zorluk</key>
+							<integer>80</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>15</integer>
+								</dict>
+								<key>Text</key>
+								<string>Abbasağa&apos;da da ortam fena değil gibi, gittin geldin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Abbasağa&apos;ya bir bak</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Heykelin orada insanlar çoğalmaya devam ediyor, güzel bir ortam var şimdilik.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>80</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bir şey yapmadın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>15</integer>
+								</dict>
+								<key>Text</key>
+								<string>Helal olsun onlara da.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Alkışla kardeşlerimizi</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Boşver sen onları</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Vapurlarla Galatasaray &amp; Fener formalı insanlar geliyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Pek seni sallamadılar.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>15</integer>
+								</dict>
+								<key>Text</key>
+								<string>Geliyorlar!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Gel... Gel... Gell&quot; diye bağır</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Boşver onları</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Apartmanlardan size bakanlar var.</string>
+				</dict>
+			</array>
 			<key>Zamansız</key>
 			<array>
 				<dict>
@@ -395,7 +3525,7 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sallamadın gitti.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -407,10 +3537,10 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sallamadın geçti gitti</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Yok kalsın annemler görmesin şimdi</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -422,39 +3552,36 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>60</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Tam gazlı bir şeyler diyecektin ki kamera başka yöne döndü.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>20</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Televizyonlara çıktın, haykırdın!</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Patlat en güzelinden bi konuşma</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>10</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Halk TV orada! Seninle konuşmak istiyor.</string>
 				</dict>
-			</array>
-			<key>14-18</key>
-			<array>
 				<dict>
 					<key>Cevaplar</key>
 					<array>
@@ -464,12 +3591,12 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>75</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Seni korkak...</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -481,12 +3608,12 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sildin.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Ben bi şu twitleri sileyim</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>20</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -501,7 +3628,149 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>İşe yarar mı acaba...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Hadi bakalım işe yarar mı acaba.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>#hesapredhacktarafindanhacklenmistir</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Bu arada, Twitter&apos;dan gözaltıların başladığı söyleniyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Annen seni Halk TV&apos;de en önde görmüş bile...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Tamamdır, anneyi merak ettirme.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Arkalardayız anne merak etme</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>70</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Annen seni Halk TV&apos;de en önde görmüş bile...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Tamamdır, anneyi merak ettirme.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Eylem mi yok canım ben gitmedim</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Annen arıyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>O kadar kalabalık ki sana bir türlü sıra gelmedi.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>30</integer>
+								</dict>
+								<key>Text</key>
+								<string>Seni dinledi, anladığını ve ilgileneceğini söyledi.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Onunla konuşmaya çalış</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Salladın.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -513,10 +3782,10 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Salladın.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Başı çok kalabalık boşver</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -524,7 +3793,7 @@
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Bir milletvekili yanınıza geldi.</string>
 				</dict>
 			</array>
 			<key>18-22</key>
@@ -538,12 +3807,44 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sen hariç kimse büyük bir tepki göstermedi.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>25</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes seninle birlikte alkışlamaya başladı!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Alkışla</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
 									<integer>0</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Boşverdin.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -555,10 +3856,120 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Boşverdin.</string>
 							</dict>
 							<key>Cevap Text</key>
+							<string>Bırak sen onları</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
 							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Motorsikletli ekip geldi.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana katılmadı, sen de susmak zorunda kaldın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes sana eşlik ediyor, kitleyi gaza getirdin!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Önlere geçip, slogan at</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes ufak ufak geri gidiyor, sen de onlarla arkalara gelmek zorunda kaldın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Beklemeye devam, bakalım neler olacak!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Olduğun yerde dur</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis Akaretler&apos;de, &quot;Dağılın artık daha fazla bir şey olmadan&quot; dedi.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Durdun.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Durdun.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Sen de bir 5 dakika dur</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -575,7 +3986,7 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Boşverdin.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -587,10 +3998,10 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Boşverdin.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Boşver sen onları</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -598,7 +4009,291 @@
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>İnsanlar durma eylemine başladı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>80</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Yemedi...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>70</integer>
+									<key>XP</key>
+									<integer>40</integer>
+								</dict>
+								<key>Text</key>
+								<string>Çektiğin fotoğraflar sosyal medyada paylaşılıyor, bravo!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>İskeleye inip sivillerin fotoğrafını çek</string>
+							<key>Zorluk</key>
+							<integer>80</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>15</integer>
+								</dict>
+								<key>Text</key>
+								<string>Abbasağa&apos;da da ortam fena değil gibi, gittin geldin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Abbasağa&apos;ya bir bak</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Akaretler&apos;e geçtiniz, kalabalık gittikçe artıyor!</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana eşlik etmedi :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>30</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes seninle birlikte söylemeye başladı!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Sık bakalım sık bakalım biber gazı sık bakalım&quot;</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana eşlik etmedi :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>25</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes seninle birlikte bağırıyor!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Her yer taksim her yer direniş&quot; diye bağır</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis orada ancak müdahale henüz başlamadı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Duruyorsun. Ee?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine duruyorsun. Ee?</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Burada dur</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine bağırıyorsun da... Ee?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine bağırıyorsun. Ee?</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Kendi kendine bağır</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Harbiye&apos;de çok sert müdahaleler varmış, istiyorsan oraya bak.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Duruyorsun. Ee?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine duruyorsun. Ee?</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Burada dur</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine bağırıyorsun da... Ee?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kendi kendine bağırıyorsun. Ee?</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Kendi kendine bağır</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Harbiye&apos;de çok sert müdahaleler varmış, istiyorsan oraya bak.</string>
 				</dict>
 			</array>
 			<key>22-02</key>
@@ -612,29 +4307,29 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>150</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kaçabildin ancak bu sırada biraz cop yedin...</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>100</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>75</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Ara sokaklara girdin, polis peşinde değil.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Ara sokaklara kaç</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>60</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -644,39 +4339,36 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>150</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>İnternet kesik!</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>100</integer>
 									<key>XP</key>
-									<integer>0</integer>
+									<integer>80</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Çektiğin fotoğraflar sosyal medyada paylaşılıyor, bravo!</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Fotoğraf &amp; vidyoya çek</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>50</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Polis 3 toma 2 akrep ve 50 çevik kuvetle müdahaleye başladı!</string>
 				</dict>
-			</array>
-			<key>02-06</key>
-			<array>
 				<dict>
 					<key>Cevaplar</key>
 					<array>
@@ -686,12 +4378,399 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
+									<integer>120</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bu ne gazı? Çok fena öksürtüp hapşırtıyor..</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>80</integer>
+									<key>XP</key>
+									<integer>50</integer>
+								</dict>
+								<key>Text</key>
+								<string>Güzel. Biraz arkalara geldin, bir şeyin yok. Devam!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Arkaya kaç ancak vazgeçmek yok!</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sokak dağıldı, sen de kaçtın. Tekrar birleşme zamanını bekliyoruz...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>60</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanları coşturuyorsun!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Kalabalığın önünde provakasyon yap</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Tomalar her yere su sıkmaya başladı, biber gazları havada uçuşuyor!</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Arkalara yürümek fayda etmiyor, gaz seni fena etkiledi!</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Güzel. Biraz arkalara geldin, bir şeyin yok. Devam!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Arkalara dogru yürü</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes geriye kaçtı, sen de kaçmak zorunda kaldın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>30</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanlar sakinleşti direnmeye devam!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Beyler sakiiin!&quot; diye bağır, olduğun yerde dur</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis Biber Gazı fırlattı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>80</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanları takip etmek zorunda kalıp ara sokaklara girdin.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>30</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sosyete uyuma çapulcuya sahip çık!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Nişantaşı&apos;na doğru geç</string>
+							<key>Zorluk</key>
+							<integer>60</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>80</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanları takip etmek zorunda kalıp ara sokaklara girdin.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>30</integer>
+								</dict>
+								<key>Text</key>
+								<string>Girdin biraz saklan bakalım.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Abbasağa&apos;ya geç</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Akaretler&apos;i dağıtıyorlar.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Senden önce alan oldu.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>15</integer>
+								</dict>
+								<key>Text</key>
+								<string>Fotoğrafın paylaşılıyor!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Fotoğrafını çek, &apos;Bu ne gazı peki?&apos; diye twitle</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>80</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Senden önce alan oldu.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>15</integer>
+								</dict>
+								<key>Text</key>
+								<string>Her sağlam direnişçinin evinde olmalı, bravo.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Hatıra olarak yanına al</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>İleride biraz önce atılmış bir gaz bombası duruyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>500</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Unutma, ne olursa olsun bu bir pasif direniş. Taş atmamalısın!</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-500</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Unutma, ne olursa olsun bu bir pasif direniş. Taş atmamalısın!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Sen de birkaç taş bulup atmaya başla</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Doğru olanı yaptın ancak seni malesef dinlemiyorlar.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>70</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanlar da sana katıldı ve taş atmalar durdu. Bravo!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Beyler yapmayın!&quot; diye bağır</string>
+							<key>Zorluk</key>
+							<integer>80</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Yanında birkaç insan polise taş atmaya başladı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sende henüz bir ilaç yok ki, nasıl yardım etmeyi düşünüyorsun?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>40</integer>
+								</dict>
+								<key>Text</key>
+								<string>Çok iyi geldi, bol bol teşekkür aldın.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>İlaç sıkarak ona yardım et</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string>İlaç</string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
 									<integer>0</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Uzaklaştılar zaten.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -703,12 +4782,477 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Uzaklaştılar zaten.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Yapacak bir şey yok</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Biber gazı yanındaki kişiyi çok etkiledi, gözleri kıpkırmızı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Delirmiş olmalısın! Elin yandı geri fırlatamadan! Dükkandan güzel bir eldiven alman şart...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>90</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kahramansın! Alkışlar senin için!!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Bombayı aldığın gibi geri polise fırlat!</string>
+							<key>Zorluk</key>
+							<integer>75</integer>
+							<key>Item</key>
+							<string>Eldiven</string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>90</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Gaz çok fena etkiledi. Gözler kıpkırmızı, öksürükler...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>70</integer>
+									<key>XP</key>
+									<integer>45</integer>
+								</dict>
+								<key>Text</key>
+								<string>Biraz geri çekildiniz ama direnmeye devam!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Geriye koş</string>
+							<key>Zorluk</key>
+							<integer>60</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis Biber Gazı fırlattı. Yakınına düştü!</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Polis her an çıkabilir, gidemedin ileriye.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>75</integer>
+									<key>XP</key>
+									<integer>50</integer>
+								</dict>
+								<key>Text</key>
+								<string>Güzel bir barikat oldu. Hadi bakalım...</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Barikat kurmaya başla.</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse eşlik etmedi...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>35</integer>
+									<key>XP</key>
+									<integer>30</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes bir ağız seninle söylüyor!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>10. Yıl Marşı&apos;nı söylemeye başla.</string>
+							<key>Zorluk</key>
+							<integer>60</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis Akaretler&apos;den geri çekildi, şu an gözükmüyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Her tarafta sivil var. Kalabalıktan ayrılamıyorsun.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>60</integer>
+								</dict>
+								<key>Text</key>
+								<string>Ortam biraz sakinleşti.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Allahını seven defansa gelsin!!!&quot;</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kapılar kilitli. Hemen kalabalığı takip ettin.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>60</integer>
+								</dict>
+								<key>Text</key>
+								<string>Şansına kapı açıktı, içeridesin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Gördüğün ilk apartmana sığın</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis toma akrep ve çevik kuvvetlerle müdahaleye çok sert başladı. Önüne geleni gözaltına alıyor!</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>İyisin ancak başkaları senden önce yardıma koştu.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>160</integer>
+									<key>XP</key>
+									<integer>100</integer>
+								</dict>
+								<key>Text</key>
+								<string>Mükemmelsin, sakin bir yere taşıyabildin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Sakin bir yere taşımaya çalış</string>
+							<key>Zorluk</key>
+							<integer>70</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Senden önce onunla ilgilenen oldu.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>70</integer>
+									<key>XP</key>
+									<integer>40</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bir şeyi yok, teşekkür etti. Arkadaşları taşıyor.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Bir şeyin var mı&quot; diye sor</string>
+							<key>Zorluk</key>
+							<integer>35</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Önünde yaralanan var!</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Yemedi...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>80</integer>
+								</dict>
+								<key>Text</key>
+								<string>Konuştun. Birazdan boşaltmazsanız müdahaleye devam edeceklerini söylediler.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Polislerle konuşmaya git</string>
+							<key>Zorluk</key>
+							<integer>80</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse seni sallamadı.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>80</integer>
+									<key>XP</key>
+									<integer>45</integer>
+								</dict>
+								<key>Text</key>
+								<string>Hep bir ağızdan söyleniyor!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Sık bakalım, sık bakalım, biber gazı sık bakalım…&quot;</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polisler şu an geriye çekildi.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Hiç kapısı açık apartman yok! Suyu yedin...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>60</integer>
+									<key>XP</key>
+									<integer>30</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sığındın şimdilik ortam sakin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Bir apartmana sığın</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>120</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Hala takip ediyorlar ve suyu &amp; biberi yedin...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>95</integer>
+									<key>XP</key>
+									<integer>60</integer>
+								</dict>
+								<key>Text</key>
+								<string>Tamamdır şimdilik uzaklaştın.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Koşabildiğin kadar koş</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Çok sert bir müdahale başladı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sivil polis çıktı!! Son anda anlayıp kaçtın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>60</integer>
+								</dict>
+								<key>Text</key>
+								<string>Gittin, topladınız geldiniz.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Onunla git</string>
+							<key>Zorluk</key>
+							<integer>60</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -723,7 +5267,78 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Gitmedin. Sivil de olabilirdi...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>80</integer>
+									<key>XP</key>
+									<integer>50</integer>
+								</dict>
+								<key>Text</key>
+								<string>Gitmedin. Sivil de olabilirdi...</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Onunla gitme</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Yanına biri geldi, &quot;Kanka gel şuradan barikat için bir şeyler toplayalım&quot; dedi.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Pek seni sallamadılar.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>15</integer>
+								</dict>
+								<key>Text</key>
+								<string>Geliyorlar!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Gel... Gel... Gell&quot; diye bağır</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Boşverdin.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -735,10 +5350,10 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Boşverdin.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Boşver onları</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -746,11 +5361,11 @@
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Apartmanlardan size bakanlar var.</string>
 				</dict>
 			</array>
 		</dict>
-		<key>Kızılay</key>
+		<key>Harbiye</key>
 		<dict>
 			<key>Zamansız</key>
 			<array>
@@ -768,7 +5383,7 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sallamadın gitti.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -780,12 +5395,83 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Sallamadın geçti gitti</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Yok kalsın annemler görmesin şimdi</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>60</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Tam gazlı bir şeyler diyecektin ki kamera başka yöne döndü.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Televizyonlara çıktın, haykırdın!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Patlat en güzelinden bi konuşma</string>
+							<key>Zorluk</key>
+							<integer>10</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Halk TV orada! Seninle konuşmak istiyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>75</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Seni korkak...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sildin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Ben bi şu twitleri sileyim</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
@@ -800,7 +5486,149 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>İşe yarar mı acaba...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Hadi bakalım işe yarar mı acaba.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>#hesapredhacktarafindanhacklenmistir</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Bu arada, Twitter&apos;dan gözaltıların başladığı söyleniyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Annen seni Halk TV&apos;de en önde görmüş bile...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Tamamdır, anneyi merak ettirme.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Arkalardayız anne merak etme</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>70</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Annen seni Halk TV&apos;de en önde görmüş bile...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Tamamdır, anneyi merak ettirme.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Eylem mi yok canım ben gitmedim</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Annen arıyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>O kadar kalabalık ki sana bir türlü sıra gelmedi.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>30</integer>
+								</dict>
+								<key>Text</key>
+								<string>Seni dinledi, anladığını ve ilgileneceğini söyledi.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Onunla konuşmaya çalış</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Salladın.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -812,10 +5640,10 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Salladın.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Başı çok kalabalık boşver</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -823,7 +5651,7 @@
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Bir milletvekili yanınıza geldi.</string>
 				</dict>
 			</array>
 			<key>14-18</key>
@@ -837,14 +5665,73 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>30</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kimse sana eşlik etmedi :(</string>
 							</dict>
 							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes seninle birlikte söylemeye başladı!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>İstiklal Marşı başlat</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana eşlik etmedi :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes seninle birlikte bağırıyor!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Her yer taksim her yer direniş&quot; diye bağır</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
 							<dict>
 								<key>Result</key>
 								<dict>
@@ -854,10 +5741,22 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Durdun.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Durdun.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Sen de bir 5 dakika dur</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -874,7 +5773,7 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Boşverdin.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -886,10 +5785,81 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Boşverdin.</string>
 							</dict>
 							<key>Cevap Text</key>
+							<string>Boşver sen onları</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
 							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>İnsanlar durma eylemine başladı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana eşlik etmedi :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes seninle birlikte söylemeye başladı!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>İstiklal Marşı başlat</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>5</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana eşlik etmedi :(</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Hobaa!! Halaybaşı bile oldun.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Halay arasına katıl</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -898,6 +5868,219 @@
 					</array>
 					<key>Soru Text</key>
 					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>45</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Polis yaklaşmana izin vermedi.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>35</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Polis çiçeğini aldı, teşekkür etti.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Polise çiçek ver</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Beklemeye devam.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>0</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Beklemeye devam.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Biraz daha bekle bakalım</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>35</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse sana katılmadı, sen de susmak zorunda kaldın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>25</integer>
+									<key>XP</key>
+									<integer>15</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes sana eşlik ediyor, kitleyi gaza getirdin!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Önlere geçip, slogan at</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>5</integer>
+									<key>XP</key>
+									<integer>5</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes ufak ufak geri gidiyor, sen de onlarla arkalara gelmek zorunda kaldın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>10</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Beklemeye devam, bakalım neler olacak!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Olduğun yerde dur</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis &quot;Dağılın artık daha fazla bir şey olmadan&quot; dedi.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bekliyorsun ancak yol kapanıyor.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>25</integer>
+									<key>XP</key>
+									<integer>10</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bekliyorsun.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Kenarda beklemeye devam et</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>60</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanlar seni dinlemiyor.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>30</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bravo! Temiz bir eyleme yardımcı oluyorsun.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Yola geçerek trafiği açmaya çalış</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis &quot;yolu kapamayın müdahale yapmayacağız&quot; dedi.</string>
 				</dict>
 			</array>
 			<key>18-22</key>
@@ -911,31 +6094,670 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>40</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kimse sana katılmadı, sen de susmak zorunda kaldın.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>35</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes sana eşlik ediyor, kitleyi gaza getirdin!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Önlere geçip, slogan at</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Herkes ufak ufak geri gidiyor, sen de onlarla arkalara gelmek zorunda kaldın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>15</integer>
+								</dict>
+								<key>Text</key>
+								<string>Beklemeye devam, bakalım neler olacak!</string>
 							</dict>
 							<key>Cevap Text</key>
+							<string>Olduğun yerde dur</string>
+							<key>Zorluk</key>
+							<integer>20</integer>
+							<key>Item</key>
 							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis &quot;Dağılın artık daha fazla bir şey olmadan&quot; dedi.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Arkalara yürümek fayda etmiyor, gaz seni fena etkiledi!</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>20</integer>
+								</dict>
+								<key>Text</key>
+								<string>Güzel. Biraz arkalara geldin, bir şeyin yok. Devam!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Arkalara dogru yürü</string>
+							<key>Zorluk</key>
+							<integer>40</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Herkes geriye kaçtı, sen de kaçmak zorunda kaldın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>30</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanlar sakinleşti direnmeye devam!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Beyler sakiiin!&quot; diye bağır, olduğun yerde dur</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis Biber Gazı fırlattı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Yemedi...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>80</integer>
+								</dict>
+								<key>Text</key>
+								<string>Konuştun. Birazdan boşaltmazsanız müdahaleye devam edeceklerini söylediler.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Polislerle konuşmaya git</string>
+							<key>Zorluk</key>
+							<integer>80</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kimse seni sallamadı.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>80</integer>
+									<key>XP</key>
+									<integer>45</integer>
+								</dict>
+								<key>Text</key>
+								<string>Hep bir ağızdan söyleniyor!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Sık bakalım, sık bakalım, biber gazı sık bakalım…&quot;</string>
+							<key>Zorluk</key>
+							<integer>30</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polisler şu an geriye çekildi.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bekliyorsun ancak yol kapanıyor.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>15</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bekliyorsun.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Kenarda beklemeye devam et</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
 							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanlar seni dinlemiyor.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>35</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bravo! Temiz bir eyleme yardımcı oluyorsun.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Yola geçerek trafiği açmaya çalış</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis &quot;yolu kapamayın müdahale yapmayacağız&quot; dedi.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>İyisin ancak başkaları senden önce yardıma koştu.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>160</integer>
+									<key>XP</key>
+									<integer>100</integer>
+								</dict>
+								<key>Text</key>
+								<string>Mükemmelsin, sakin bir yere taşıyabildin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Sakin bir yere taşımaya çalış</string>
+							<key>Zorluk</key>
+							<integer>70</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Senden önce onunla ilgilenen oldu.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>70</integer>
+									<key>XP</key>
+									<integer>40</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bir şeyi yok, teşekkür etti. Arkadaşları taşıyor.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Bir şeyin var mı&quot; diye sor</string>
+							<key>Zorluk</key>
+							<integer>35</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Önünde yaralanan var!</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>200</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Delirmiş olmalısın! Elin yandı geri fırlatamadan! Dükkandan güzel bir eldiven alman şart...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>90</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kahramansın! Alkışlar senin için!!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Bombayı aldığın gibi geri polise fırlat!</string>
+							<key>Zorluk</key>
+							<integer>75</integer>
+							<key>Item</key>
+							<string>Eldiven</string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>90</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Gaz çok fena etkiledi. Gözler kıpkırmızı, öksürükler...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>70</integer>
+									<key>XP</key>
+									<integer>45</integer>
+								</dict>
+								<key>Text</key>
+								<string>Biraz geri çekildiniz ama direnmeye devam!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Geriye koş</string>
+							<key>Zorluk</key>
+							<integer>60</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Polis Biber Gazı fırlattı. Yakınına düştü!</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>80</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanları takip etmek zorunda kalıp ara sokaklara girdin.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>30</integer>
+								</dict>
+								<key>Text</key>
+								<string>Kaçtın, biraz bekleyeyeceksin.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Nişantaşı&apos;na doğru kaç</string>
+							<key>Zorluk</key>
+							<integer>60</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>80</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanları takip etmek zorunda kaldın arka taraflara kaçtın.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>30</integer>
+								</dict>
+								<key>Text</key>
+								<string>Girdin biraz saklan bakalım.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Ara sokaklara gir</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Harbiye&apos;yi dağıtıyorlar.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Senden önce alan oldu.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>20</integer>
+									<key>XP</key>
+									<integer>15</integer>
+								</dict>
+								<key>Text</key>
+								<string>Fotoğrafın paylaşılıyor!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Fotoğrafını çek, &apos;Bu ne gazı peki?&apos; diye twitle</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>80</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Senden önce alan oldu.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>30</integer>
+									<key>XP</key>
+									<integer>15</integer>
+								</dict>
+								<key>Text</key>
+								<string>Her sağlam direnişçinin evinde olmalı, bravo.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Hatıra olarak yanına al</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>İleride biraz önce atılmış bir gaz bombası duruyor.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>500</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Unutma, ne olursa olsun bu bir pasif direniş. Taş atmamalısın!</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-500</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Unutma, ne olursa olsun bu bir pasif direniş. Taş atmamalısın!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Sen de birkaç taş bulup atmaya başla</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>-30</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Doğru olanı yaptın ancak seni malesef dinlemiyorlar.</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>70</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanlar da sana katıldı ve taş atmalar durdu. Bravo!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>&quot;Beyler yapmayın!&quot; diye bağır</string>
+							<key>Zorluk</key>
+							<integer>80</integer>
+							<key>Item</key>
+							<string></string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Yanında birkaç insan polise taş atmaya başladı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>150</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sende henüz bir ilaç yok ki, nasıl yardım etmeyi düşünüyorsun?</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>40</integer>
+								</dict>
+								<key>Text</key>
+								<string>Çok iyi geldi, bol bol teşekkür aldın.</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>İlaç sıkarak ona yardım et</string>
+							<key>Zorluk</key>
+							<integer>0</integer>
+							<key>Item</key>
+							<string>İlaç</string>
 						</dict>
 						<dict>
 							<key>Fail</key>
@@ -948,7 +6770,7 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Uzaklaştılar zaten.</string>
 							</dict>
 							<key>Success</key>
 							<dict>
@@ -960,18 +6782,89 @@
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Uzaklaştılar zaten.</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Yapacak bir şey yok</string>
 							<key>Zorluk</key>
-							<integer>0</integer>
+							<integer>50</integer>
 							<key>Item</key>
 							<string></string>
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Biber gazı yanındaki kişiyi çok etkiledi, gözleri kıpkırmızı.</string>
+				</dict>
+				<dict>
+					<key>Cevaplar</key>
+					<array>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>70</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Bu ne gazı? Çok fena öksürtüp hapşırtıyor..</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>40</integer>
+									<key>XP</key>
+									<integer>30</integer>
+								</dict>
+								<key>Text</key>
+								<string>Güzel. Biraz arkalara geldin, bir şeyin yok. Devam!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Arkaya kaç ancak vazgeçmek yok!</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+						<dict>
+							<key>Fail</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>100</integer>
+									<key>XP</key>
+									<integer>0</integer>
+								</dict>
+								<key>Text</key>
+								<string>Sokak dağıldı, sen de kaçtın. Tekrar birleşme zamanını bekliyoruz...</string>
+							</dict>
+							<key>Success</key>
+							<dict>
+								<key>Result</key>
+								<dict>
+									<key>Point</key>
+									<integer>50</integer>
+									<key>XP</key>
+									<integer>35</integer>
+								</dict>
+								<key>Text</key>
+								<string>İnsanları coşturuyorsun!</string>
+							</dict>
+							<key>Cevap Text</key>
+							<string>Kalabalığın önünde provakasyon yap</string>
+							<key>Zorluk</key>
+							<integer>50</integer>
+							<key>Item</key>
+							<string>Maske</string>
+						</dict>
+					</array>
+					<key>Soru Text</key>
+					<string>Tomalar her yere su sıkmaya başladı, biber gazları havada uçuşuyor!</string>
 				</dict>
 			</array>
 			<key>22-02</key>
@@ -985,27 +6878,27 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Duruyorsun. Ee?</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>-50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kendi kendine duruyorsun. Ee?</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Burada dur</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -1017,27 +6910,27 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kendi kendine bağırıyorsun da... Ee?</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>-50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kendi kendine bağırıyorsun. Ee?</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Kendi kendine bağır</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -1045,7 +6938,7 @@
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Taksim&apos;e geçit yok. Müdahale Beşiktaş&apos;ta devam ediyormuş. İstersen oraya giderek destek ver.</string>
 				</dict>
 			</array>
 			<key>02-06</key>
@@ -1059,27 +6952,27 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Duruyorsun. Ee?</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>-50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kendi kendine duruyorsun. Ee?</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Burada dur</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -1091,27 +6984,27 @@
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kendi kendine bağırıyorsun da... Ee?</string>
 							</dict>
 							<key>Success</key>
 							<dict>
 								<key>Result</key>
 								<dict>
 									<key>Point</key>
-									<integer>0</integer>
+									<integer>-50</integer>
 									<key>XP</key>
 									<integer>0</integer>
 								</dict>
 								<key>Text</key>
-								<string></string>
+								<string>Kendi kendine bağırıyorsun. Ee?</string>
 							</dict>
 							<key>Cevap Text</key>
-							<string></string>
+							<string>Kendi kendine bağır</string>
 							<key>Zorluk</key>
 							<integer>0</integer>
 							<key>Item</key>
@@ -1119,7 +7012,7 @@
 						</dict>
 					</array>
 					<key>Soru Text</key>
-					<string>Topluluk çoğalıyor. Güzel bir hava, polisler ileride bekliyor.</string>
+					<string>Taksim&apos;e geçit yok. Müdahale Beşiktaş&apos;ta devam ediyormuş. İstersen oraya giderek destek ver.</string>
 				</dict>
 			</array>
 		</dict>
