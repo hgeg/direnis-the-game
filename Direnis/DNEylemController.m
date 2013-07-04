@@ -62,9 +62,7 @@
     soru = sorular[sIndex];
     [self.mainText setTextN:soru[@"Soru Text"]];
     [self.c1 setTitle:soru[@"Cevaplar"][0][@"Cevap Text"] forState:UIControlStateNormal];
-    [self.c1 sizeToFit];
     [self.c2 setTitle:soru[@"Cevaplar"][1][@"Cevap Text"] forState:UIControlStateNormal];
-    [self.c1 sizeToFit];
     
     [self.background shuffle];
     
@@ -155,7 +153,7 @@
             [controller dismissViewControllerAnimated:YES completion:nil];
         };
         controller.completionHandler = myBlock;
-        [controller setInitialText:@""];
+        [controller setInitialText:@"http://diren.is"];
         UIGraphicsBeginImageContextWithOptions(CGSizeMake(320, 380),NO,0.0);
         [[self.view layer] renderInContext:UIGraphicsGetCurrentContext()];
         UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
@@ -174,8 +172,8 @@
             [controller dismissViewControllerAnimated:YES completion:nil];
         };
         controller.completionHandler = myBlock;
-        [controller setInitialText:@""];
-        [controller addURL:[NSURL URLWithString:@"http://www.google.com"]];
+        [controller setInitialText:@"http://diren.is"];
+        //[controller addURL:[NSURL URLWithString:@""]];
         UIGraphicsBeginImageContextWithOptions(CGSizeMake(320, 380),NO,0.0);
         [[self.view layer] renderInContext:UIGraphicsGetCurrentContext()];
         UIImage *image = UIGraphicsGetImageFromCurrentImageContext();

@@ -68,7 +68,6 @@
 }
 
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    
     if([segue.identifier isEqualToString:@"ankara"]){
         city = @"Ankara";
         [player setTime:1370003454];
@@ -80,28 +79,31 @@
     }
     if([segue.identifier isEqualToString:@"new_game"]){
         if (player != nil) {
-            NSMutableArray *scores = [NSMutableArray arrayWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"scores"]];
-            [scores addObject:@{@"name":[player getName],@"score":[player getCumulativeScore]}];
-            [scores sortUsingComparator:^NSComparisonResult(id obj1, id obj2) {
-                int value1 = [((NSDictionary *)obj1)[@"score"] integerValue];
-                int value2 = [((NSDictionary *)obj2)[@"score"] integerValue];
-                if (value1 > value2)
-                {
-                    return (NSComparisonResult)NSOrderedAscending;
-                }
-                if (value1 < value2)
-                {
-                    return (NSComparisonResult)NSOrderedDescending;
-                }
-                return (NSComparisonResult)NSOrderedSame;
-            }];
-            if ([scores count]>10) [scores subarrayWithRange:NSMakeRange(0, 10)];
-            [[NSUserDefaults standardUserDefaults] setObject:scores forKey:@"scores"];
+            @try {
+                NSMutableArray *scores = [NSMutableArray arrayWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"scores"]];
+                [scores addObject:@{@"name":[player getName],@"score":[player getCumulativeScore]}];
+                [scores sortUsingComparator:^NSComparisonResult(id obj1, id obj2) {
+                    int value1 = [((NSDictionary *)obj1)[@"score"] integerValue];
+                    int value2 = [((NSDictionary *)obj2)[@"score"] integerValue];
+                    if (value1 > value2)
+                    {
+                        return (NSComparisonResult)NSOrderedAscending;
+                    }
+                    if (value1 < value2)
+                    {
+                        return (NSComparisonResult)NSOrderedDescending;
+                    }
+                    return (NSComparisonResult)NSOrderedSame;
+                }];
+                if ([scores count]>10) [scores subarrayWithRange:NSMakeRange(0, 10)];
+                [[NSUserDefaults standardUserDefaults] setObject:scores forKey:@"scores"];
+            }
+            @catch (NSException *exception) {}
         }
-        player = [[DNPlayer alloc] init];
     }else if([segue.identifier isEqualToString:@"continue"]){
         player = [DNPlayer load];
     }else if ([segue.identifier isEqualToString:@"city_select"]){
+        player = [[DNPlayer alloc] init];
         [player setName:self.textField.text];
         [DNPlayer save:player];
     }

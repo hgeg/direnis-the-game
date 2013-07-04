@@ -296,13 +296,15 @@
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="452" type="user" id="QR5-u4-yns"/>
                                 </constraints>
-                                <string key="text">Oyunun amacı oyunu olabildiğince yüksek skorla bitirmektir. Karakterin oyunu bittikten sonra hesaplanan bu skor; karakterin seviyesene, elindeki malzemelere, oyun içinde ulaştığı puana göre şekillenir.
+                                <mutableString key="text">Oyunun amacı oyunu olabildiğince yüksek skorla bitirmektir. Karakterin oyunu bittikten sonra hesaplanan bu skor; karakterin seviyesene, elindeki malzemelere, oyun içinde ulaştığı puana göre şekillenir.
 
 Oyunda karaktere çeşitli sorular sorulmaktadır ve bu sorulara göre karakterin bir seçim yapması beklenmektedir. Karakterin seçimleri kendisine seviye ve puan kazandırır ya da kaybettirir. Karakterin seçiminde başarılı olması sorunun zorluğuna, gerektirdiği malzemelere, karakterin seviyesine, seçiminin zorluğuna, yere ve saate göre değişmektedir. Örneğin gündüz soruları daha kolayken gece geç oldukça sorular ve seçimlerin zorlukları artmaktadır. Buna bağlı olarak kazandırdığı puanlar da artmakadır. Bu yüzden karakterin başta daha kolay yerlerde ve zamanlarda bulunması, tecrübe ve puan kazandıkça yeni malzemeler alarak daha zor yerlerde bulunması oyunun püf noktasıdır. 
 
 İstenilen zamanda yer değiştirebilir, eve gidebilirsiniz. Evde 'Dinlen' tuşu ile saatleri ilerletebilir ve istediğiniz saatte dışarı çıkabilirsiniz. Burada karakterin karşısına hiç soru gelmemektedir. Zor durumlarda ve geç saatlerde eve gidip dinlenmek, sabah olmasını beklemek karakterinizi güvende tutacaktır.
  
-Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedilir. En iyi skorlarınızı 'Rekorlar' bölümünden görebilirsiniz.</string>
+Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedilir. En iyi skorlarınızı 'Rekorlar' bölümünden görebilirsiniz.
+ 
+Bu oyundaki kişi ve kuruluşlar tamamen hayal ürünüdür. Oyunun gerçeklerle hiçbir ilgisi yoktur.</mutableString>
                                 <color key="textColor" red="0.94232014419999999" green="0.93705578590000005" blue="0.94758450260000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1503,7 +1505,6 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                                     <constraint firstItem="qvO-dh-lWy" firstAttribute="top" secondItem="gHR-uK-bem" secondAttribute="top" type="default" id="eY1-XB-PoL"/>
                                     <constraint firstItem="5FX-Nk-e7r" firstAttribute="top" secondItem="qvO-dh-lWy" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="fgA-Nv-TQH"/>
                                     <constraint firstItem="RJk-ZG-pTT" firstAttribute="centerY" secondItem="fAW-SQ-CX5" secondAttribute="centerY" type="default" id="gwv-mM-bbN"/>
-                                    <constraint firstAttribute="bottom" secondItem="5FX-Nk-e7r" secondAttribute="bottom" constant="4" id="hiV-xA-gbL"/>
                                     <constraint firstItem="EuB-y0-FOv" firstAttribute="centerY" secondItem="5FX-Nk-e7r" secondAttribute="centerY" type="default" id="iWU-ZO-EJ9"/>
                                     <constraint firstItem="ju6-ZH-9ve" firstAttribute="leading" secondItem="0dA-uH-F1C" secondAttribute="leading" constant="10" id="jt8-bb-FPe"/>
                                     <constraint firstItem="83r-9s-U5T" firstAttribute="top" secondItem="gHR-uK-bem" secondAttribute="top" type="default" id="jvM-ld-Oj2"/>
@@ -1528,7 +1529,8 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3r-ff-yXY">
                                 <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" type="user" id="wpR-Wc-eVc"/>
+                                    <constraint firstAttribute="height" priority="1" constant="150" type="user" id="Tuh-ld-maK"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="120" type="user" id="wpR-Wc-eVc"/>
                                 </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </string>
                                 <color key="textColor" red="0.94232014419999999" green="0.93705578590000005" blue="0.94758450260000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -1619,9 +1621,8 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="4kb-Uf-0ff" firstAttribute="top" secondItem="QwH-vU-HpP" secondAttribute="top" priority="966" constant="233" type="user" id="0hV-6I-Nqa"/>
-                            <constraint firstItem="4kb-Uf-0ff" firstAttribute="top" secondItem="D3r-ff-yXY" secondAttribute="bottom" constant="23" type="user" id="3Lq-yF-ft5"/>
                             <constraint firstItem="0dA-uH-F1C" firstAttribute="trailing" secondItem="QwH-vU-HpP" secondAttribute="trailing" type="default" id="4mZ-Nn-qjR"/>
-                            <constraint firstItem="D3r-ff-yXY" firstAttribute="top" secondItem="QwH-vU-HpP" secondAttribute="top" constant="139" id="8mO-G2-5o1"/>
+                            <constraint firstItem="D3r-ff-yXY" firstAttribute="top" secondItem="QwH-vU-HpP" secondAttribute="top" constant="139" type="user" id="8mO-G2-5o1"/>
                             <constraint firstItem="D3r-ff-yXY" firstAttribute="leading" secondItem="QwH-vU-HpP" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Atw-zX-hJO"/>
                             <constraint firstAttribute="bottom" secondItem="E2N-ME-bWH" secondAttribute="bottom" priority="37" constant="191" type="user" id="DMb-Ka-xJI"/>
                             <constraint firstItem="9Kz-z5-pZ0" firstAttribute="top" secondItem="vnF-MK-UHc" secondAttribute="top" type="user" id="DNs-rf-bua"/>
@@ -1639,10 +1640,12 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
                             <constraint firstItem="9Kz-z5-pZ0" firstAttribute="bottom" secondItem="vnF-MK-UHc" secondAttribute="bottom" type="default" id="d8t-rc-nW6"/>
                             <constraint firstItem="zyZ-Av-RCz" firstAttribute="bottom" secondItem="QwH-vU-HpP" secondAttribute="bottom" priority="128" type="user" id="dVy-Z7-6r1"/>
                             <constraint firstAttribute="trailing" secondItem="9Kz-z5-pZ0" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="hrq-IA-kpe"/>
+                            <constraint firstAttribute="bottom" secondItem="0dA-uH-F1C" secondAttribute="bottom" constant="428" id="mGL-E5-jc2"/>
                             <constraint firstItem="fCs-C7-Hzh" firstAttribute="top" secondItem="E2N-ME-bWH" secondAttribute="bottom" constant="30" type="user" id="nXM-af-469"/>
                             <constraint firstItem="E2N-ME-bWH" firstAttribute="leading" secondItem="QwH-vU-HpP" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="oUb-he-SUa"/>
                             <constraint firstItem="vnF-MK-UHc" firstAttribute="bottom" secondItem="fCs-C7-Hzh" secondAttribute="bottom" type="default" id="q4Z-QH-IzL"/>
                             <constraint firstAttribute="trailing" secondItem="4kb-Uf-0ff" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="q9N-Ni-kGe"/>
+                            <constraint firstItem="4kb-Uf-0ff" firstAttribute="top" secondItem="D3r-ff-yXY" secondAttribute="bottom" constant="17" type="user" id="qjt-hF-uJp"/>
                             <constraint firstItem="4kb-Uf-0ff" firstAttribute="leading" secondItem="QwH-vU-HpP" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="ttf-Ts-JV2"/>
                             <constraint firstItem="zyZ-Av-RCz" firstAttribute="leading" secondItem="QwH-vU-HpP" secondAttribute="leading" type="default" id="ueX-vZ-j8Y"/>
                             <constraint firstAttribute="trailing" secondItem="E2N-ME-bWH" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="wXa-6q-bcC"/>
@@ -1967,9 +1970,9 @@ Karakterin puanı 0 olduğunda oyun sonlanır ve karakterin toplam skoru kaydedi
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="UJ3-V1-LGn"/>
-        <segue reference="6DW-13-5KR"/>
+        <segue reference="q2c-zM-XqE"/>
         <segue reference="vhO-kb-BE8"/>
         <segue reference="eyF-fp-aBK"/>
+        <segue reference="Xeb-He-X0g"/>
     </inferredMetricsTieBreakers>
 </document>

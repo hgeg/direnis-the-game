@@ -28,8 +28,8 @@
         }
         return (NSComparisonResult)NSOrderedSame;
     }];
-    if ([scores count]>20) {
-        scores = [NSMutableArray arrayWithArray:[scores subarrayWithRange:NSMakeRange(0, 20)]];
+    if ([scores count]>10) {
+        scores = [NSMutableArray arrayWithArray:[scores subarrayWithRange:NSMakeRange(0, 10)]];
     }
     [[NSUserDefaults standardUserDefaults] setObject:scores forKey:@"scores"];
     items = scores;
